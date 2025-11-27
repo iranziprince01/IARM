@@ -1,0 +1,511 @@
+{
+  "nav": {
+    "home": "Ahabanza",
+    "about": "Tereza",
+    "ministries": "Minisiteri",
+    "sermons": "Inkuru nziza",
+    "getInvolved": "Injira mu muryango",
+    "volunteer": "Kwigira",
+    "becomeMember": "Kuba umunyamuryango",
+    "requestPrayer": "Saba gusenga",
+    "getBaptized": "Kwambukirwa",
+    "contact": "Twandikire",
+    "donate": "Tanga"
+  },
+  "footer": {
+    "mission": "Intego n'Inzozi",
+    "leadership": "Abayobozi",
+    "partners": "Amadini n'Amashyirahamwe",
+    "africa": "Akazi kacu muri Afurika",
+    "refugee": "Gufasha Abimukira",
+    "volunteer": "Dufashe / Inshingano",
+    "donate": "Tanga / Gufasha",
+    "privacy": "Politiki y'Ubwigenge",
+    "terms": "Amabwiriza",
+    "address": "6110 Fulton Road, Edmonton, AB T6A 3T3",
+    "phone": "Telefoni",
+    "email": "Imeyili",
+    "follow": "Dukurikire",
+    "subscribe": "Kwiyandikisha kugira ngo wakire inshuti zacu kabiri mu cyumweru",
+    "sermons": "inshuti",
+    "subscribeDesc": "Wakire inshuti zihaguruka zinjira mu bohereza bwawe buri cyumweru. Komeza kwiyubaka no guhuza na Imana.",
+    "emailPlaceholder": "Injiza imeyili yawe",
+    "subscribeButton": "Kwiyandikisha"
+  },
+  "home": {
+    "title": "Murakaza neza Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton",
+    "subtitle": "Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton",
+    "cta": "Dufatanye kuri Kwezi",
+    "learnMore": "Menya byinshi",
+    "donate": "Tanga / Gufasha"
+  },
+  "about": {
+    "title": "Twebwe",
+    "church": "Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton ni umuryango w'Abakristu wihariye kwiyubaka mu mutima, kwiyubaka mu mutima, no gukorera abandi. Turi ikiliziya y'Ubwongereza-Pentekoste/Protestanti ishinzwe kwamamaza Inkuru Nziza, gufasha imiryango, no guha abemera imbaraga zo gukomeza ubuzima bwihariye.",
+    "congregation": "Dufasha umuryango w'Abakristu wihariye i Edmonton, harimo Abakanada n'Abanyafurika, dukoresha icyongereza no gufasha mu gifaransa n'Ikinyarwanda.",
+    "ministry": "Minisiteri yacu iri hanze y'u Kanada, dukorana n'amadini muri Afurika no gufasha abimukira, abapfakazi, imfubyi, n'imiryango yasize amazu muri Uganda, Kenya, Rwanda, n'indi mihanda.",
+    "vision": "Inzozi",
+    "visionText": "Guhuza imiryango n'imiryango—i Edmonton no kwisi—kwiyubaka kwihariye, kwiyubaka mu mutima, n'amahirwe y'ukwemera byongera ubuzima bwuzuye no guhinduka kwihariye.",
+    "mission": "Intego",
+    "missionText": "Intego yacu ni guha imbaraga abantu n'imiryango binyuze mu kwiyubaka mu mutima, gufashwa mu muryango, no kwiyubaka kwihariye. Dushyira mu bikorwa inzozi zihariye zifasha imiryango y'Abakristu kuzirikana ubushobozi bwabo bwahawe na Imana.",
+    "marks": "Ibyemezo by'Intego",
+    "marksList": [
+      "Kwamamaza Inkuru Nziza y'Ubwami bw'Imana.",
+      "Guhangana no guhindura imiterere idahagije mu muryango.",
+      "Gufasha gufungura amadini no kwiyubaka mu mutima muri Afurika.",
+      "Gushyira mu bikorwa ubwiyunge no kwiyubaka mu muryango.",
+      "Gushyira mu bikorwa gahunda zifasha abimukira n'imiryango y'Abakristu muri Afurika."
+    ],
+    "leadership": "Abayobozi",
+    "pastor": "Rev. Jean Sengiyumva, Umupasitoli Mukuru",
+    "pastorBio": "Rev. Sengiyumva ni umusavyi w'Imana wihariye afite umwete wo gukorera mu ndimi nyinshi. Nubwo icyongereza si cyo cyambere, akorera mu gifaransa n'Ikinyarwanda kugira ngo agere n'imiryango yihariye. Intego ye yavukiye muri Yeremiya 20:9, atwara ijambo ry'Imana nk'umuriro mu magufwa ye.",
+    "coreValues": "Incamake zacu",
+    "coreValuesDesc": "Izi ncamake z'ibanze ziyobora ibintu byose dukora nk'umuryango w'ikiliziya, zihindura intego yacu, minisiteri, n'ubwoba.",
+    "values": [
+      {
+        "title": "Kwemera",
+        "description": "Twemera ijambo ry'Imana n'isezerano rye, dukomeza ubuzima bwo kwemera. Kwemera kwacu Yesu Kristo ni ishingiro ry'ikiliziya yacu."
+      },
+      {
+        "title": "Urukundo",
+        "description": "Twerekana urukundo rw'ukuri rwa Kristo ku bantu bose, dukoresha umwete, ubwoba, no kwakira bose n'ubwo batuye aho."
+      },
+      {
+        "title": "Gukorera",
+        "description": "Dukorera Imana n'abandi binyuze mu kwiyubaka no kwiyubaka, dukurikira urugero rwa Kristo rw'ubuyobozi bwo gukorera mu muryango wacu no hanze."
+      },
+      {
+        "title": "Umuryango",
+        "description": "Dukomeza ubwoba bw'ukuri n'ubwoba, dukomeza umuryango urakaza aho bose bakorera kandi bakomeza kwiyubaka hamwe mu kwemera."
+      },
+      {
+        "title": "Ubwoba",
+        "description": "Dukomeza ubuzima bwo kwemera, kwiyubaka, n'ibyemezo by'ukuri, dukoresha imiterere ya Kristo mu bikorwa byacu byose n'ibyemezo."
+      }
+    ],
+    "statementOfFaith": "Ibyemezwa by'ukwemera",
+    "statementOfFaithDesc": "Turakwemera ukuri kw'ibanze kw'ukwemera kwa Gikristo nk'uko kwagaragaye mu Byanditswe Byera.",
+    "statementOfFaithItems": [
+      "Turakwemera Imana imwe, ikomeje kubaho mu batu batatu: Data, Umwana, n'Umwuka Wera.",
+      "Turakwemera ubwami bw'Umwami wacu Yesu Kristo, kuza kw'Umwana w'umukobwa, mu buzima butagira icyaha, mu bikorwa by'ibitangaza, mu rupfu rw'akababarira, mu kuzuka kw'umubiri, no mu kuzamuka ku kuboko kw'iburyo kwa Data.",
+      "Turakwemera umurimo w'Umwuka Wera ubu, ukoresha uwo wemeye Kristo kugira ngo abeho ubuzima bw'ukwemera.",
+      "Turakwemera Bibiliya nk'ijambo ry'Imana ryahishuriwe, ritagira ikosa, kandi rya nyacyo.",
+      "Turakwemera kuzuka kw'abakizwe n'abazimiye: abakizwe bazuka mu buzima, abazimiye bazuka mu kuzimira.",
+      "Turakwemera ubwiyunge bw'umwuka bw'abemera mu Mwami wacu Yesu Kristo."
+    ],
+    "history": "Amateka yacu",
+    "historyDesc": "Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton yashinzwe kugira ngo ishake abantu bo mu bwoba bwose n'abantu b'inyamanswa mu mujyi wa Edmonton, cyane cyane abo mu banyarwanda bashakisha aho basenga bashimira imyizerere y'Ubwongereza n'ibyiyumvo by'Umwuka.",
+    "historyContent": [
+      "Yatangiye n'intego yo guhuza imico n'indimi, kiliziya yacu yatangiye nk'isangano gato ry'abemera biyemeje gusangiza Inkuru Nziza mu rurimi rw'Icyongereza n'icya Kinyarwanda.",
+      "Mu myaka yashize, twagize umuryango ukomeye ushaka gufasha abantu bo mu mujyi wa Edmonton, ariko kandi dukomeza gufasha abantu bo mu bindi bihugu byo mu Bufarika.",
+      "Uyu munsi, turamutse turi urumuri rw'icyizere, duha inama z'umwuka, gufasha abaturage, n'ubufasha bw'ukuri abakeneye, hano n'ahandi ku isi."
+    ]
+  },
+  "ministries": {
+    "title": "Minisiteri zacu",
+    "worship": "Gusenga n'Umuziki",
+    "worshipDesc": "Serivisi z'ubusenga zihariye zishimira kuba kwa Imana binyuze mu muziki, amasengesho, n'ibyishimo.",
+    "youth": "Minisiteri y'Abakuru",
+    "youthDesc": "Gufasha abakuru binyuze mu kwigisha, gukorana, n'amahirwe yo kwiyubaka mu mutima.",
+    "children": "Minisiteri y'Abana",
+    "childrenDesc": "Gufasha abana binyuze mu kwigisha, ibikorwa, no gufashwa mu mwanya wuzuye.",
+    "women": "Minisiteri y'Abagore",
+    "womenDesc": "Gufasha abagore binyuze mu kwigisha Bibiliya, gukorana, no gufashwa.",
+    "men": "Minisiteri y'Abagabo",
+    "menDesc": "Gufasha abagabo binyuze mu kwiyubaka, gufashwa, no kwigisha Bibiliya.",
+    "missions": "Misioni n'Ubwoba",
+    "missionsDesc": "Kwongera urukundo rw'Imana kwisi binyuze mu gukorana, gahunda z'ubufasha, no gukorera mu muryango."
+  },
+  "services": {
+    "title": "Igihe cy'Ubwoba",
+    "sunday": "Gusenga kwa Kwezi",
+    "sundayTime": "10:00 AM",
+    "sundayDesc": "Dufatanye kuri serivisi yacu y'ubusenga ihariye ifite inyigisho zihariye, umuziki wihariye, n'ubwoba.",
+    "prayer": "Inama z'Umusengesho",
+    "prayerTime": "Ku wa Kabiri 7:00 PM",
+    "prayerDesc": "Inama y'umusengesho y'icyumweru y'ubwoba, gufashwa, no kwiyubaka mu mutima.",
+    "bible": "Kwigisha Bibiliya",
+    "bibleTime": "Ku wa Kane 7:00 PM",
+    "bibleDesc": "Kwiyubaka mu Bibiliya binyuze mu ganiramo, ibibazo, no gukoresha."
+  },
+  "sermons": {
+    "title": "Inkuru nziza n'Amajambo",
+    "latest": "Amajambo ya Vuba",
+    "watch": "Reba Nonaha",
+    "listen": "Umva Nonaha",
+    "comingSoon": "Inkuru nziza nshya ziza vuba. Garuka buri gihe kugira ngo ubone amakuru."
+  },
+  "contact": {
+    "title": "Twandikire",
+    "visit": "Duhamagare",
+    "address": "6110 Fulton Road, Edmonton, AB T6A 3T3",
+    "phone": "Telefoni",
+    "phone1": "+1 587-778-6406",
+    "phone2": "+1 825-461-7431",
+    "email": "Imeyili",
+    "form": {
+      "name": "Amazina",
+      "email": "Imeyili",
+      "phone": "Telefoni",
+      "message": "Ubutumwa",
+      "send": "Ohereza Ubutumwa",
+      "sending": "Ohereza...",
+      "success": "Murakoze! Ubutumwa bwawe bwakoherejwe.",
+      "error": "Ikintu cyahindutse. Nyamuneka wongere ugerageze."
+    },
+    "serviceTimes": "Igihe cy'Ubwoba",
+    "sunday": "Kwezi: 10:00 AM",
+    "wednesday": "Ku wa Kabiri: 7:00 PM (Umusengesho)",
+    "thursday": "Ku wa Kane: 7:00 PM (Kwigisha Bibiliya)"
+  },
+  "africa": {
+    "title": "Akazi kacu muri Afurika",
+    "description": "Ikiliziya yacu ikorana n'amadini n'imiryango y'Abimukira muri Uganda, Kenya, na Rwanda. Binyuze mu gukorana dushyira mu bikorwa:",
+    "support": "Gufasha imiryango y'Abakristu",
+    "education": "Gufasha abana b'imukira mu kwiga",
+    "bibles": "Gufasha Bibiliya n'ibindi bikoresho by'Abakristu",
+    "development": "Gahunda z'ubwoba mu muryango",
+    "pastoral": "Gufashwa n'ubwoba bw'Abapasitoli",
+    "strengthening": "Gufasha amadini y'Abakristu"
+  },
+  "partners": {
+    "title": "Abakorana n'Amashyirahamwe",
+    "diocese": "Diocese y'Ubwongereza i Edmonton",
+    "organizations": "Amashyirahamwe y'Abakristu afasha akazi k'ubwoba",
+    "global": "Abakorana b'ubwoba kwisi",
+    "individuals": "Abafasha b'Abakristu bafite umwete wo gufasha n'Inkuru Nziza"
+  },
+  "volunteer": {
+    "title": "Kwigira",
+    "subtitle": "Korera mu minisiteri zitandukanye no guhindura mu muryango wacu.",
+    "opportunities": "Amahirwe yo Kwigira",
+    "opportunitiesDesc": "Twakira abakwigira bashaka gukorera no guhindura mu muryango wacu. Niba ushaka umuziki, minisiteri y'abana, ubwoba, cyangwa gukorera, hari aho wakorera mu Kiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton.",
+    "ready": "Witeguye Kwigira?",
+    "readyDesc": "Uzuze fomu iri iburyo kugira ngo utangire. Tuzakuvugana vuba kugira ngo dusobanure uko wakorera mu muryango wacu."
+  },
+  "membership": {
+    "title": "Kuba umunyamuryango",
+    "subtitle": "Injira mu muryango w'ikiliziya kandi ube umunyamuryango w'ukuri wa Kiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton.",
+    "process": "Gahunda yo Kuba umunyamuryango",
+    "processDesc": "Kuba umunyamuryango wa Kiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton bivuze kwiyemeza mu muryango wacu, intego, n'inzozi. Twakira bose bashaka kuba mu muryango w'ikiliziya yacu.",
+    "attend": "Gufatanya mu Bwoba",
+    "attendDesc": "Gufatanya buri gihe mu bwoba bwacu no kumenya umuryango wacu.",
+    "class": "Inama y'Umunyamuryango",
+    "classDesc": "Gufatanya mu kwiyobora kw'ubunyamuryango kugira ngo wige ibyiringiro, intego, n'ibyiringiro.",
+    "commitment": "Kwiyemeza",
+    "commitmentDesc": "Kwiyemeza gufasha ikiliziya binyuze mu musengesho, gukorera, no gutanga.",
+    "ready": "Witeguye Kwinjira?",
+    "readyDesc": "Uzuze fomu y'ubunyamuryango iri iburyo kugira ngo utangire urugendo rwawe rw'ubunyamuryango. Tuzakuvugana vuba kugira ngo dusobanure intambwe zikurikira."
+  },
+  "prayer": {
+    "title": "Gusenga",
+    "subtitle": "Injira mu matsinda yacu y'amasengesho n'ubwoba bw'amasengesho.",
+    "ministry": "Ubwoba bw'Umusengesho",
+    "ministryDesc": "Umusengesho uri mu mutima w'ikiliziya yacu. Twemera imbaraga z'umusengesho kandi dushishikariza bose gufata uruhare mu bwoba bw'amasengesho bwacu.",
+    "weekly": "Inama z'Umusengesho z'Icyumweru",
+    "weeklyDesc": "Dufatanye buri Ku wa Kabiri saa saba z'ijoro kuri inama yacu y'umusengesho y'icyumweru.",
+    "requests": "Gusaba Gusenga",
+    "requestsDesc": "Ohereza ibyo usaba gusengwa kandi itsinda ryacu ry'amasengesho rizakusengera.",
+    "team": "Itsinda ry'Umusengesho",
+    "teamDesc": "Injira mu itsinda ryacu ry'abasenga bashishikaye basenga buri gihe mu kiliziya, mu muryango, no kwisi.",
+    "join": "Injira mu Itsinda ryacu ry'Umusengesho",
+    "joinDesc": "Uzuze fomu iri iburyo kugira ngo ohereze icyo usaba gusengwa. Itsinda ryacu ry'amasengesho rizakusengera."
+  },
+  "baptism": {
+    "title": "Kwambukirwa",
+    "subtitle": "Gufata intambwe ikurikira mu rugendo rwawe rw'ukwemera binyuze mu kwambukirwa.",
+    "about": "Ibyerekeye Kwambukirwa",
+    "aboutDesc": "Kwambukirwa ni kwerekana mu muryango kwemera kwawe Yesu Kristo. Berekana kwemera kwawe gupfa, guhambwa, no gukuka kwa Kristo, n'kwiyemeza kwawe kumukurikira.",
+    "why": "Kuki Kwambukirwa?",
+    "whyDesc": "Ni itegeko riva kuri Yesu (Matayo 28:19-20)",
+    "whyDesc2": "Ni kwerekana mu muryango kwemera kwawe",
+    "whyDesc3": "Ni intambwe y'kwumvira mu rugendo rwawe rw'Abakristu",
+    "process": "Gahunda y'Kwambukirwa",
+    "processDesc": "Niba witeguye kwambukirwa, dushaka kugufasha gufata iyi ntambwe ihambaye. Uzuze fomu iri iburyo kugira ngo:",
+    "process1": "Gahunda y'kwambukirwa",
+    "process2": "Wige byinshi ibyerekeye ibisobanuro by'kwambukirwa",
+    "process3": "Shiraho itariki y'kwambukirwa kwawe",
+    "ready": "Witeguye Kwambukirwa?",
+    "readyDesc": "Uzuze fomu iri iburyo kugira ngo ohereze icyo usaba kwambukirwa. Tuzakuvugana vuba kugira ngo duhagurure gahunda y'kwambukirwa kwawe."
+  },
+  "donate": {
+    "title": "Tanga",
+    "subtitle": "Gutanga kwawe kwihariye kutuma dukomeza intego yacu yo gukorera imiryango i Edmonton no kwisi.",
+    "ways": "Uburyo bwo Gutanga",
+    "inPerson": "Gutanga mu Muntu",
+    "inPersonDesc": "Urashobora gutanga mu bwoba bwacu bwa Kwezi cyangwa gutanga ofisi y'ikiliziya.",
+    "eTransfer": "E-Transfer",
+    "eTransferDesc": "Ohereza e-transfer kuri imeyili y'ikiliziya. Twandikire kugira ngo ubone aderesi y'imeyili n'ikibazo cy'umutekano.",
+    "bankTransfer": "Gutanga mu Banki",
+    "bankTransferDesc": "Kugira ngo utange buri gihe cyangwa amafaranga manini, twandikire kugira ngo ubone amakuru y'akagari kacu ka banki.",
+    "everyGift": "Icyo cyose Gitanga Gihariye",
+    "everyGiftDesc": "Inkunga zawe zifasha minisiteri zacu, misioni, ubwoba mu muryango, n'ibikorwa by'ikiliziya. Icyo cyose gitanga, n'icyo gito, gihindura mu kwongera ubwami bw'Imana.",
+    "contact": "Twandikire Ibyerekeye Gutanga"
+  },
+  "servicesSermons": {
+    "title": "Ubwoba n'Inkuru nziza",
+    "subtitle": "Dufatanye mu busenga, amasengesho, n'ubwoba mucyumweru.",
+    "whatToExpect": "Icyo Witegereje",
+    "whatToExpectDesc": "Serivisi zacu zirakaza kandi zirimo, zifite inyigisho zihariye, umuziki wihariye, n'ubwoba bwuzuye. Dukoresha ubusenga mu cyongereza n'Ikinyarwanda. Niba wongeye gukora cyangwa waba umunyamuryango w'ikigaragara, uzabona aho wiyubaka no kwiyubaka mu kwemera."
+  },
+  "foundation": {
+    "title": "Shelter of Refugee Seniors International Ministries",
+    "subtitle": "Gukorera abimukira b'Abakristu, abakuru, n'imiryango yasize amazu binyuze mu kwiyubaka n'ubwoba",
+    "about": "Ibyerekeye Foundation",
+    "aboutDesc": "Shelter of Refugee Seniors International Ministries (SRSIM) ni minisiteri y'umwete ishinzwe gukorera abimukira b'Abakristu, abakuru, n'imiryango yasize amazu kwisi. Dutanga inkunga, ibikoresho, n'icyizere ku bantu basize amazu binyuze mu guhangana, kwiyubaka, cyangwa ibyago by'ikirere.",
+    "mission": "Intego yacu",
+    "missionText": "Gutanga amazu, inkunga, n'ubwoba bwo kwiyubaka ku bantu b'Abakristu b'Abimukira n'imiryango yasize amazu, kubafasha kwiyubaka ubuzima bwabo binyuze mu kwiyubaka n'icyizere mu gihe dushyira mu bikorwa urukundo rwa Kristo.",
+    "vision": "Inzozi zacu",
+    "visionText": "Isi aho buri muntu w'Umukristu w'Umukristu w'Abimukira n'umuryango wasize amazu afite amazu meza, ibikoresho by'ibanze, inkunga y'umutima, n'amahirwe yo kwiyubaka ubuzima bwabo binyuze mu kwiyubaka n'icyizere.",
+    "values": "Incamake zacu",
+    "valuesList": [
+      {
+        "title": "Umwete",
+        "desc": "Dukomeza buri muntu binyuze mu kwiyubaka, gusobanukirwa, n'umwete w'ukuri w'ibyari byabo n'ibyari byabo."
+      },
+      {
+        "title": "Ubwoba",
+        "desc": "Dukomeza kandi dukomeza agaciro k'ibanze k'umuntu wese, dukoresha bose binyuze mu kwiyubaka."
+      },
+      {
+        "title": "Gukorera",
+        "desc": "Dushishikaye gukorera abandi binyuze mu kwiyubaka, dukurikira urugero rwa Kristo rw'ubuyobozi bwo gukorera."
+      },
+      {
+        "title": "Icyizere",
+        "desc": "Dutanga si gusa inkunga y'ibikoresho, ahubwo n'umwete w'umutima n'icyizere cy'ubuzima bwiza."
+      },
+      {
+        "title": "Ubwoba",
+        "desc": "Dukorana n'imiryango y'Abakristu, amadini, n'amashyirahamwe kugira ngo dongere ingaruka zacu."
+      }
+    ],
+    "programs": "Gahunda zacu",
+    "programsList": [
+      {
+        "title": "Amazu n'Amazu",
+        "desc": "Gutanga amazu meza kandi meza ku bantu b'Abakristu b'Abimukira n'imiryango basize amazu."
+      },
+      {
+        "title": "Ibiribwa n'Indyo",
+        "desc": "Gukomeza kugera ku biribwa byuzuye n'umutekano w'ibiribwa ku miryango y'Abakristu n'abakuru."
+      },
+      {
+        "title": "Inkunga y'Ubuzima",
+        "desc": "Guhuza abimukira n'ubwoba bwo kwiyubaka bw'ubuzima n'inkunga y'ubwoba."
+      },
+      {
+        "title": "Uburezi n'Amahugurwa",
+        "desc": "Gutanga amahirwe y'uburezi n'amahugurwa y'ubuhanga kubafasha kwiyubaka ubuzima bwabo."
+      },
+      {
+        "title": "Ubwoba bwo Kwiyubaka",
+        "desc": "Gutanga ubwoba bwo kwiyubaka, kwiyubaka Bibiliya, n'inkunga y'umutima kugira ngo dukomeze kwemera n'icyizere."
+      },
+      {
+        "title": "Kwiyubaka mu Muryango",
+        "desc": "Gukomeza imiryango y'Abakristu aho abimukira bashobora kubona ubwoba n'inkunga y'Abakristu."
+      }
+    ],
+    "impact": "Ingaruka zacu",
+    "impactDesc": "Binyuze mu gahunda zacu, twashoboye gufasha imiryango myinshi y'Abimukira n'abakuru mu bihugu bitandukanye, dukoresha ibikoresho by'ibanze, ubwoba bwo kwiyubaka, n'icyizere cy'ubuzima bwiza.",
+    "getInvolved": "Dufashe",
+    "getInvolvedDesc": "Urashobora guhindura ubuzima bw'Abakristu b'Abimukira n'imiryango yasize amazu. Dufatanye mu ntego yacu yo gutanga amazu, inkunga, n'icyizere.",
+    "waysToHelp": "Uburyo bwo Gufasha",
+    "donate": "Tanga",
+    "donateDesc": "Inkunga zawe zifasha dukoresha ibikoresho by'ibanze, amazu, n'inkunga ku bantu bakeneye.",
+    "volunteer": "Inshingano",
+    "volunteerDesc": "Dufatanye n'itsinda ryacu ry'Abakristu bashishikaye bakorera abimukira n'imiryango yasize amazu mu nshingano zitandukanye.",
+    "pray": "Senga",
+    "prayDesc": "Senga abimukira dukorera, itsinda ryacu ry'ubwoba, n'umutekano n'umutekano mu turere twahuye n'ubwoba.",
+    "partner": "Dufatanye",
+    "partnerDesc": "Amadini n'amashyirahamwe bashobora gufatanya natwe kugira ngo dongere ubwoba bwacu n'ingaruka mu gukorera abimukira kwisi."
+  },
+  "cta": {
+    "title": "Dufatanye kuri Kwezi",
+    "subtitle": "Sangira urukundo rw'Imana mu muryango urakaza, wihariye. Dushaka kuba mufatanye!",
+    "visit": "Duhamagare"
+  },
+  "leadership": {
+    "title": "Abayobozi n'Abakorera mu Kiliziya",
+    "subtitle": "Menya abayobozi bashishikaye bayobora kandi bakorera mu muryango w'ikiliziya yacu.",
+    "seniorPastor": "Umupasitoli Mukuru",
+    "pastors": "Abapasitoli",
+    "otherLeaders": "Abandi Bayobozi b'ikiliziya",
+    "seniorPastorName": "Rev. Jean Sengiyumva",
+    "seniorPastorTitle": "Umupasitoli Mukuru",
+    "seniorPastorBio": "Rev. Sengiyumva ni umusavyi w'Imana wihariye afite umwete wo gukorera mu ndimi nyinshi. Nubwo icyongereza si cyo cyambere, akorera mu gifaransa n'Ikinyarwanda kugira ngo agere n'imiryango yihariye. Intego ye yavukiye muri Yeremiya 20:9, atwara ijambo ry'Imana nk'umuriro mu magufwa ye. Ayobora ikiliziya yacu n'ubwenge, umwete, n'umutima wo gukorera mu muryango w'Abakristu i Edmonton n'akazi kacu k'ubwoba kwisi muri Afurika.",
+    "pastorsDesc": "Itsinda ryacu ry'Abapasitoli rikorana n'Umupasitoli Mukuru kugira ngo rihe imbaraga z'umutima, gufashwa n'Abapasitoli, n'ubuyobozi mu minisiteri zitandukanye. Bashishikaye kwiyubaka umuryango w'Abakristu no gufasha intego y'ikiliziya.",
+    "otherLeadersDesc": "Ikiliziya yacu yihaye abayobozi bashishikaye bakorera mu nshingano zitandukanye harimo abayobozi b'ubwoba, abadiyakoni, n'abakorera mu gukorera. Abasavyi b'ukuri bafasha gukomeza ibikorwa by'ikiliziya kandi bafasha intego yacu yo gukorera Imana n'umuryango wacu."
+  },
+  "privacy": {
+    "title": "Politiki y'Ubwigenge",
+    "subtitle": "Ubwigenge bwawe buhagariye. Menya uko dukusanya, dukoresha, kandi dukingira amakuru yawe.",
+    "introduction": {
+      "title": "Intangiriro",
+      "lastUpdated": "Ihindurwa ryanyuma",
+      "content": "Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton ('twebwe', 'yacu', cyangwa 'twe') ishinzwe gukingira ubwigenge bwawe. Iyi Politiki y'Ubwigenge isobanura uko dukusanya, dukoresha, kwerekana, kandi dukingira amakuru yawe igihe wongeye gukoresha urubuga rwacu, gukoresha serivisi zacu, cyangwa gukorana natwe. Nyamuneka iyi politiki y'ubwigenge neza. Niba utemeye amabwiriza y'iyi politiki y'ubwigenge, nyamuneka ntukoreshe urubuga."
+    },
+    "collection": {
+      "title": "Amakuru Dukusanya",
+      "content": [
+        "Dukusanya amakuru utanga neza, harimo:",
+        "Dushobora kandi gukusanya amakuru yihariye ku kigaragara cyawe igihe wongeye gukoresha urubuga rwacu, harimo:"
+      ],
+      "list": [
+        "Amakuru y'ubwoba (izina, aderesi y'imeyili, numero ya telefoni, aderesi y'ubutumwa)",
+        "Amakuru utanga igihe wiyandikisha mu bikorwa, gukorera, cyangwa kuba umunyamuryango",
+        "Amakuru y'ubwishyu igihe utanga (akorwa neza binyuze mu bakoresha ubwishyu bwa gatatu)",
+        "Amakuru oherejwe binyuze mu mabwiriza y'ubwoba, amasengesho, cyangwa uburyo bwo gukorana",
+        "Aderesi yawe ya IP na ubwoko bwa browser",
+        "Ipaji wongeye kandi igihe wakoresheje ku ipaji",
+        "Aderesi z'urubuga rwohereza",
+        "Amakuru y'igaragara na sisitemu y'ikoresha"
+      ]
+    },
+    "usage": {
+      "title": "Uko Dukoresha Amakuru yawe",
+      "content": [
+        "Dukoresha amakuru dukusanya mu ntego zitandukanye, harimo:"
+      ],
+      "list": [
+        "Gutanga, gukomeza, no kwiyubaka serivisi zacu n'urubuga",
+        "Gukora inkunga no gukomeza ibikorwa by'ubucuruzi",
+        "Kohereza amakuru, amakuru, n'amakuru ku serivisi zacu n'ibikorwa",
+        "Gusubiza ibibazo byawe, amakuru, n'ibyo usaba",
+        "Gukomeza kwiyandikisha kw'Abakristu n'ubunyamuryango bw'ikiliziya",
+        "Gukurikira ibyemezo by'amategeko kandi gukingira uburenganzira bwacu",
+        "Gusuzuma gukoresha urubuga kandi kwiyubaka ubwoba bw'abakoresha"
+      ]
+    },
+    "protection": {
+      "title": "Gukingira Amakuru n'Umutekano",
+      "content": [
+        "Dushyira mu bikorwa ibikoresho byuzuye by'umutekano n'umuryango w'umutekano kugira ngo dukingire amakuru yawe binyuze mu kwiyubaka, guhindura, kwerekana, cyangwa kwangiza. Ariko, nta buryo bwohereza binyuze mu Internet cyangwa kubika by'elektroniki ni 100% meza. Mu gihe dushishikaye gukoresha uburyo bwohereza bwohereza kugira ngo dukingire amakuru yawe, ntitwemera gukomeza umutekano wuzuye."
+      ]
+    },
+    "cookies": {
+      "title": "Cookies n'Ibikoresho byo Gukurikira",
+      "content": [
+        "Dukoresha cookies n'ibikoresho byo gukurikira binyuze mu gukurikira ibikorwa ku rubuga rwacu kandi kubika amakuru yihariye. Cookies ni dosiye zifite amakuru make ashobora kuba n'ikimenyetso cyihariye. Urashobora kwerekana browser yawe guhakanira cookies zose cyangwa kwerekana igihe cookie yoherejwe. Ariko, niba utemeye cookies, urashobora kutagira ubushobozi bwo gukoresha amashyirahamwe y'urubuga rwacu."
+      ]
+    },
+    "rights": {
+      "title": "Uburenganzira bwawe bwo Kwiyubaka",
+      "content": [
+        "Bitewe n'aho utuye, urashobora kugira uburenganzira bwo kwiyubaka ku makuru yawe, harimo:"
+      ],
+      "list": [
+        "Uburenganzira bwo kugera – Ufite uburenganzira bwo gusaba kopi z'amakuru yawe",
+        "Uburenganzira bwo guhindura – Ufite uburenganzira bwo gusaba guhindura amakuru atari ukuri",
+        "Uburenganzira bwo kwangiza – Ufite uburenganzira bwo gusaba kwangiza amakuru yawe",
+        "Uburenganzira bwo gukomeza gukoresha – Ufite uburenganzira bwo gusaba gukomeza gukoresha amakuru yawe",
+        "Uburenganzira bwo guhakanira gukoresha – Ufite uburenganzira bwo guhakanira gukoresha kwacu amakuru yawe",
+        "Uburenganzira bwo kwimura amakuru – Ufite uburenganzira bwo gusaba kwimura amakuru yawe ku serivisi yindi"
+      ]
+    },
+    "children": {
+      "title": "Ubwigenge bw'Abana",
+      "content": [
+        "Urubuga rwacu n' serivisi zacu ntizigamije abana bafite imyaka 13. Ntitukusanya amakuru y'ubwoba ku bana bafite imyaka 13. Niba waba umubyeyi cyangwa umukoresha kandi wemera ko umwana wawe yatanze amakuru y'ubwoba, nyamuneka twandikire vuba."
+      ]
+    },
+    "changes": {
+      "title": "Guhindura Iyi Politiki y'Ubwigenge",
+      "content": [
+        "Dushobora kwiyubaka Politiki yacu y'Ubwigenge buri gihe. Tuzakumenyesha ibihinduka bose binyuze mu gushyira Politiki y'Ubwigenge mushya ku ipaji kandi kwiyubaka itariki y' 'Ihindurwa ryanyuma'. Urakangurwa gusuzuma iyi Politiki y'Ubwigenge buri gihe kugira ngo ubone ibihinduka."
+      ]
+    },
+    "contact": {
+      "title": "Twandikire",
+      "content": [
+        "Niba ufite ibibazo byose ku makuru y'iyi Politiki y'Ubwigenge cyangwa ushaka gukoresha uburenganzira bwawe bwo kwiyubaka, nyamuneka twandikire:",
+        "Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton",
+        "6110 Fulton Road, Edmonton, AB T6A 3T3, Kanada",
+        "Telefoni: +1 587-778-6406 cyangwa +1 825-461-7431",
+        "Urashobora kandi gukoresha ipaji yacu y'Ubwoba kugira ngo ubone amakuru menshi."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Amabwiriza n'Ibyemezo",
+    "subtitle": "Nyamuneka usome amabwiriza neza mbere yo gukoresha urubuga rwacu n' serivisi.",
+    "introduction": {
+      "title": "Intangiriro",
+      "lastUpdated": "Ihindurwa ryanyuma",
+      "content": "Murakaza neza ku rubuga rw'Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton. Binyuze mu kugera kandi gukoresha urubuga rwacu, wemera kandi wemera gukurikira amabwiriza n'ibyemezo by'iyi ntego. Niba utemeye gukurikira ibyo haruguru, nyamuneka ntukoreshe iyi serivisi."
+    },
+    "agreement": {
+      "title": "Kwirirana n'Amabwiriza",
+      "content": [
+        "Binyuze mu kugera urubuga rwacu, wemera gukurikira amabwiriza n'Ibyemezo byo Gukoresha, amategeko yose n'ibyemezo, kandi wemera ko wiyubaka gukurikira amategeko y'aho utuye. Niba utemeye amabwiriza yose, wazirirwa gukoresha cyangwa kugera urubuga."
+      ]
+    },
+    "license": {
+      "title": "Gukoresha License",
+      "content": [
+        "Uruhushya rwatanzwe gukusanya kopi imwe y'ibikoresho ku rubuga rw'Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton kugira ngo wiyubake, ntacyo gukoresha ubucuruzi gusa. Iki ni uruhushya, si kwimura umutwe, kandi binyuze mu ruhushya ntushobora:"
+      ],
+      "list": [
+        "Guhindura cyangwa gukora kopi z'ibikoresho",
+        "Gukoresha ibikoresho mu ntego zose z'ubucuruzi cyangwa kwerekana (ubucuruzi cyangwa ntacyo gukoresha ubucuruzi)",
+        "Kugerageza guhindura cyangwa guhindura software iri ku rubuga",
+        "Kuvura copyright cyangwa ibindi bimenyetso by'ubwoba ku bikoresho",
+        "Kwimura ibikoresho ku muntu wundi cyangwa 'gukora kopi' z'ibikoresho ku server yindi"
+      ]
+    },
+    "restrictions": {
+      "title": "Ibyirirwa",
+      "content": [
+        "Ibikoresho ku rubuga rw'Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton bitangwa 'nk'uko biri'. Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton ntitanga amasezerano, yerekanye cyangwa yerekanye, kandi binyuze mu ruhushya ikangiza kandi ikangiza amasezerano yose harimo, nta kwangirwa, amasezerano yerekanye cyangwa ibyemezo by'ubucuruzi, gukomeza mu ntego yihariye, cyangwa kutagira ubwoba bw'ubwoba cyangwa ikindi kwangirwa kw'uburenganzira."
+      ]
+    },
+    "disclaimer": {
+      "title": "Kwanga",
+      "content": [
+        "Ibikoresho bigaragara ku rubuga rw'Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton bishobora kuba n'amakosa y'ubwoba, y'ubwoba, cyangwa y'amashusho. Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton ntitanga amasezerano ko ibikoresho byose ku rubuga rwayo ni ukuri, byuzuye, cyangwa by'ubu. Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton ishobora guhindura ibikoresho birimo ku rubuga rwayo igihe icyo ari cyo cyose nta kumenyesha."
+      ]
+    },
+    "limitations": {
+      "title": "Ibyangirwa",
+      "content": [
+        "Nta gihe Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton cyangwa abatanzi bayo bazaba bafite imbere (harimo, nta kwangirwa, imbere z'ubwoba bw'amakuru cyangwa inyungu, cyangwa bitewe n'ubwoba bw'ubucuruzi) bivuka binyuze mu gukoresha cyangwa kutagira ubushobozi bwo gukoresha ibikoresho ku rubuga rw'Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton, n'iyo Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton cyangwa umukoresha wemewe wabwiwe mu kanwa cyangwa mu makuru y'ubushobozi bwo kwangiza."
+      ]
+    },
+    "accuracy": {
+      "title": "Ukuri kw'Ibikoresho",
+      "content": [
+        "Ibikoresho bigaragara ku rubuga rw'Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton bishobora kuba n'amakosa y'ubwoba, y'ubwoba, cyangwa y'amashusho. Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton ntitanga amasezerano ko ibikoresho byose ku rubuga rwayo ni ukuri, byuzuye, cyangwa by'ubu. Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton ishobora guhindura ibikoresho birimo ku rubuga rwayo igihe icyo ari cyo cyose nta kumenyesha."
+      ]
+    },
+    "links": {
+      "title": "Ihuza",
+      "content": [
+        "Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton ntiyongeye gusuzuma urubuga rwose ruhuza n'urubuga rwayo kandi ntitwiyubaka ibirimo urubuga rwohuza. Gushyira mu bikorwa ihuza ryose ntibisobanura kwemera na Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton urubuga. Gukoresha urubuga rwohuza rwose ni ku bwoba bw'umukoresha."
+      ]
+    },
+    "modifications": {
+      "title": "Guhindura",
+      "content": [
+        "Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton ishobora guhindura amabwiriza y'ubwoba y'urubuga rwayo igihe icyo ari cyo cyose nta kumenyesha. Binyuze mu gukoresha urubuga rwacu wemera gukurikira amabwiriza y'ubu y'ubwoba."
+      ]
+    },
+    "governing": {
+      "title": "Amategeko Ayobora",
+      "content": [
+        "Amabwiriza n'ibyemezo byoherejwe kandi byoherejwe binyuze mu kugera n'amategeko y'Alberta, Kanada, kandi wemera gukurikira ubwoba bw'inkiko z'aho."
+      ]
+    },
+    "contact": {
+      "title": "Amakuru yo Gukorana",
+      "content": [
+        "Niba ufite ibibazo byose ku makuru y'Amabwiriza n'Ibyemezo, nyamuneka twandikire:",
+        "Ikiliziya y'Ubwongereza y'Ubwoba y'Isi yose i Edmonton",
+        "6110 Fulton Road, Edmonton, AB T6A 3T3, Kanada",
+        "Telefoni: +1 587-778-6406 cyangwa +1 825-461-7431",
+        "Urashobora kandi gukoresha ipaji yacu y'Ubwoba kugira ngo ubone amakuru menshi."
+      ]
+    }
+  }
+}
+

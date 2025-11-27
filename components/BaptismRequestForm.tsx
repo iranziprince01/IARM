@@ -1,0 +1,219 @@
+'use client';
+
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { z } from 'zod';
+import { motion } from 'framer-motion';
+import {
+  UserIcon,
+  EnvelopeIcon,
+  PhoneIcon,
+  CalendarIcon,
+  StarIcon,
+} from '@heroicons/react/24/outline';
+
+const baptismRequestSchema = z.object({
+  fullName: z.string().min(2, 'Full name must be at least 2 characters'),
+  email: z.string().email('Invalid email address'),
+  phone: z.string().min(10, 'Phone number must be at least 10 characters'),
+  dateOfBirth: z.string().min(1, 'Date of birth is required'),
+  reason: z.string().min(10, 'Please share your reason for wanting to be baptized (at least 10 characters)'),
+});
+
+type BaptismRequestFormData = z.infer<typeof baptismRequestSchema>;
+
+export default function BaptismRequestForm() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<
+    'idle' | 'success' | 'error'
+  >('idle');
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm<BaptismRequestFormData>({
+    resolver: zodResolver(baptismRequestSchema),
+  });
+
+  const onSubmit = async (data: BaptismRequestFormData) => {
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    try {
+      // In a real application, you would send this to an API endpoint
+      await new Promise((resolve) => setTimeout(resolve, 1500));
+      console.log('Baptism request form data:', data);
+      setSubmitStatus('success');
+      reset();
+    } catch (error) {
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  return (
+    <motion.form
+      initial={{ opacity: 0, x: 30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8 }}
+      onSubmit={handleSubmit(onSubmit)}
+      className="bg-white p-8 rounded-xl shadow-lg"
+    >
+      <h2 className="text-2xl font-bold text-gray-900 mb-6 text-purple-600">
+        Baptism Request Form
+      </h2>
+
+      <div className="space-y-5">
+        {/* Full Name */}
+        <div>
+          <label
+            htmlFor="fullName"
+            className="block text-sm font-semibold text-gray-700 mb-2"
+          >
+            Full Name <span className="text-red-500">*</span>
+          </label>
+          <div className="relative">
+            <UserIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+            <input
+              type="text"
+              id="fullName"
+              {...register('fullName')}
+              placeholder="Enter your full name"
+              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+            />
+          </div>
+          {errors.fullName && (
+            <p className="mt-1 text-sm text-red-600">{errors.fullName.message}</p>
+          )}
+        </div>
+
+        {/* Email Address */}
+        <div>
+          <label
+            htmlFor="email"
+            className="block text-sm font-semibold text-gray-700 mb-2"
+          >
+            Email Address <span className="text-red-500">*</span>
+          </label>
+          <div className="relative">
+            <EnvelopeIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+            <input
+              type="email"
+              id="email"
+              {...register('email')}
+              placeholder="Enter your email address"
+              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+            />
+          </div>
+          {errors.email && (
+            <p className="mt-1 text-sm text-red-600">{errors.email.message}</p>
+          )}
+        </div>
+
+        {/* Phone Number */}
+        <div>
+          <label
+            htmlFor="phone"
+            className="block text-sm font-semibold text-gray-700 mb-2"
+          >
+            Phone Number <span className="text-red-500">*</span>
+          </label>
+          <div className="relative">
+            <PhoneIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+            <input
+              type="tel"
+              id="phone"
+              {...register('phone')}
+              placeholder="Enter your phone number"
+              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+            />
+          </div>
+          {errors.phone && (
+            <p className="mt-1 text-sm text-red-600">{errors.phone.message}</p>
+          )}
+        </div>
+
+        {/* Date of Birth */}
+        <div>
+          <label
+            htmlFor="dateOfBirth"
+            className="block text-sm font-semibold text-gray-700 mb-2"
+          >
+            Date of Birth <span className="text-red-500">*</span>
+          </label>
+          <div className="relative">
+            <CalendarIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+            <input
+              type="date"
+              id="dateOfBirth"
+              {...register('dateOfBirth')}
+              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+            />
+          </div>
+          {errors.dateOfBirth && (
+            <p className="mt-1 text-sm text-red-600">{errors.dateOfBirth.message}</p>
+          )}
+        </div>
+
+        {/* Reason for Baptism */}
+        <div>
+          <label
+            htmlFor="reason"
+            className="block text-sm font-semibold text-gray-700 mb-2"
+          >
+            Why do you want to be baptized? <span className="text-red-500">*</span>
+          </label>
+          <div className="relative">
+            <StarIcon className="absolute left-3 top-3 w-5 h-5 text-gray-400" />
+            <textarea
+              id="reason"
+              rows={5}
+              {...register('reason')}
+              placeholder="Share your reason for wanting to be baptized..."
+              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors resize-none"
+            />
+          </div>
+          {errors.reason && (
+            <p className="mt-1 text-sm text-red-600">{errors.reason.message}</p>
+          )}
+        </div>
+
+        {/* Submit Button */}
+        <button
+          type="submit"
+          disabled={isSubmitting}
+          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed shadow-md hover:shadow-lg"
+        >
+          {isSubmitting ? 'Submitting...' : 'Submit Baptism Request'}
+        </button>
+
+        {/* Status Messages */}
+        {submitStatus === 'success' && (
+          <div className="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg">
+            Thank you! Your baptism request has been submitted. We'll be in touch soon to schedule your baptism orientation.
+          </div>
+        )}
+
+        {submitStatus === 'error' && (
+          <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg">
+            Something went wrong. Please try again.
+          </div>
+        )}
+
+        {/* Footer Link */}
+        <p className="text-center text-sm text-gray-600 mt-4">
+          Have questions?{' '}
+          <a href="#contact" className="text-blue-600 hover:text-blue-700 font-semibold">
+            Contact us
+          </a>
+        </p>
+      </div>
+    </motion.form>
+  );
+}
+

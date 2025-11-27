@@ -1,0 +1,512 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "ministries": "Ministries",
+    "sermons": "Sermons",
+    "getInvolved": "Get Involved",
+    "volunteer": "Volunteer",
+    "becomeMember": "Become a Member",
+    "requestPrayer": "Request a Prayer",
+    "getBaptized": "Get Baptized",
+    "contact": "Contact Us",
+    "donate": "Donate"
+  },
+  "footer": {
+    "mission": "Mission & Vision",
+    "leadership": "Leadership",
+    "partners": "Partner Churches & Organizations",
+    "africa": "Our Work in Africa",
+    "refugee": "Refugee Support Programs",
+    "volunteer": "Get Involved / Volunteer",
+    "donate": "Donate / Give",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "address": "6110 Fulton Road, Edmonton, AB T6A 3T3",
+    "phone": "Phone",
+    "email": "Email",
+    "follow": "Follow Us",
+    "subscribe": "Subscribe to our twice a week",
+    "sermons": "sermons",
+    "subscribeDesc": "Get uplifting Sermons delivered to your inbox every week. Stay inspired and connected with God.",
+    "emailPlaceholder": "Enter your email",
+    "subscribeButton": "Subscribe"
+  },
+  "home": {
+    "title": "Welcome to International Anglican Revival Church of Edmonton",
+    "subtitle": "International Anglican Revival Church of Edmonton",
+    "cta": "Join Us This Sunday",
+    "learnMore": "Learn More",
+    "donate": "Donate / Give",
+    "visit": "Visit Us"
+  },
+  "about": {
+    "title": "About Us",
+    "church": "The International Anglican Revival Church of Edmonton is a vibrant Christian community dedicated to spiritual growth, compassion, and service. We are an Anglican-Pentecostal/Protestant church committed to preaching the Gospel, nurturing families, and empowering believers for a purpose-driven life.",
+    "congregation": "We serve a diverse congregation in Edmonton, including Canadians and African communities, offering worship services in English and Kinyarwanda.",
+    "ministry": "Our ministry extends beyond Canada, partnering with churches in Africa and supporting vulnerable refugees, widows, orphans, and displaced families in Uganda, Kenya, Rwanda, and other regions.",
+    "vision": "Vision",
+    "visionText": "To connect families and communities—both in Edmonton and globally—to transformational development, spiritual growth, and faith-based opportunities that promote holistic wellbeing and sustainable change.",
+    "mission": "Mission",
+    "missionText": "Our mission is to empower individuals and communities through spiritual formation, social support, and holistic development. We promote faith-driven aspirations that help vulnerable groups realize their God-given potential.",
+    "marks": "The Marks of Mission",
+    "marksList": [
+      "Proclaim the Good News of the Kingdom of God.",
+      "Challenge and transform unjust structures in society.",
+      "Support church planting and spiritual development in Africa.",
+      "Promote reconciliation and community development.",
+      "Implement programs that serve refugees and vulnerable families in Africa."
+    ],
+    "leadership": "Our Leadership",
+    "pastor": "Rev. Jean Sengiyumva, Senior Pastor",
+    "pastorBio": "Rev. Sengiyumva is a dedicated servant of God with a passion for multi-lingual ministry. Although English is not his first language, he faithfully ministers in English and Kinyarwanda to reach and uplift diverse communities. His calling is rooted in Jeremiah 20:9, carrying God's Word like fire in his bones.",
+    "coreValues": "Our Core Values",
+    "coreValuesDesc": "These fundamental values guide everything we do as a church community, shaping our mission, ministry, and relationships.",
+    "values": [
+      {
+        "title": "Faith",
+        "description": "We trust in God's Word and His promises, living by faith and not by sight. Our faith in Jesus Christ is the foundation of our church."
+      },
+      {
+        "title": "Love",
+        "description": "We demonstrate Christ's unconditional love to everyone, showing compassion, kindness, and acceptance to all people regardless of their background."
+      },
+      {
+        "title": "Service",
+        "description": "We serve God and others with humility and dedication, following Christ's example of servant leadership in our community and beyond."
+      },
+      {
+        "title": "Community",
+        "description": "We build authentic relationships and fellowship, creating a welcoming family where everyone belongs and can grow together in faith."
+      },
+      {
+        "title": "Integrity",
+        "description": "We live with honesty, transparency, and moral principles, reflecting Christ's character in all our actions and decisions."
+      }
+    ],
+    "statementOfFaith": "Statement of Faith",
+    "statementOfFaithDesc": "We believe in the fundamental truths of the Christian faith as revealed in the Holy Scriptures.",
+    "statementOfFaithItems": [
+      "We believe in one God, eternally existent in three persons: Father, Son, and Holy Spirit.",
+      "We believe in the deity of our Lord Jesus Christ, in His virgin birth, in His sinless life, in His miracles, in His atoning death, in His bodily resurrection, and in His ascension to the right hand of the Father.",
+      "We believe in the present ministry of the Holy Spirit, by whose indwelling the Christian is enabled to live a godly life.",
+      "We believe in the Bible as the inspired, infallible, and authoritative Word of God.",
+      "We believe in the resurrection of both the saved and the lost: the saved unto the resurrection of life, and the lost unto the resurrection of damnation.",
+      "We believe in the spiritual unity of believers in our Lord Jesus Christ."
+    ],
+    "history": "Our History",
+    "historyDesc": "The International Anglican Revival Church of Edmonton was established to serve the growing international and multicultural community in Edmonton, particularly those from African backgrounds seeking a place of worship that honors both Anglican tradition and Pentecostal expression.",
+    "historyContent": [
+      "Founded with a vision to bridge cultures and languages, our church began as a small gathering of believers committed to sharing the Gospel in both English and Kinyarwanda.",
+      "Over the years, we have grown into a vibrant community that serves not only the local Edmonton area but also extends our ministry to support vulnerable communities in Africa.",
+      "Today, we continue to be a beacon of hope, providing spiritual guidance, community support, and practical assistance to those in need, both locally and globally."
+    ]
+  },
+  "ministries": {
+    "title": "Our Ministries",
+    "worship": "Worship & Music",
+    "worshipDesc": "Engaging worship services that celebrate God's presence through music, prayer, and praise.",
+    "youth": "Youth Ministry",
+    "youthDesc": "Empowering the next generation through discipleship, fellowship, and spiritual growth opportunities.",
+    "children": "Children's Ministry",
+    "childrenDesc": "Nurturing young hearts with age-appropriate teaching, activities, and care in a safe environment.",
+    "women": "Women's Ministry",
+    "womenDesc": "Building community and supporting women through Bible study, fellowship, and mutual encouragement.",
+    "men": "Men's Ministry",
+    "menDesc": "Strengthening men through accountability, mentorship, and biblical teaching.",
+    "missions": "Missions & Outreach",
+    "missionsDesc": "Extending God's love globally through partnerships, support programs, and community service."
+  },
+  "services": {
+    "title": "Service Times",
+    "sunday": "Sunday Worship",
+    "sundayTime": "10:00 AM",
+    "sundayDesc": "Join us for our main worship service featuring inspiring messages, uplifting music, and fellowship.",
+    "prayer": "Prayer Meetings",
+    "prayerTime": "Wednesday 7:00 PM",
+    "prayerDesc": "Mid-week prayer gathering for intercession, encouragement, and spiritual renewal.",
+    "bible": "Bible Study",
+    "bibleTime": "Thursday 7:00 PM",
+    "bibleDesc": "Deep dive into Scripture with discussion, questions, and practical application."
+  },
+  "sermons": {
+    "title": "Sermons & Messages",
+    "latest": "Latest Messages",
+    "watch": "Watch Now",
+    "listen": "Listen Now",
+    "comingSoon": "New sermons coming soon. Check back regularly for updates."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "visit": "Visit Us",
+    "address": "6110 Fulton Road, Edmonton, AB T6A 3T3",
+    "phone": "Phone",
+    "phone1": "+1 587-778-6406",
+    "phone2": "+1 825-461-7431",
+    "email": "Email",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent.",
+      "error": "Something went wrong. Please try again."
+    },
+    "serviceTimes": "Service Times",
+    "sunday": "Sunday: 10:00 AM",
+    "wednesday": "Wednesday: 7:00 PM (Prayer)",
+    "thursday": "Thursday: 7:00 PM (Bible Study)"
+  },
+  "africa": {
+    "title": "Our Work in Africa",
+    "description": "Our church maintains active partnerships with congregations and refugee communities in Uganda, Kenya, and Rwanda. Through these collaborations we offer:",
+    "support": "Support for vulnerable families",
+    "education": "Education assistance for refugee children",
+    "bibles": "Distribution of Bibles and Christian resources",
+    "development": "Community development programs",
+    "pastoral": "Pastoral and ministry support",
+    "strengthening": "Strengthening local churches"
+  },
+  "partners": {
+    "title": "Partners & Affiliations",
+    "diocese": "The Anglican Diocese of Edmonton",
+    "organizations": "Christian organizations supporting mission work",
+    "global": "Global ministry partners",
+    "individuals": "Individual supporters moved by compassion and the Gospel message"
+  },
+  "volunteer": {
+    "title": "Volunteer",
+    "subtitle": "Serve in various ministries and make a difference in our community.",
+    "opportunities": "Volunteer Opportunities",
+    "opportunitiesDesc": "We welcome volunteers who want to serve and make a difference in our community. Whether you're interested in music, children's ministry, outreach, or administration, there's a place for you to serve at International Anglican Revival Church of Edmonton.",
+    "ready": "Ready to Volunteer?",
+    "readyDesc": "Fill out the form on the right to get started. We'll be in touch soon to discuss how you can serve in our community."
+  },
+  "membership": {
+    "title": "Become a Member",
+    "subtitle": "Join our church family and become an official member of International Anglican Revival Church of Edmonton.",
+    "process": "Membership Process",
+    "processDesc": "Becoming a member of International Anglican Revival Church of Edmonton means committing to our community, mission, and vision. We welcome all who want to be part of our church family.",
+    "attend": "Attend Services",
+    "attendDesc": "Regularly attend our worship services and get to know our community.",
+    "class": "Membership Class",
+    "classDesc": "Participate in our membership orientation to learn about our beliefs, mission, and expectations.",
+    "commitment": "Commitment",
+    "commitmentDesc": "Make a commitment to support the church through prayer, service, and giving.",
+    "ready": "Ready to Join?",
+    "readyDesc": "Fill out the registration form on the right to begin your membership journey. We'll be in touch soon to discuss next steps."
+  },
+  "prayer": {
+    "title": "Prayer",
+    "subtitle": "Join our prayer groups and intercessory prayer ministry.",
+    "ministry": "Prayer Ministry",
+    "ministryDesc": "Prayer is at the heart of our church. We believe in the power of prayer and encourage everyone to participate in our prayer ministry.",
+    "weekly": "Weekly Prayer Meetings",
+    "weeklyDesc": "Join us every Wednesday at 7:00 PM for our mid-week prayer gathering.",
+    "requests": "Prayer Requests",
+    "requestsDesc": "Submit your prayer requests and our prayer team will intercede on your behalf.",
+    "team": "Intercessory Prayer Team",
+    "teamDesc": "Join our dedicated team of intercessors who pray regularly for the church, community, and world.",
+    "join": "Join Our Prayer Team",
+    "joinDesc": "Fill out the form on the right to submit your prayer request. Our prayer team will be praying for you."
+  },
+  "baptism": {
+    "title": "Get Baptized",
+    "subtitle": "Take the next step in your faith journey through baptism.",
+    "about": "About Baptism",
+    "aboutDesc": "Baptism is a public declaration of your faith in Jesus Christ. It symbolizes your identification with Christ's death, burial, and resurrection, and your commitment to follow Him.",
+    "why": "Why Get Baptized?",
+    "whyDesc": "It's a command from Jesus (Matthew 28:19-20)",
+    "whyDesc2": "It's a public declaration of your faith",
+    "whyDesc3": "It's a step of obedience in your Christian walk",
+    "process": "Baptism Process",
+    "processDesc": "If you're ready to be baptized, we'd love to help you take this important step. Fill out the form on the right to:",
+    "process1": "Schedule a baptism orientation",
+    "process2": "Learn more about what baptism means",
+    "process3": "Set a date for your baptism",
+    "ready": "Ready to Be Baptized?",
+    "readyDesc": "Fill out the form on the right to submit your baptism request. We'll be in touch soon to schedule your baptism orientation."
+  },
+  "donate": {
+    "title": "Donate",
+    "subtitle": "Your generous giving helps us continue our mission of serving communities in Edmonton and around the world.",
+    "ways": "Other Ways to Give",
+    "inPerson": "In-Person Giving",
+    "inPersonDesc": "You can give during our Sunday worship services or drop off your offering at the church office.",
+    "eTransfer": "Interac e-Transfer",
+    "eTransferDesc": "Send an e-transfer to our church email. Contact us for the email address and security question.",
+    "bankTransfer": "Bank Transfer",
+    "bankTransferDesc": "For recurring donations or larger amounts, contact us for our bank account details.",
+    "everyGift": "Every Gift Matters",
+    "everyGiftDesc": "Your contributions support our ministries, missions, community outreach, and church operations. Every gift, no matter the size, makes a difference in advancing God's kingdom.",
+    "contact": "Contact Us About Giving"
+  },
+  "servicesSermons": {
+    "title": "Services and Sermons",
+    "subtitle": "Join us for worship, prayer, and fellowship throughout the week.",
+    "whatToExpect": "What to Expect",
+    "whatToExpectDesc": "Our services are welcoming and inclusive, featuring inspiring messages, uplifting music, and warm fellowship. We offer worship in English and Kinyarwanda. Whether you're visiting for the first time or are a regular member, you'll find a place to belong and grow in faith."
+  },
+  "foundation": {
+    "title": "Shelter of Refugee Seniors International Ministries",
+    "subtitle": "Serving vulnerable refugees, seniors, and displaced families with compassion and dignity",
+    "about": "About the Foundation",
+    "aboutDesc": "Shelter of Refugee Seniors International Ministries (SRSIM) is a compassionate ministry dedicated to serving vulnerable refugees, seniors, and displaced families around the world. We provide essential support, resources, and hope to those who have been forced to flee their homes due to conflict, persecution, or natural disasters.",
+    "mission": "Our Mission",
+    "missionText": "To provide shelter, support, and spiritual care to refugee seniors and displaced families, helping them rebuild their lives with dignity and hope while sharing the love of Christ.",
+    "vision": "Our Vision",
+    "visionText": "A world where every refugee senior and displaced family has access to safe shelter, essential resources, spiritual support, and the opportunity to rebuild their lives with dignity and hope.",
+    "values": "Our Core Values",
+    "valuesList": [
+      {
+        "title": "Compassion",
+        "desc": "We approach every person with empathy, understanding, and genuine care for their unique circumstances and needs."
+      },
+      {
+        "title": "Dignity",
+        "desc": "We respect and honor the inherent worth of every individual, treating all with the respect they deserve."
+      },
+      {
+        "title": "Service",
+        "desc": "We are committed to serving others selflessly, following Christ's example of servant leadership."
+      },
+      {
+        "title": "Hope",
+        "desc": "We provide not just material support, but also spiritual encouragement and hope for a better future."
+      },
+      {
+        "title": "Partnership",
+        "desc": "We work collaboratively with local communities, churches, and organizations to maximize our impact."
+      }
+    ],
+    "programs": "Our Programs",
+    "programsList": [
+      {
+        "title": "Shelter & Housing",
+        "desc": "Providing safe and secure housing for refugee seniors and families who have lost their homes."
+      },
+      {
+        "title": "Food & Nutrition",
+        "desc": "Ensuring access to nutritious meals and food security for vulnerable families and seniors."
+      },
+      {
+        "title": "Healthcare Support",
+        "desc": "Connecting refugees with essential healthcare services and medical assistance."
+      },
+      {
+        "title": "Education & Training",
+        "desc": "Offering educational opportunities and skills training to help refugees rebuild their lives."
+      },
+      {
+        "title": "Spiritual Care",
+        "desc": "Providing pastoral care, Bible study, and spiritual support to nurture faith and hope."
+      },
+      {
+        "title": "Community Building",
+        "desc": "Creating supportive communities where refugees can find belonging and mutual support."
+      }
+    ],
+    "impact": "Our Impact",
+    "impactDesc": "Through our programs, we have been able to support hundreds of refugee families and seniors across multiple countries, providing them with essential resources, spiritual care, and hope for the future.",
+    "getInvolved": "Get Involved",
+    "getInvolvedDesc": "You can make a difference in the lives of refugee seniors and displaced families. Join us in our mission to provide shelter, support, and hope.",
+    "waysToHelp": "Ways to Help",
+    "donate": "Donate",
+    "donateDesc": "Your financial contributions help us provide essential resources, shelter, and support to those in need.",
+    "volunteer": "Volunteer",
+    "volunteerDesc": "Join our team of dedicated volunteers who serve refugees and displaced families in various capacities.",
+    "pray": "Pray",
+    "prayDesc": "Pray for the refugees we serve, our ministry team, and for peace and stability in regions affected by displacement.",
+    "partner": "Partner With Us",
+    "partnerDesc": "Churches and organizations can partner with us to expand our reach and impact in serving refugees worldwide."
+  },
+  "cta": {
+    "title": "Join Us This Sunday",
+    "subtitle": "Experience the love of God in a welcoming, multicultural community. We'd love to have you join us!",
+    "visit": "Visit Us"
+  },
+  "leadership": {
+    "title": "Church Leadership & Administration",
+    "subtitle": "Meet the dedicated leaders who guide and serve our church community.",
+    "seniorPastor": "Senior Pastor",
+    "pastors": "Pastors",
+    "otherLeaders": "Other Church Leaders",
+    "seniorPastorName": "Rev. Jean Sengiyumva",
+    "seniorPastorTitle": "Senior Pastor",
+    "seniorPastorBio": "Rev. Sengiyumva is a dedicated servant of God with a passion for multi-lingual ministry. Although English is not his first language, he faithfully ministers in English and Kinyarwanda to reach and uplift diverse communities. His calling is rooted in Jeremiah 20:9, carrying God's Word like fire in his bones. He leads our church with wisdom, compassion, and a heart for serving both the local community in Edmonton and our global mission work in Africa.",
+    "pastorsDesc": "Our pastoral team works alongside the Senior Pastor to provide spiritual guidance, pastoral care, and leadership in various ministries. They are committed to nurturing the congregation and supporting the church's mission.",
+    "otherLeadersDesc": "Our church is blessed with dedicated leaders who serve in various capacities including ministry directors, deacons, and administrative staff. These faithful servants help ensure the smooth operation of our church and support our mission to serve God and our community."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy is important to us. Learn how we collect, use, and protect your personal information.",
+    "introduction": {
+      "title": "Introduction",
+      "lastUpdated": "Last updated",
+      "content": "International Anglican Revival Church of Edmonton ('we', 'our', or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our services, or interact with us. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site."
+    },
+    "collection": {
+      "title": "Information We Collect",
+      "content": [
+        "We collect information that you provide directly to us, including:",
+        "We may also automatically collect certain information about your device when you access our website, including:"
+      ],
+      "list": [
+        "Personal identification information (name, email address, phone number, mailing address)",
+        "Information you provide when registering for events, volunteering, or becoming a member",
+        "Payment information when making donations (processed securely through third-party payment processors)",
+        "Information submitted through contact forms, prayer requests, or other communication channels",
+        "Your IP address and browser type",
+        "Pages you visit and time spent on pages",
+        "Referring website addresses",
+        "Device information and operating system"
+      ]
+    },
+    "usage": {
+      "title": "How We Use Your Information",
+      "content": [
+        "We use the information we collect for various purposes, including:"
+      ],
+      "list": [
+        "To provide, maintain, and improve our services and website",
+        "To process donations and manage financial transactions",
+        "To send you updates, newsletters, and information about our services and events",
+        "To respond to your inquiries, comments, and requests",
+        "To manage volunteer registrations and church membership",
+        "To comply with legal obligations and protect our rights",
+        "To analyze website usage and improve user experience"
+      ]
+    },
+    "protection": {
+      "title": "Data Protection and Security",
+      "content": [
+        "We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security."
+      ]
+    },
+    "cookies": {
+      "title": "Cookies and Tracking Technologies",
+      "content": [
+        "We use cookies and similar tracking technologies to track activity on our website and store certain information. Cookies are files with a small amount of data which may include an anonymous unique identifier. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our website."
+      ]
+    },
+    "rights": {
+      "title": "Your Privacy Rights",
+      "content": [
+        "Depending on your location, you may have certain rights regarding your personal information, including:"
+      ],
+      "list": [
+        "The right to access – You have the right to request copies of your personal data",
+        "The right to rectification – You have the right to request correction of inaccurate information",
+        "The right to erasure – You have the right to request deletion of your personal data",
+        "The right to restrict processing – You have the right to request restriction of processing your personal data",
+        "The right to object to processing – You have the right to object to our processing of your personal data",
+        "The right to data portability – You have the right to request transfer of your data to another service"
+      ]
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "content": [
+        "Our website and services are not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately."
+      ]
+    },
+    "changes": {
+      "title": "Changes to This Privacy Policy",
+      "content": [
+        "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the 'Last updated' date. You are advised to review this Privacy Policy periodically for any changes."
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": [
+        "If you have any questions about this Privacy Policy or wish to exercise your privacy rights, please contact us at:",
+        "International Anglican Revival Church of Edmonton",
+        "6110 Fulton Road, Edmonton, AB T6A 3T3, Canada",
+        "Phone: +1 587-778-6406 or +1 825-461-7431",
+        "You can also visit our Contact page for more information."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "subtitle": "Please read these terms carefully before using our website and services.",
+    "introduction": {
+      "title": "Introduction",
+      "lastUpdated": "Last updated",
+      "content": "Welcome to the International Anglican Revival Church of Edmonton website. By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
+    },
+    "agreement": {
+      "title": "Agreement to Terms",
+      "content": [
+        "By accessing this website, you are agreeing to be bound by these Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site."
+      ]
+    },
+    "license": {
+      "title": "Use License",
+      "content": [
+        "Permission is granted to temporarily download one copy of the materials on International Anglican Revival Church of Edmonton's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:"
+      ],
+      "list": [
+        "Modify or copy the materials",
+        "Use the materials for any commercial purpose or for any public display (commercial or non-commercial)",
+        "Attempt to decompile or reverse engineer any software contained on the website",
+        "Remove any copyright or other proprietary notations from the materials",
+        "Transfer the materials to another person or 'mirror' the materials on any other server"
+      ]
+    },
+    "restrictions": {
+      "title": "Restrictions",
+      "content": [
+        "The materials on International Anglican Revival Church of Edmonton's website are provided on an 'as is' basis. International Anglican Revival Church of Edmonton makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights."
+      ]
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": [
+        "The materials appearing on International Anglican Revival Church of Edmonton's website could include technical, typographical, or photographic errors. International Anglican Revival Church of Edmonton does not warrant that any of the materials on its website are accurate, complete, or current. International Anglican Revival Church of Edmonton may make changes to the materials contained on its website at any time without notice."
+      ]
+    },
+    "limitations": {
+      "title": "Limitations",
+      "content": [
+        "In no event shall International Anglican Revival Church of Edmonton or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on International Anglican Revival Church of Edmonton's website, even if International Anglican Revival Church of Edmonton or an authorized representative has been notified orally or in writing of the possibility of such damage."
+      ]
+    },
+    "accuracy": {
+      "title": "Accuracy of Materials",
+      "content": [
+        "The materials appearing on International Anglican Revival Church of Edmonton's website may include technical, typographical, or photographic errors. International Anglican Revival Church of Edmonton does not warrant that any of the materials on its website are accurate, complete, or current. International Anglican Revival Church of Edmonton may make changes to the materials contained on its website at any time without notice."
+      ]
+    },
+    "links": {
+      "title": "Links",
+      "content": [
+        "International Anglican Revival Church of Edmonton has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by International Anglican Revival Church of Edmonton of the site. Use of any such linked website is at the user's own risk."
+      ]
+    },
+    "modifications": {
+      "title": "Modifications",
+      "content": [
+        "International Anglican Revival Church of Edmonton may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service."
+      ]
+    },
+    "governing": {
+      "title": "Governing Law",
+      "content": [
+        "These terms and conditions are governed by and construed in accordance with the laws of Alberta, Canada, and you irrevocably submit to the exclusive jurisdiction of the courts in that province."
+      ]
+    },
+    "contact": {
+      "title": "Contact Information",
+      "content": [
+        "If you have any questions about these Terms & Conditions, please contact us at:",
+        "International Anglican Revival Church of Edmonton",
+        "6110 Fulton Road, Edmonton, AB T6A 3T3, Canada",
+        "Phone: +1 587-778-6406 or +1 825-461-7431",
+        "You can also visit our Contact page for more information."
+      ]
+    }
+  }
+}
+
