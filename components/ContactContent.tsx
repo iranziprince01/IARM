@@ -20,7 +20,7 @@ export default function ContactContent() {
       {/* Hero Section */}
       <PageHero
         title={t('title')}
-        subtitle="We'd love to hear from you. Get in touch with us today!"
+        subtitle={t('subtitle')}
         backgroundImage="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
         backgroundImageAlt="Church community and contact"
       />
@@ -143,18 +143,16 @@ export default function ContactContent() {
             className="max-w-3xl mx-auto text-center"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Support Our Ministry
+              {t('supportMinistry')}
             </h2>
             <p className="text-xl text-gold-100 leading-relaxed text-justify mb-8">
-              Your generous giving helps us continue our mission of serving
-              communities in Edmonton and around the world. Every contribution
-              makes a difference.
+              {t('supportMinistryDesc')}
             </p>
             <a
               href="#"
               className="inline-block bg-white text-gold-600 hover:bg-gold-50 font-semibold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Donate Now
+              {t('donateNow')}
             </a>
           </motion.div>
         </div>
@@ -170,10 +168,10 @@ export default function ContactContent() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto mb-12"
           >
-            <h2 className="heading-secondary">Events and Resources</h2>
+            <h2 className="heading-secondary">{t('eventsResources')}</h2>
             <div className="bg-white rounded-xl p-6 shadow-md max-w-3xl mx-auto mt-4">
               <p className="text-xl text-gray-700 leading-relaxed text-justify">
-                Stay connected with our community through events and helpful resources.
+                {t('eventsResourcesDesc')}
               </p>
             </div>
           </motion.div>
@@ -181,7 +179,7 @@ export default function ContactContent() {
           {/* Upcoming Events */}
           <div className="mb-16">
             <h3 className="heading-secondary text-center mb-8">
-              Upcoming Events
+              {t('upcomingEvents')}
             </h3>
             <div className="max-w-4xl mx-auto">
               <motion.div
@@ -195,9 +193,7 @@ export default function ContactContent() {
                   <CalendarIcon className="w-20 h-20 text-gold-600" />
                 </div>
                 <p className="text-lg text-gray-600 leading-relaxed text-justify">
-                  Check back soon for upcoming events and activities. We're
-                  planning exciting gatherings, workshops, and community
-                  outreach programs.
+                  {t('upcomingEventsDesc')}
                 </p>
               </motion.div>
             </div>
@@ -209,23 +205,23 @@ export default function ContactContent() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
               {[
                 {
-                  title: 'Bible Study Materials',
-                  desc: 'Access study guides and resources for your spiritual growth.',
+                  title: t('resources.bibleStudy'),
+                  desc: t('resources.bibleStudyDesc'),
                   Icon: BookOpenIcon,
                 },
                 {
-                  title: 'Prayer Requests',
-                  desc: 'Submit prayer requests and join our prayer community.',
+                  title: t('resources.prayerRequests'),
+                  desc: t('resources.prayerRequestsDesc'),
                   Icon: HandRaisedIcon,
                 },
                 {
-                  title: 'Ministry Resources',
-                  desc: 'Resources for serving in various ministries.',
+                  title: t('resources.ministryResources'),
+                  desc: t('resources.ministryResourcesDesc'),
                   Icon: BriefcaseIcon,
                 },
                 {
-                  title: 'Community Support',
-                  desc: 'Information about community services and support programs.',
+                  title: t('resources.communitySupport'),
+                  desc: t('resources.communitySupportDesc'),
                   Icon: UserGroupIcon,
                 },
               ].map((resource, index) => (
@@ -261,13 +257,10 @@ export default function ContactContent() {
             transition={{ duration: 0.8 }}
             className="max-w-3xl mx-auto text-center"
           >
-            <h2 className="heading-secondary mb-4">Get Involved</h2>
+            <h2 className="heading-secondary mb-4">{t('getInvolved')}</h2>
             <div className="bg-white rounded-xl p-6 md:p-8 shadow-md mb-8">
               <p className="text-lg text-gray-700 leading-relaxed text-justify">
-                We welcome volunteers who want to serve and make a difference in
-                our community. Whether you're interested in music, children's
-                ministry, outreach, or administration, there's a place for you to
-                serve.
+                {t('getInvolvedDesc')}
               </p>
             </div>
             <a

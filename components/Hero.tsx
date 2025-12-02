@@ -42,7 +42,7 @@ export default function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold text-white mb-4 sm:mb-6 leading-tight"
           >
-            Welcome to International Anglican Revival Church
+            {t('title')}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -63,14 +63,14 @@ export default function Hero() {
               prefetch={true}
               className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gold-500 hover:bg-gold-600 text-white font-semibold rounded-lg transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 text-base sm:text-lg"
             >
-              Worship With Us
+              {t('worshipWithUs')}
             </Link>
             <Link
               href={locale === defaultLocale ? '/donate' : `/${locale}/donate`}
               prefetch={true}
               className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold rounded-lg border-2 border-white/30 hover:border-white/50 transition-all duration-300 text-base sm:text-lg"
             >
-              Donate
+              {t('donate')}
             </Link>
           </motion.div>
           
@@ -83,10 +83,10 @@ export default function Hero() {
           >
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
               <p className="text-lg md:text-xl text-white italic text-center leading-relaxed mb-2">
-                "Come to me, all you who are weary and burdened, and I will give you rest."
+                "{t('bibleVerse')}"
               </p>
               <p className="text-base text-gold-200 text-center font-semibold">
-                — Matthew 11:28
+                {t('bibleVerseRef')}
               </p>
             </div>
           </motion.div>

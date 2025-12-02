@@ -30,15 +30,21 @@
     "sermons": "sermons",
     "subscribeDesc": "Get uplifting Sermons delivered to your inbox every week. Stay inspired and connected with God.",
     "emailPlaceholder": "Enter your email",
-    "subscribeButton": "Subscribe"
+    "subscribeButton": "Subscribe",
+    "description": "International Anglican Revival Church of Edmonton - A vibrant Christian community dedicated to spiritual growth, compassion, and service.",
+    "copyright": "© {year} International Anglican Revival Church of Edmonton. All rights reserved.",
+    "addressLabel": "Address"
   },
   "home": {
     "title": "Welcome to International Anglican Revival Church of Edmonton",
-    "subtitle": "International Anglican Revival Church of Edmonton",
+    "subtitle": "A vibrant Christian community dedicated to spiritual growth, compassion, and service.",
     "cta": "Join Us This Sunday",
     "learnMore": "Learn More",
     "donate": "Donate / Give",
-    "visit": "Visit Us"
+    "visit": "Visit Us",
+    "worshipWithUs": "Worship With Us",
+    "bibleVerse": "Come to me, all you who are weary and burdened, and I will give you rest.",
+    "bibleVerseRef": "— Matthew 11:28"
   },
   "about": {
     "title": "About Us",
@@ -104,6 +110,7 @@
   },
   "ministries": {
     "title": "Our Ministries",
+    "subtitle": "Discover how you can get involved and grow in faith through our various ministries.",
     "worship": "Worship & Music",
     "worshipDesc": "Engaging worship services that celebrate God's presence through music, prayer, and praise.",
     "youth": "Youth Ministry",
@@ -115,7 +122,11 @@
     "men": "Men's Ministry",
     "menDesc": "Strengthening men through accountability, mentorship, and biblical teaching.",
     "missions": "Missions & Outreach",
-    "missionsDesc": "Extending God's love globally through partnerships, support programs, and community service."
+    "missionsDesc": "Extending God's love globally through partnerships, support programs, and community service.",
+    "refugeeSupport": "Refugee Support Programs",
+    "refugeeSupportDesc": "Our church maintains active partnerships with congregations and refugee communities in Uganda, Kenya, and Rwanda. Through these collaborations we offer support for vulnerable families, education assistance for refugee children, distribution of Bibles and Christian resources, community development programs, pastoral and ministry support, and strengthening local churches.",
+    "getInvolved": "Get Involved",
+    "viewAll": "View All Ministries"
   },
   "services": {
     "title": "Service Times",
@@ -134,10 +145,14 @@
     "latest": "Latest Messages",
     "watch": "Watch Now",
     "listen": "Listen Now",
-    "comingSoon": "New sermons coming soon. Check back regularly for updates."
+    "comingSoon": "New sermons coming soon. Check back regularly for updates.",
+    "workingOn": "We're working on bringing you our latest sermons and messages. Check back soon or join us in person for our weekly services.",
+    "visitUs": "Visit Us",
+    "serviceTimes": "Service Times"
   },
   "contact": {
     "title": "Contact Us",
+    "subtitle": "We'd love to hear from you. Get in touch with us today!",
     "visit": "Visit Us",
     "address": "6110 Fulton Road, Edmonton, AB T6A 3T3",
     "phone": "Phone",
@@ -157,7 +172,26 @@
     "serviceTimes": "Service Times",
     "sunday": "Sunday: 10:00 AM",
     "wednesday": "Wednesday: 7:00 PM (Prayer)",
-    "thursday": "Thursday: 7:00 PM (Bible Study)"
+    "thursday": "Thursday: 7:00 PM (Bible Study)",
+    "supportMinistry": "Support Our Ministry",
+    "supportMinistryDesc": "Your generous giving helps us continue our mission of serving communities in Edmonton and around the world. Every contribution makes a difference.",
+    "donateNow": "Donate Now",
+    "eventsResources": "Events and Resources",
+    "eventsResourcesDesc": "Stay connected with our community through events and helpful resources.",
+    "upcomingEvents": "Upcoming Events",
+    "upcomingEventsDesc": "Check back soon for upcoming events and activities. We're planning exciting gatherings, workshops, and community outreach programs.",
+    "resources": {
+      "bibleStudy": "Bible Study Materials",
+      "bibleStudyDesc": "Access study guides and resources for your spiritual growth.",
+      "prayerRequests": "Prayer Requests",
+      "prayerRequestsDesc": "Submit prayer requests and join our prayer community.",
+      "ministryResources": "Ministry Resources",
+      "ministryResourcesDesc": "Resources for serving in various ministries.",
+      "communitySupport": "Community Support",
+      "communitySupportDesc": "Information about community services and support programs."
+    },
+    "getInvolved": "Get Involved",
+    "getInvolvedDesc": "We welcome volunteers who want to serve and make a difference in our community. Whether you're interested in music, children's ministry, outreach, or administration, there's a place for you to serve at International Anglican Revival Church of Edmonton."
   },
   "africa": {
     "title": "Our Work in Africa",
@@ -241,7 +275,9 @@
     "bankTransferDesc": "For recurring donations or larger amounts, contact us for our bank account details.",
     "everyGift": "Every Gift Matters",
     "everyGiftDesc": "Your contributions support our ministries, missions, community outreach, and church operations. Every gift, no matter the size, makes a difference in advancing God's kingdom.",
-    "contact": "Contact Us About Giving"
+    "contact": "Contact Us About Giving",
+    "donateNow": "Donate Now →",
+    "volunteerNow": "Volunteer Now →"
   },
   "servicesSermons": {
     "title": "Services and Sermons",
@@ -254,6 +290,8 @@
     "subtitle": "Serving vulnerable refugees, seniors, and displaced families with compassion and dignity",
     "about": "About the Foundation",
     "aboutDesc": "Shelter of Refugee Seniors International Ministries (SRSIM) is a compassionate ministry dedicated to serving vulnerable refugees, seniors, and displaced families around the world. We provide essential support, resources, and hope to those who have been forced to flee their homes due to conflict, persecution, or natural disasters.",
+    "donateNow": "Donate Now →",
+    "volunteerNow": "Volunteer Now →",
     "mission": "Our Mission",
     "missionText": "To provide shelter, support, and spiritual care to refugee seniors and displaced families, helping them rebuild their lives with dignity and hope while sharing the love of Christ.",
     "vision": "Our Vision",
@@ -326,6 +364,11 @@
     "title": "Join Us This Sunday",
     "subtitle": "Experience the love of God in a welcoming, multicultural community. We'd love to have you join us!",
     "visit": "Visit Us"
+  },
+  "getInvolvedPage": {
+    "title": "Get Involved",
+    "subtitle": "There are many ways to get involved and grow in your faith. Find the opportunity that's right for you.",
+    "learnMore": "Learn More"
   },
   "leadership": {
     "title": "Church Leadership & Administration",

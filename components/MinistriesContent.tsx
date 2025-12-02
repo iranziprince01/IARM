@@ -36,7 +36,7 @@ export default function MinistriesContent() {
       {/* Hero Section */}
       <PageHero
         title={t('title')}
-        subtitle="Discover how you can get involved and grow in faith through our various ministries."
+        subtitle={t('subtitle')}
         backgroundImage="https://images.unsplash.com/photo-1507692049790-de58290a4334?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
         backgroundImageAlt="Church ministries and service"
       />
@@ -89,21 +89,16 @@ export default function MinistriesContent() {
             id="refugee"
           >
             <div className="bg-gradient-to-r from-blue-600 via-blue-500 to-gold-500 rounded-xl p-8 text-white shadow-xl">
-              <h2 className="text-3xl font-bold mb-4">Refugee Support Programs</h2>
+              <h2 className="text-3xl font-bold mb-4">{t('refugeeSupport')}</h2>
               <p className="text-lg text-gold-100 leading-relaxed text-justify mb-6">
-                Our church maintains active partnerships with congregations and
-                refugee communities in Uganda, Kenya, and Rwanda. Through these
-                collaborations we offer support for vulnerable families, education
-                assistance for refugee children, distribution of Bibles and
-                Christian resources, community development programs, pastoral and
-                ministry support, and strengthening local churches.
+                {t('refugeeSupportDesc')}
               </p>
               <Link
                 href={getPath('/foundation')}
                 prefetch={true}
                 className="inline-block bg-white text-gold-600 hover:bg-gold-50 font-semibold py-3 px-6 rounded-lg transition-all duration-300"
               >
-                Get Involved
+                {t('getInvolved')}
               </Link>
             </div>
           </motion.div>

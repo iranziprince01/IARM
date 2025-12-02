@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import {
   CalendarIcon,
@@ -10,6 +11,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 export default function EventsResourcesContent() {
+  const t = useTranslations('contact');
   return (
     <div className="pt-24">
       <section className="section-padding bg-gradient-to-br from-gold-50 to-white">
@@ -20,11 +22,10 @@ export default function EventsResourcesContent() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto mb-12"
           >
-            <h1 className="heading-primary">Events and Resources</h1>
+            <h1 className="heading-primary">{t('eventsResources')}</h1>
             <div className="bg-white rounded-xl p-6 shadow-md max-w-3xl mx-auto mt-4">
               <p className="text-xl text-gray-700 leading-relaxed text-justify">
-                Stay connected with our community through events and helpful
-                resources.
+                {t('eventsResourcesDesc')}
               </p>
             </div>
           </motion.div>
@@ -32,7 +33,7 @@ export default function EventsResourcesContent() {
           {/* Upcoming Events */}
           <div className="mb-16">
             <h2 className="heading-secondary text-center mb-8">
-              Upcoming Events
+              {t('upcomingEvents')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <motion.div
@@ -46,9 +47,7 @@ export default function EventsResourcesContent() {
                   <CalendarIcon className="w-20 h-20 text-gold-600" />
                 </div>
                 <p className="text-lg text-gray-600 leading-relaxed text-justify">
-                  Check back soon for upcoming events and activities. We're
-                  planning exciting gatherings, workshops, and community
-                  outreach programs.
+                  {t('upcomingEventsDesc')}
                 </p>
               </motion.div>
             </div>
@@ -56,27 +55,27 @@ export default function EventsResourcesContent() {
 
           {/* Resources */}
           <div className="max-w-4xl mx-auto">
-            <h2 className="heading-secondary text-center mb-8">Resources</h2>
+            <h2 className="heading-secondary text-center mb-8">{t('eventsResources')}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
               {[
                 {
-                  title: 'Bible Study Materials',
-                  desc: 'Access study guides and resources for your spiritual growth.',
+                  title: t('resources.bibleStudy'),
+                  desc: t('resources.bibleStudyDesc'),
                   Icon: BookOpenIcon,
                 },
                 {
-                  title: 'Prayer Requests',
-                  desc: 'Submit prayer requests and join our prayer community.',
+                  title: t('resources.prayerRequests'),
+                  desc: t('resources.prayerRequestsDesc'),
                   Icon: HandRaisedIcon,
                 },
                 {
-                  title: 'Ministry Resources',
-                  desc: 'Resources for serving in various ministries.',
+                  title: t('resources.ministryResources'),
+                  desc: t('resources.ministryResourcesDesc'),
                   Icon: BriefcaseIcon,
                 },
                 {
-                  title: 'Community Support',
-                  desc: 'Information about community services and support programs.',
+                  title: t('resources.communitySupport'),
+                  desc: t('resources.communitySupportDesc'),
                   Icon: UserGroupIcon,
                 },
               ].map((resource, index) => (

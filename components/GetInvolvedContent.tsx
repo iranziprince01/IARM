@@ -13,6 +13,7 @@ import { defaultLocale } from '@/i18n/request';
 
 export default function GetInvolvedContent({ locale }: { locale: string }) {
   const t = useTranslations('nav');
+  const tPage = useTranslations('getInvolvedPage');
 
   const getPath = (path: string) => {
     return locale === defaultLocale ? path : `/${locale}${path}`;
@@ -53,8 +54,8 @@ export default function GetInvolvedContent({ locale }: { locale: string }) {
     <div>
       {/* Hero Section */}
       <PageHero
-        title="Get Involved"
-        subtitle="There are many ways to get involved and grow in your faith. Find the opportunity that's right for you."
+        title={tPage('title')}
+        subtitle={tPage('subtitle')}
         backgroundImage="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
         backgroundImageAlt="Church community involvement"
       />
@@ -83,7 +84,7 @@ export default function GetInvolvedContent({ locale }: { locale: string }) {
                     {option.desc}
                   </p>
                   <Link href={option.href} prefetch={true} className="inline-block btn-primary">
-                    Learn More
+                    {tPage('learnMore')}
                   </Link>
                 </div>
               </motion.div>

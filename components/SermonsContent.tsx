@@ -51,8 +51,7 @@ export default function SermonsContent() {
               {t('latest')}
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed text-justify mb-8">
-              We're working on bringing you our latest sermons and messages.
-              Check back soon or join us in person for our weekly services.
+              {t('workingOn')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -60,14 +59,14 @@ export default function SermonsContent() {
                 prefetch={true}
                 className="btn-primary"
               >
-                Visit Us
+                {t('visitUs')}
               </Link>
               <Link
                 href={getPath('/services-sermons')}
                 prefetch={true}
                 className="btn-secondary"
               >
-                Service Times
+                {t('serviceTimes')}
               </Link>
             </div>
           </motion.div>

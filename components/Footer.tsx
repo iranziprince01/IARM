@@ -66,13 +66,11 @@ export default function Footer() {
               </h3>
             </div>
             <p className="text-sm mb-4">
-              International Anglican Revival Church of Edmonton - A vibrant
-              Christian community dedicated to spiritual growth, compassion, and
-              service.
+              {t('description')}
             </p>
             <div className="space-y-2 text-sm">
               <p>
-                <span className="font-semibold">Address:</span>
+                <span className="font-semibold">{t('addressLabel')}:</span>
                 <br />
                 {t('address')}
               </p>
@@ -201,8 +199,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-center text-sm">
           <p>
-            © {new Date().getFullYear()} International Anglican Revival Church
-            of Edmonton. All rights reserved.
+            {t('copyright', { year: new Date().getFullYear() })}
           </p>
         </div>
       </div>

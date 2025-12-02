@@ -21,6 +21,7 @@ import { defaultLocale } from '@/i18n/request';
 
 export default function FoundationContent() {
   const t = useTranslations('foundation');
+  const tFoundation = useTranslations('foundation');
   const locale = useLocale();
 
   const getPath = (path: string) => {
@@ -297,9 +298,10 @@ export default function FoundationContent() {
               </p>
               <Link
                 href={getPath('/donate')}
+                prefetch={true}
                 className="inline-block bg-white text-gold-600 hover:bg-gold-50 font-bold py-4 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
               >
-                Donate Now
+                {tButtons('donateNow').replace(' →', '')}
               </Link>
             </motion.div>
           </div>
@@ -394,7 +396,7 @@ export default function FoundationContent() {
                       prefetch={true}
                       className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm"
                     >
-                      Donate Now →
+                      {tButtons('donateNow')}
                     </Link>
                   )}
                   {item.key === 'volunteer' && (
@@ -403,7 +405,7 @@ export default function FoundationContent() {
                       prefetch={true}
                       className="inline-block text-blue-600 hover:text-blue-700 font-semibold text-sm"
                     >
-                      Volunteer Now →
+                      {tButtons('volunteerNow')}
                     </Link>
                   )}
                 </motion.div>

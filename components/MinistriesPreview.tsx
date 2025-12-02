@@ -66,7 +66,7 @@ export default function MinistriesPreview() {
             prefetch={true}
             className="btn-primary"
           >
-            View All Ministries
+            {t('viewAll')}
           </Link>
         </div>
       </div>
