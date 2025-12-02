@@ -391,6 +391,7 @@ export default function FoundationContent() {
                   {item.key === 'donate' && (
                     <Link
                       href={getPath('/donate')}
+                      prefetch={true}
                       className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm"
                     >
                       Donate Now →
@@ -399,6 +400,7 @@ export default function FoundationContent() {
                   {item.key === 'volunteer' && (
                     <Link
                       href={getPath('/get-involved/volunteer')}
+                      prefetch={true}
                       className="inline-block text-blue-600 hover:text-blue-700 font-semibold text-sm"
                     >
                       Volunteer Now →

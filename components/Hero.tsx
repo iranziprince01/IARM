@@ -59,13 +59,15 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-8"
           >
             <Link 
-              href={locale === defaultLocale ? '/services-sermons' : `/${locale}/services-sermons`} 
+              href={locale === defaultLocale ? '/services-sermons' : `/${locale}/services-sermons`}
+              prefetch={true}
               className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gold-500 hover:bg-gold-600 text-white font-semibold rounded-lg transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 text-base sm:text-lg"
             >
               Worship With Us
             </Link>
             <Link
               href={locale === defaultLocale ? '/donate' : `/${locale}/donate`}
+              prefetch={true}
               className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold rounded-lg border-2 border-white/30 hover:border-white/50 transition-all duration-300 text-base sm:text-lg"
             >
               Donate

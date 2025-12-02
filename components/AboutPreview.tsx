@@ -55,6 +55,7 @@ export default function AboutPreview() {
           <div className="mt-8 text-center">
             <Link
               href={locale === defaultLocale ? '/about' : `/${locale}/about`}
+              prefetch={true}
               className="btn-primary inline-block"
             >
               {t('title')}

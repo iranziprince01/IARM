@@ -30,12 +30,14 @@ export default function CallToAction() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href={locale === defaultLocale ? '/contact' : `/${locale}/contact`}
+              prefetch={true}
               className="bg-white text-gold-600 hover:bg-gold-50 font-semibold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
               {t('visit')}
             </Link>
             <Link
               href={locale === defaultLocale ? '/contact#donate' : `/${locale}/contact#donate`}
+              prefetch={true}
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-gold-600 font-semibold py-3 px-8 rounded-lg transition-all duration-300"
             >
               {tHome('donate')}

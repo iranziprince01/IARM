@@ -94,6 +94,7 @@ export default function Footer() {
                 <li key={link.key}>
                   <Link
                     href={link.href}
+                    prefetch={true}
                     className="text-sm hover:text-gold-400 hover:text-blue-300 transition-colors"
                   >
                     {t(link.key)}
@@ -111,6 +112,7 @@ export default function Footer() {
                 <li key={link.key}>
                   <Link
                     href={link.href}
+                    prefetch={true}
                     className="text-sm hover:text-gold-400 hover:text-blue-300 transition-colors"
                   >
                     {t(link.key)}

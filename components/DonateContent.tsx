@@ -97,6 +97,7 @@ export default function DonateContent() {
                 </p>
                 <Link
                   href={getContactPath()}
+                  prefetch={true}
                   className="inline-block bg-white text-gold-600 hover:bg-gold-50 font-semibold py-3 px-8 rounded-lg transition-all duration-300"
                 >
                   {t('contact')}

@@ -63,12 +63,12 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? 'bg-white shadow-lg'
-          : 'bg-white/95 backdrop-blur-sm'
-      }`}
-    >
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+          isScrolled
+            ? 'bg-white shadow-lg'
+            : 'bg-white/95 backdrop-blur-sm'
+        }`}
+      >
       <nav className="container-custom py-3 md:py-4 px-2 sm:px-3 md:px-4 lg:px-6 xl:px-8">
         <div className="flex items-center justify-between w-full gap-4 lg:gap-8">
           {/* Logo and Name - Left Aligned */}
@@ -95,6 +95,7 @@ export default function Header() {
               <Link
                 key={item.key}
                 href={item.href}
+                prefetch={true}
                 className={`px-3 py-2 rounded-lg transition-colors duration-200 text-sm font-bold ${
                   isActive(item.href)
                     ? 'bg-gold-500 text-white'
@@ -137,6 +138,7 @@ export default function Header() {
                     <Link
                       key={item.key}
                       href={item.href}
+                      prefetch={true}
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gold-50 hover:text-gold-600 transition-colors"
                     >
                       {t(item.key)}
@@ -148,6 +150,7 @@ export default function Header() {
 
                     <Link
                       href={locale === defaultLocale ? '/contact' : `/${locale}/contact`}
+                      prefetch={true}
                       className={`px-3 py-2 rounded-lg transition-colors duration-200 text-sm font-bold ${
                         isActive(locale === defaultLocale ? '/contact' : `/${locale}/contact`)
                           ? 'bg-gold-500 text-white'
@@ -162,6 +165,7 @@ export default function Header() {
                   <div className="hidden lg:flex items-center space-x-3 xl:space-x-4 flex-shrink-0 -mr-2 sm:-mr-3 md:-mr-4 lg:-mr-6 xl:-mr-8">
                     <Link
                       href={locale === defaultLocale ? '/donate' : `/${locale}/donate`}
+                      prefetch={true}
               className="px-3 py-2 rounded-lg bg-gold-500 text-white hover:bg-gold-600 transition-colors duration-200 font-semibold text-sm shadow-md hover:shadow-lg"
             >
               {t('donate')}
@@ -206,6 +210,7 @@ export default function Header() {
                 <Link
                   key={item.key}
                   href={item.href}
+                  prefetch={true}
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`block px-4 py-3 rounded-lg transition-colors ${
                     isActive(item.href)
@@ -244,6 +249,7 @@ export default function Header() {
                       <Link
                         key={item.key}
                         href={item.href}
+                        prefetch={true}
                         onClick={() => {
                           setIsMobileMenuOpen(false);
                           setIsGetInvolvedOpen(false);
@@ -259,6 +265,7 @@ export default function Header() {
 
                       <Link
                         href={locale === defaultLocale ? '/contact' : `/${locale}/contact`}
+                        prefetch={true}
                         onClick={() => setIsMobileMenuOpen(false)}
                         className={`block px-4 py-3 rounded-lg transition-colors ${
                           isActive(locale === defaultLocale ? '/contact' : `/${locale}/contact`)
@@ -271,6 +278,7 @@ export default function Header() {
 
                       <Link
                         href={locale === defaultLocale ? '/donate' : `/${locale}/donate`}
+                        prefetch={true}
                         onClick={() => setIsMobileMenuOpen(false)}
                         className="block px-4 py-3 rounded-lg bg-gold-500 text-white hover:bg-gold-600 transition-colors font-semibold text-center shadow-md"
                       >

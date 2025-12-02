@@ -100,6 +100,7 @@ export default function MinistriesContent() {
               </p>
               <Link
                 href={getPath('/foundation')}
+                prefetch={true}
                 className="inline-block bg-white text-gold-600 hover:bg-gold-50 font-semibold py-3 px-6 rounded-lg transition-all duration-300"
               >
                 Get Involved

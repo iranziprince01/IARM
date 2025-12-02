@@ -61,7 +61,11 @@ export default function MinistriesPreview() {
           ))}
         </div>
         <div className="mt-8 text-center">
-          <Link href={locale === defaultLocale ? '/ministries' : `/${locale}/ministries`} className="btn-primary">
+          <Link 
+            href={locale === defaultLocale ? '/ministries' : `/${locale}/ministries`}
+            prefetch={true}
+            className="btn-primary"
+          >
             View All Ministries
           </Link>
         </div>

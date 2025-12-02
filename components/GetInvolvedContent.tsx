@@ -82,7 +82,7 @@ export default function GetInvolvedContent({ locale }: { locale: string }) {
                   <p className="text-gray-700 leading-relaxed text-justify mb-4">
                     {option.desc}
                   </p>
-                  <Link href={option.href} className="inline-block btn-primary">
+                  <Link href={option.href} prefetch={true} className="inline-block btn-primary">
                     Learn More
                   </Link>
                 </div>

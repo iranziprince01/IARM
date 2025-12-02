@@ -235,17 +235,15 @@ export default function AboutContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-white p-8 rounded-xl shadow-lg"
+              className="bg-white p-6 md:p-8 rounded-xl shadow-md"
             >
               <h2 className="heading-secondary mb-6">{t('leadership')}</h2>
               <h3 className="text-2xl font-bold text-gold-600 mb-4">
                 {t('pastor')}
               </h3>
-              <div className="bg-white rounded-xl p-6 shadow-md">
-                <p className="text-lg text-gray-700 leading-relaxed text-justify">
-                  {t('pastorBio')}
-                </p>
-              </div>
+              <p className="text-lg text-gray-700 leading-relaxed text-justify">
+                {t('pastorBio')}
+              </p>
             </motion.div>
           </div>
         </div>

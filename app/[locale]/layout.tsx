@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { locales } from '@/i18n/request';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PageTransition from '@/components/PageTransition';
 import Script from 'next/script';
 import './globals.css';
 
@@ -77,6 +78,7 @@ export default async function LocaleLayout({
         <meta name="msapplication-TileColor" content="#1e40af" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://images.pexels.com" />
         <link rel="manifest" href="/manifest.webmanifest" />
@@ -95,7 +97,9 @@ export default async function LocaleLayout({
             Skip to main content
           </a>
           <Header />
-          <main id="main-content" className="min-h-screen">{children}</main>
+          <PageTransition>
+            <main id="main-content" className="min-h-screen">{children}</main>
+          </PageTransition>
           <Footer />
         </NextIntlClientProvider>
       </body>

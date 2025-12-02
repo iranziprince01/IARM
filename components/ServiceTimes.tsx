@@ -61,7 +61,11 @@ export default function ServiceTimes() {
             ))}
           </div>
           <div className="mt-8 text-center">
-            <Link href={locale === defaultLocale ? '/services-sermons' : `/${locale}/services-sermons`} className="btn-primary">
+            <Link 
+              href={locale === defaultLocale ? '/services-sermons' : `/${locale}/services-sermons`}
+              prefetch={true}
+              className="btn-primary"
+            >
               {t('title')}
             </Link>
           </div>
