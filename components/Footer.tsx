@@ -57,7 +57,7 @@ export default function Footer() {
     { key: 'africa', href: getPath('/about#africa') },
     { key: 'refugee', href: getPath('/ministries#refugee') },
     { key: 'volunteer', href: getPath('/contact#volunteer') },
-    { key: 'donate', href: getPath('/contact#donate') },
+    { key: 'donate', href: getPath('/donate') },
     { key: 'privacy', href: getPath('/privacy') },
     { key: 'terms', href: getPath('/terms') },
   ];
