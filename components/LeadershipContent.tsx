@@ -56,7 +56,7 @@ export default function LeadershipContent() {
                 {/* Image Section - Left Side */}
                 <div className="relative w-full h-[300px] sm:h-[350px] md:h-[450px] lg:h-[500px] order-2 md:order-1">
                   <Image
-                    src="/images/foundation/009.jpg"
+                    src="/images/foundation/007.jpg"
                     alt={t('seniorPastorName')}
                     fill
                     className="object-cover"
