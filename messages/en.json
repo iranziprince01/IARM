@@ -139,7 +139,7 @@
   "services": {
     "title": "Service Times",
     "sunday": "Sunday Worship",
-    "sundayTime": "10:00 AM",
+    "sundayTime": "1:00 PM",
     "sundayDesc": "Join us for our main worship service featuring inspiring messages, uplifting music, and fellowship.",
     "prayer": "Prayer Meetings",
     "prayerTime": "Wednesday 7:00 PM",
@@ -178,7 +178,7 @@
       "error": "Something went wrong. Please try again."
     },
     "serviceTimes": "Service Times",
-    "sunday": "Sunday: 10:00 AM",
+    "sunday": "Sunday: 1:00 PM",
     "wednesday": "Wednesday: 7:00 PM (Prayer)",
     "thursday": "Thursday: 7:00 PM (Bible Study)",
     "supportMinistry": "Support Our Ministry",

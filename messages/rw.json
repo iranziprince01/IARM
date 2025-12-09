@@ -138,7 +138,7 @@
   "services": {
     "title": "Igihe cy'Ubwoba",
     "sunday": "Gusenga kwa Kwezi",
-    "sundayTime": "10:00 AM",
+    "sundayTime": "1:00 PM",
     "sundayDesc": "Dufatanye kuri serivisi yacu y'ubusenga ihariye ifite inyigisho zihariye, umuziki wihariye, n'ubwoba.",
     "prayer": "Inama z'Umusengesho",
     "prayerTime": "Ku wa Kabiri 7:00 PM",
@@ -177,7 +177,7 @@
       "error": "Ikintu cyahindutse. Nyamuneka wongere ugerageze."
     },
     "serviceTimes": "Igihe cy'Ubwoba",
-    "sunday": "Kwezi: 10:00 AM",
+    "sunday": "Kwezi: 1:00 PM",
     "wednesday": "Ku wa Kabiri: 7:00 PM (Umusengesho)",
     "thursday": "Ku wa Kane: 7:00 PM (Kwigisha Bibiliya)",
     "supportMinistry": "Gufasha Minisiteri yacu",
