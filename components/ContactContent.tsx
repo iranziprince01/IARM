@@ -71,6 +71,20 @@ export default function ContactContent() {
                       </a>
                     </p>
                   </div>
+                  <div>
+                    <p>
+                      <span className="font-semibold text-gold-600">
+                        {t('email')}:
+                      </span>
+                      <br />
+                      <a
+                        href="mailto:info@iarmministries.org"
+                        className="hover:text-gold-600 transition-colors"
+                      >
+                        info@iarmministries.org
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
 
