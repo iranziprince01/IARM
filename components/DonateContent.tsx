@@ -24,7 +24,7 @@ export default function DonateContent() {
       <PageHero
         title={t('title')}
         subtitle={t('subtitle')}
-        backgroundImage="/images/foundation/008.jpg"
+        backgroundImage="/images/foundation/005.jpg"
         backgroundImageAlt="Church giving and donation"
       />
 
