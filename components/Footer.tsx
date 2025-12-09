@@ -100,6 +100,16 @@ export default function Footer() {
                 <br />
                 +1 825-461-7431
               </p>
+              <p>
+                <span className="font-semibold">{t('email')}:</span>
+                <br />
+                <a
+                  href="mailto:info@iarmministries.org"
+                  className="hover:text-gold-400 hover:text-blue-300 transition-colors"
+                >
+                  info@iarmministries.org
+                </a>
+              </p>
             </div>
           </div>
 
