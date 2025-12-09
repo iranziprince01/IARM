@@ -70,13 +70,89 @@ export default function DonationForm() {
     setSubmitStatus('idle');
 
     try {
-      // In a real application, you would send this to a payment processing API
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      console.log('Donation form data:', data);
-      setSubmitStatus('success');
-      reset();
-      setSelectedCountry('');
+      // Handle different payment methods
+      if (data.paymentMethod === 'credit-debit') {
+        // Stripe Checkout for credit/debit cards
+        const response = await fetch('/api/stripe/checkout', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            amount: data.amount,
+            fullName: data.fullName,
+            email: data.email,
+            message: data.message || '',
+            paymentMethod: data.paymentMethod,
+          }),
+        });
+
+        if (!response.ok) {
+          const errorData = await response.json();
+          throw new Error(errorData.error || 'Failed to create checkout session');
+        }
+
+        const { url } = await response.json();
+        
+        if (url) {
+          // Redirect to Stripe Checkout
+          window.location.href = url;
+        } else {
+          throw new Error('No checkout URL received');
+        }
+      } else if (data.paymentMethod === 'bank-transfer') {
+        // PLACEHOLDER: Bank transfer API
+        const response = await fetch('/api/stripe/bank-transfer', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            amount: data.amount,
+            fullName: data.fullName,
+            email: data.email,
+            message: data.message || '',
+          }),
+        });
+
+        const result = await response.json();
+        
+        if (response.status === 501) {
+          // Feature not yet available
+          setSubmitStatus('error');
+          alert(result.message || 'Bank transfer is not yet available. Please use credit/debit card.');
+        } else {
+          throw new Error(result.error || 'Failed to process bank transfer');
+        }
+      } else if (data.paymentMethod === 'interac') {
+        // PLACEHOLDER: Interac e-Transfer API
+        const response = await fetch('/api/stripe/interac', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            amount: data.amount,
+            fullName: data.fullName,
+            email: data.email,
+            message: data.message || '',
+          }),
+        });
+
+        const result = await response.json();
+        
+        if (response.status === 501) {
+          // Feature not yet available
+          setSubmitStatus('error');
+          alert(result.message || 'Interac e-Transfer is not yet available. Please use credit/debit card.');
+        } else {
+          throw new Error(result.error || 'Failed to process Interac e-Transfer');
+        }
+      } else {
+        throw new Error('Invalid payment method selected');
+      }
     } catch (error) {
+      console.error('Donation error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
