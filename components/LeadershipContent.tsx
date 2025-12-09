@@ -57,7 +57,7 @@ export default function LeadershipContent() {
               >
                 <div className="relative w-full h-full">
                   <Image
-                    src="/images/foundation/007.jpg"
+                    src="/images/foundation/012.jpg"
                     alt={t('seniorPastorName')}
                     fill
                     className="object-cover"
@@ -88,7 +88,7 @@ export default function LeadershipContent() {
                   </div>
                 </div>
                 <div className="border-l-4 border-gold-500 pl-4 sm:pl-6">
-                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                  <p className="text-xs sm:text-sm md:text-base text-gray-700 leading-relaxed text-justify">
                     {t('seniorPastorBio')}
                   </p>
                 </div>
