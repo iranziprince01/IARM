@@ -27,7 +27,7 @@ export default function LeadershipContent() {
       {/* Senior Pastor Section */}
       <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -45,42 +45,55 @@ export default function LeadershipContent() {
               </h2>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="bg-white rounded-xl sm:rounded-2xl shadow-xl mx-4 sm:mx-6 overflow-hidden"
-            >
-              <div className="grid grid-cols-1 md:grid-cols-[0.8fr_1.2fr] gap-0">
-                {/* Image Section - Left Side */}
-                <div className="relative w-full h-[300px] sm:h-[350px] md:h-[450px] lg:h-[500px] order-2 md:order-1">
+            {/* Two Separate Cards - Parallel Layout */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 px-4 sm:px-6">
+              {/* Portrait Card - Left */}
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                className="bg-white rounded-xl sm:rounded-2xl shadow-xl overflow-hidden h-[400px] sm:h-[450px] md:h-[500px] lg:h-[550px]"
+              >
+                <div className="relative w-full h-full">
                   <Image
                     src="/images/foundation/007.jpg"
                     alt={t('seniorPastorName')}
                     fill
                     className="object-cover"
-                    style={{ objectPosition: 'center top' }}
+                    style={{ objectPosition: 'center 20%' }}
                     loading="lazy"
                     quality={90}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/20"></div>
+                  {/* Decorative border accent */}
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-gold-500 via-gold-400 to-gold-500"></div>
                 </div>
+              </motion.div>
 
-                {/* Text Section - Right Side */}
-                <div className="p-5 sm:p-6 md:p-8 lg:p-10 flex flex-col justify-center order-1 md:order-2">
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+              {/* Bio Card - Right */}
+              <motion.div
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-6 sm:p-8 md:p-10 lg:p-12 flex flex-col justify-center h-[400px] sm:h-[450px] md:h-[500px] lg:h-[550px]"
+              >
+                <div className="mb-4 sm:mb-5">
+                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3">
                     {t('seniorPastorName')}
                   </h3>
-                  <p className="text-base sm:text-lg text-gold-600 font-semibold mb-4 sm:mb-5 md:mb-6">
+                  <div className="inline-block px-4 py-2 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold rounded-lg text-sm sm:text-base md:text-lg">
                     {t('seniorPastorTitle')}
-                  </p>
+                  </div>
+                </div>
+                <div className="border-l-4 border-gold-500 pl-4 sm:pl-6">
                   <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                     {t('seniorPastorBio')}
                   </p>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            </div>
           </div>
         </div>
       </section>
