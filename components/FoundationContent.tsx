@@ -38,6 +38,7 @@ export default function FoundationContent() {
     '/images/foundation/008.jpg',
     '/images/foundation/009.jpg',
     '/images/foundation/010.jpg',
+    '/images/foundation/011.jpg',
   ];
 
   const valueIcons = [
@@ -57,7 +58,7 @@ export default function FoundationContent() {
       />
 
       {/* About Section */}
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -89,7 +90,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6 }}
-                  className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-md"
+                  className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
                 >
                   <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                     {t('aboutDesc')}
@@ -121,7 +122,7 @@ export default function FoundationContent() {
       </section>
 
       {/* Gallery Section */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-100">
         <div className="container-custom">
           <div className="max-w-7xl mx-auto">
             <motion.div
@@ -150,7 +151,7 @@ export default function FoundationContent() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.5 }}
-                    className="relative aspect-square rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer group"
+                    className="relative aspect-square rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer group"
                     onClick={() => setSelectedImage(image)}
                   >
                     <Image
@@ -192,7 +193,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.1, duration: 0.6 }}
-                  className="bg-gradient-to-br from-gold-50 to-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-lg"
+                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
                 >
                   <div className="relative w-full h-40 sm:h-44 md:h-48 mb-3 sm:mb-4 rounded-lg overflow-hidden">
                     <Image
@@ -214,7 +215,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.2, duration: 0.6 }}
-                  className="bg-gradient-to-br from-blue-50 to-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-lg"
+                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
                 >
                   <div className="relative w-full h-40 sm:h-44 md:h-48 mb-3 sm:mb-4 rounded-lg overflow-hidden">
                     <Image
@@ -236,7 +237,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.3, duration: 0.6 }}
-                  className="bg-gradient-to-br from-purple-50 to-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-lg"
+                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
                 >
                   <div className="relative w-full h-40 sm:h-44 md:h-48 mb-3 sm:mb-4 rounded-lg overflow-hidden">
                     <Image
@@ -273,7 +274,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.1, duration: 0.6 }}
-                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-lg border-l-4 border-blue-500"
+                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl border-l-4 border-blue-500"
                 >
                   <div className="relative w-full h-40 sm:h-44 md:h-48 mb-3 sm:mb-4 rounded-lg overflow-hidden">
                     <Image
@@ -341,7 +342,7 @@ export default function FoundationContent() {
       </section>
 
       {/* Core Values */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-100">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -376,7 +377,7 @@ export default function FoundationContent() {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: index * 0.1, duration: 0.6 }}
-                      className="bg-gradient-to-br from-white to-gray-50 rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 shadow-lg hover:shadow-xl transition-shadow border-2 border-gray-100"
+                      className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 shadow-xl hover:shadow-2xl transition-shadow border-2 border-gray-200"
                     >
                       <div className="relative w-full h-44 sm:h-48 md:h-56 mb-4 sm:mb-5 md:mb-6 rounded-lg overflow-hidden">
                         <Image
@@ -410,7 +411,7 @@ export default function FoundationContent() {
       </section>
 
       {/* Recent Activities */}
-      <section className="section-padding bg-gradient-to-br from-gold-50 via-white to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -469,7 +470,7 @@ export default function FoundationContent() {
       </section>
 
       {/* Challenges */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-100">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -499,7 +500,7 @@ export default function FoundationContent() {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-red-500"
+                    className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 shadow-xl hover:shadow-2xl transition-shadow border-l-4 border-red-500"
                   >
                     <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
                       <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-red-500 to-orange-500 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -551,7 +552,7 @@ export default function FoundationContent() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow border-t-4 border-blue-500"
+                    className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-shadow border-t-4 border-blue-500"
                   >
                     <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg sm:rounded-xl flex items-center justify-center mb-4 sm:mb-5 md:mb-6">
                       <LightBulbIcon className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
@@ -571,7 +572,7 @@ export default function FoundationContent() {
       </section>
 
       {/* Get Involved */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-100">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -615,7 +616,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.6 }}
-                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 shadow-lg hover:shadow-xl transition-shadow border-2 border-gray-100"
+                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 shadow-xl hover:shadow-2xl transition-shadow border-2 border-gray-200"
                 >
                   <div
                     className={`w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gradient-to-r ${item.color} rounded-lg sm:rounded-xl flex items-center justify-center mb-4 sm:mb-5 md:mb-6`}

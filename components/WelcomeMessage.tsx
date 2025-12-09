@@ -20,7 +20,7 @@ export default function WelcomeMessage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="grid grid-cols-1 md:grid-cols-[1.2fr_0.8fr] gap-6 sm:gap-8 md:gap-10 lg:gap-12 items-center px-4 sm:px-6"
+            className="grid grid-cols-1 md:grid-cols-[1fr_1.1fr] gap-6 sm:gap-8 md:gap-10 lg:gap-12 items-center px-4 sm:px-6"
           >
             {/* Text Section - Now on Left */}
             <motion.div
@@ -73,11 +73,11 @@ export default function WelcomeMessage() {
               className="relative w-full h-[400px] sm:h-[450px] md:h-[500px] lg:h-[550px] xl:h-[600px] rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl border-2 sm:border-4 border-gold-500 order-1 md:order-2 group"
             >
               <Image
-                src="/images/foundation/007.jpg"
-                alt="Apostle Rev. Jean Nsengiyumva"
+                src="/images/foundation/011.jpg"
+                alt="Apostle Rev. Jean Nsengiyumva and spouse"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
-                style={{ objectPosition: 'center 20%' }}
+                style={{ objectPosition: 'center center' }}
                 loading="lazy"
                 quality={90}
               />

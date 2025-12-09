@@ -46,7 +46,7 @@ export default function ServicesSermonsContent() {
         backgroundImageAlt="Church worship service"
       />
 
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-gold-50">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -70,7 +70,7 @@ export default function ServicesSermonsContent() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.6 }}
-                  className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow text-center"
+                  className="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition-shadow text-center"
                 >
                   <div className="mb-4 flex justify-center">
                     <service.Icon className="w-16 h-16 text-gold-600" />
@@ -96,7 +96,7 @@ export default function ServicesSermonsContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-white rounded-xl shadow-lg p-12 text-center"
+              className="bg-white rounded-xl shadow-xl p-12 text-center"
             >
               <div className="mb-6 flex justify-center">
                 <VideoCameraIcon className="w-20 h-20 text-gold-600" />

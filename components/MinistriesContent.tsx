@@ -41,7 +41,7 @@ export default function MinistriesContent() {
         backgroundImageAlt="Church ministries and service"
       />
 
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-gold-50">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -60,7 +60,7 @@ export default function MinistriesContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1, duration: 0.6 }}
-                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden"
+                className="bg-white rounded-xl shadow-xl hover:shadow-2xl transition-shadow overflow-hidden"
               >
                 <div
                   className={`h-24 sm:h-28 md:h-32 bg-gradient-to-r ${ministry.color} flex items-center justify-center`}

@@ -23,7 +23,7 @@ export default function LeadershipContent() {
       />
 
       {/* Senior Pastor Section */}
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <motion.div
@@ -48,7 +48,7 @@ export default function LeadershipContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="bg-gradient-to-br from-blue-50 to-gold-50 rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 lg:p-12 shadow-lg mx-4 sm:mx-6"
+              className="bg-white rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 lg:p-12 shadow-xl mx-4 sm:mx-6"
             >
               <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
                 {t('seniorPastorName')}
@@ -65,7 +65,7 @@ export default function LeadershipContent() {
       </section>
 
       {/* Pastors Section */}
-      <section className="section-padding bg-gradient-to-br from-gold-50 via-white to-gold-50">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <motion.div
@@ -83,7 +83,7 @@ export default function LeadershipContent() {
               <h2 className="heading-secondary text-blue-600 mb-3 sm:mb-4">
                 {t('pastors')}
               </h2>
-              <div className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-md max-w-2xl mx-auto">
+              <div className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl max-w-2xl mx-auto">
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                   {t('pastorsDesc')}
                 </p>
@@ -95,7 +95,7 @@ export default function LeadershipContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="bg-white rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 lg:p-12 shadow-lg mx-4 sm:mx-6"
+              className="bg-white rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 lg:p-12 shadow-xl mx-4 sm:mx-6"
             >
               <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                 {t('pastorsDesc')}
@@ -131,7 +131,7 @@ export default function LeadershipContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="bg-gradient-to-br from-blue-50 to-gold-50 rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 lg:p-12 shadow-lg mx-4 sm:mx-6"
+              className="bg-white rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 lg:p-12 shadow-xl mx-4 sm:mx-6"
             >
               <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                 {t('otherLeadersDesc')}

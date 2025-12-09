@@ -26,7 +26,7 @@ export default function SermonsContent() {
         backgroundImageAlt="Church sermons and messages"
       />
 
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-gold-50">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -42,7 +42,7 @@ export default function SermonsContent() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-12 text-center"
+            className="max-w-4xl mx-auto bg-white rounded-xl shadow-xl p-12 text-center"
           >
             <div className="mb-6 flex justify-center">
               <VideoCameraIcon className="w-20 h-20 text-gold-600" />

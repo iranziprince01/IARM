@@ -71,7 +71,7 @@ export default function PrivacyContent() {
       />
 
       {/* Introduction */}
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <motion.div
@@ -79,7 +79,7 @@ export default function PrivacyContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-white rounded-2xl p-8 md:p-12 shadow-lg"
+              className="bg-white rounded-2xl p-8 md:p-12 shadow-xl"
             >
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mr-4">
@@ -93,7 +93,7 @@ export default function PrivacyContent() {
                 {t('introduction.lastUpdated')}:{' '}
                 {new Date().toLocaleDateString()}
               </p>
-              <div className="bg-white rounded-xl p-6 shadow-md">
+              <div className="bg-white rounded-xl p-6 shadow-xl">
                 <p className="text-lg text-gray-700 leading-relaxed text-justify">
                   {t('introduction.content')}
                 </p>
@@ -109,8 +109,8 @@ export default function PrivacyContent() {
           key={section.key}
           className={`section-padding ${
             index % 2 === 0
-              ? 'bg-gradient-to-br from-gold-50 via-white to-gold-50'
-              : 'bg-gradient-to-br from-blue-50 via-white to-blue-50'
+              ? 'bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100'
+              : 'bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100'
           }`}
         >
           <div className="container-custom">
@@ -120,7 +120,7 @@ export default function PrivacyContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="bg-white rounded-2xl p-8 md:p-12 shadow-lg"
+                className="bg-white rounded-2xl p-8 md:p-12 shadow-xl"
               >
                 <div className="flex items-center mb-6">
                   <div

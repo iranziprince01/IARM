@@ -14,7 +14,7 @@ export default function EventsResourcesContent() {
   const t = useTranslations('contact');
   return (
     <div className="pt-24">
-      <section className="section-padding bg-gradient-to-br from-gold-50 to-white">
+      <section className="section-padding bg-gradient-to-br from-gray-100 to-gray-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -23,7 +23,7 @@ export default function EventsResourcesContent() {
             className="text-center max-w-4xl mx-auto mb-12"
           >
             <h1 className="heading-primary">{t('eventsResources')}</h1>
-            <div className="bg-white rounded-xl p-6 shadow-md max-w-3xl mx-auto mt-4">
+            <div className="bg-white rounded-xl p-6 shadow-xl max-w-3xl mx-auto mt-4">
               <p className="text-xl text-gray-700 leading-relaxed text-justify">
                 {t('eventsResourcesDesc')}
               </p>
@@ -41,7 +41,7 @@ export default function EventsResourcesContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="bg-white rounded-xl shadow-lg p-8 text-center"
+                className="bg-white rounded-xl shadow-xl p-8 text-center"
               >
                 <div className="mb-6 flex justify-center">
                   <CalendarIcon className="w-20 h-20 text-gold-600" />
@@ -85,7 +85,7 @@ export default function EventsResourcesContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.6 }}
-                  className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow"
+                  className="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow"
                 >
                   <div className="mb-4 flex justify-center">
                     <resource.Icon className="w-12 h-12 text-gold-600" />

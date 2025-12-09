@@ -26,7 +26,7 @@ export default function AboutContent() {
       />
 
       {/* Church Description */}
-      <section className="section-padding bg-white" id="about">
+      <section className="section-padding bg-gray-100" id="about">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 px-4 sm:px-6">
@@ -35,7 +35,7 @@ export default function AboutContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
-                className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-md"
+                className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
               >
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                   {t('church')}
@@ -46,7 +46,7 @@ export default function AboutContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-md"
+                className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
               >
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                   {t('congregation')}
@@ -69,7 +69,7 @@ export default function AboutContent() {
       </section>
 
       {/* Vision & Mission */}
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-gold-50" id="mission">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100" id="mission">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto space-y-8 sm:space-y-10 md:space-y-12 px-4 sm:px-6">
             <motion.div
@@ -108,7 +108,7 @@ export default function AboutContent() {
       </section>
 
       {/* Core Values */}
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-blue-50" id="values">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100" id="values">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -172,7 +172,7 @@ export default function AboutContent() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+                    className="bg-white rounded-2xl p-6 md:p-8 shadow-2xl hover:shadow-2xl transition-all duration-300"
                   >
                     <div className={`w-16 h-16 bg-gradient-to-r ${colors[index]} rounded-xl flex items-center justify-center mb-6`}>
                       <Icon className="w-8 h-8 text-white" />
@@ -192,7 +192,7 @@ export default function AboutContent() {
       </section>
 
       {/* Marks of Mission */}
-      <section className="section-padding bg-white" id="marks">
+      <section className="section-padding bg-gray-100" id="marks">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <motion.div
@@ -202,7 +202,7 @@ export default function AboutContent() {
               transition={{ duration: 0.8 }}
             >
               <h2 className="heading-secondary mb-8">{t('marks')}</h2>
-              <div className="bg-white rounded-xl p-6 shadow-md mb-8">
+              <div className="bg-white rounded-xl p-6 shadow-xl mb-8">
                 <ul className="space-y-4">
                   {t.raw('marksList').map((mark: string, index: number) => (
                     <motion.li
@@ -227,7 +227,7 @@ export default function AboutContent() {
       </section>
 
       {/* Leadership */}
-      <section className="section-padding bg-gradient-to-br from-gold-50 via-white to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <motion.div
@@ -235,7 +235,7 @@ export default function AboutContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-white p-6 md:p-8 rounded-xl shadow-md"
+              className="bg-white p-6 md:p-8 rounded-xl shadow-xl"
             >
               <h2 className="heading-secondary mb-6">{t('leadership')}</h2>
               <h3 className="text-2xl font-bold text-gold-600 mb-4">
@@ -250,7 +250,7 @@ export default function AboutContent() {
       </section>
 
       {/* Africa Work */}
-      <section className="section-padding bg-white" id="africa">
+      <section className="section-padding bg-gray-100" id="africa">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <motion.div
@@ -260,12 +260,12 @@ export default function AboutContent() {
               transition={{ duration: 0.8 }}
             >
               <h2 className="heading-secondary mb-6">{tAfrica('title')}</h2>
-              <div className="bg-white rounded-xl p-6 md:p-8 shadow-md mb-6">
+              <div className="bg-white rounded-xl p-6 md:p-8 shadow-xl mb-6">
                 <p className="text-lg text-gray-700 leading-relaxed text-justify">
                   {tAfrica('description')}
                 </p>
               </div>
-              <div className="bg-white rounded-xl p-6 shadow-md">
+              <div className="bg-white rounded-xl p-6 shadow-xl">
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-3 text-lg text-gray-700">
                     <span className="text-gold-500 font-bold mt-1">•</span>
@@ -299,7 +299,7 @@ export default function AboutContent() {
       </section>
 
       {/* Statement of Faith */}
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-blue-50" id="faith">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100" id="faith">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -346,7 +346,7 @@ export default function AboutContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.6 }}
-                  className="bg-white rounded-xl p-6 shadow-md"
+                  className="bg-white rounded-xl p-6 shadow-xl"
                 >
                   <div className="flex items-start space-x-3">
                     <span className="text-gold-500 font-bold text-xl mt-1">•</span>
@@ -362,7 +362,7 @@ export default function AboutContent() {
       </section>
 
       {/* History */}
-      <section className="section-padding bg-white" id="history">
+      <section className="section-padding bg-gray-100" id="history">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -409,7 +409,7 @@ export default function AboutContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.6 }}
-                  className="bg-gradient-to-br from-blue-50 to-gold-50 rounded-xl p-6 md:p-8 shadow-md"
+                  className="bg-white rounded-xl p-6 md:p-8 shadow-xl"
                 >
                   <p className="text-lg text-gray-700 leading-relaxed text-justify">
                     {content}
@@ -423,7 +423,7 @@ export default function AboutContent() {
 
       {/* Partners */}
       <section
-        className="section-padding bg-gradient-to-br from-blue-50 via-white to-gold-50"
+        className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100"
         id="partners"
       >
         <div className="container-custom">
@@ -448,7 +448,7 @@ export default function AboutContent() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="bg-white rounded-xl p-6 shadow-md"
+                    className="bg-white rounded-xl p-6 shadow-xl"
                   >
                     <p className="text-lg text-gray-700 text-center">
                       <span className="font-semibold text-gold-600">

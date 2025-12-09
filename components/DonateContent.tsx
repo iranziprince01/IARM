@@ -27,7 +27,7 @@ export default function DonateContent() {
         backgroundImageAlt="Church giving and donation"
       />
 
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-gold-50">
+      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
         <div className="container-custom max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -51,7 +51,7 @@ export default function DonateContent() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="bg-white p-4 sm:p-5 md:p-6 lg:p-8 rounded-xl shadow-lg"
+                className="bg-white p-4 sm:p-5 md:p-6 lg:p-8 rounded-xl shadow-xl"
               >
                 <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
                   {t('ways')}
