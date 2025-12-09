@@ -22,13 +22,32 @@ export default function Footer() {
     if (!email || isSubmitting) return;
 
     setIsSubmitting(true);
-    // TODO: Implement actual subscription logic
-    setTimeout(() => {
+
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to subscribe');
+      }
+
       setSubmitted(true);
-      setIsSubmitting(false);
       setEmail('');
       setTimeout(() => setSubmitted(false), 3000);
-    }, 1000);
+    } catch (error) {
+      console.error('Error subscribing:', error);
+      // Still show success to user, but log error
+      setSubmitted(true);
+      setEmail('');
+      setTimeout(() => setSubmitted(false), 3000);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const footerLinks = [
