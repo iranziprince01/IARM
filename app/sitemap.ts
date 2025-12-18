@@ -4,15 +4,18 @@ import { locales } from '@/i18n/request';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.iarmministries.org';
   
-  // Main routes
+  // Main routes (must match actual pages in app/[locale])
   const mainRoutes = [
-    { path: '', priority: 1.0, changeFreq: 'weekly' },
+    { path: '', priority: 1.0, changeFreq: 'weekly' }, // Home
     { path: '/about', priority: 0.9, changeFreq: 'monthly' },
     { path: '/ministries', priority: 0.9, changeFreq: 'monthly' },
+    { path: '/services', priority: 0.9, changeFreq: 'weekly' },
     { path: '/services-sermons', priority: 0.9, changeFreq: 'weekly' },
     { path: '/sermons', priority: 0.8, changeFreq: 'weekly' },
+    { path: '/events-resources', priority: 0.7, changeFreq: 'monthly' },
     { path: '/contact', priority: 0.8, changeFreq: 'monthly' },
     { path: '/donate', priority: 0.8, changeFreq: 'monthly' },
+    { path: '/donate/success', priority: 0.3, changeFreq: 'never' },
     { path: '/leadership', priority: 0.7, changeFreq: 'monthly' },
     { path: '/foundation', priority: 0.7, changeFreq: 'monthly' },
     { path: '/get-involved', priority: 0.7, changeFreq: 'monthly' },
@@ -38,11 +41,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         ? `${baseUrl}${route.path || '/'}` 
         : `${baseUrl}/${locale}${route.path}`;
       
-      sitemapEntries.push({
+      const entryBase = {
         url,
         lastModified: new Date(),
         changeFrequency: route.changeFreq as 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never',
         priority: route.priority,
+      };
+
+      sitemapEntries.push({
+        ...entryBase,
         alternates: {
           languages: locales.reduce((acc, loc) => {
             const locUrl = loc === 'en' 
