@@ -96,7 +96,7 @@ export default function FoundationContent() {
                   transition={{ duration: 0.6 }}
                   className="card-soft"
                 >
-                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                  <p className="text-sm text-gray-700 leading-relaxed text-justify">
                     {t('aboutDesc')}
                   </p>
                 </motion.div>
@@ -207,7 +207,7 @@ export default function FoundationContent() {
                       quality={85}
                     />
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                  <p className="text-sm text-gray-700 leading-relaxed text-justify">
                     {t('visionText1')}
                   </p>
                 </motion.div>
@@ -229,7 +229,7 @@ export default function FoundationContent() {
                       quality={85}
                     />
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                  <p className="text-sm text-gray-700 leading-relaxed text-justify">
                     {t('visionText2')}
                   </p>
                 </motion.div>
@@ -251,7 +251,7 @@ export default function FoundationContent() {
                       quality={85}
                     />
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                  <p className="text-sm text-gray-700 leading-relaxed text-justify">
                     {t('visionText3')}
                   </p>
                 </motion.div>
@@ -287,7 +287,7 @@ export default function FoundationContent() {
                       quality={85}
                     />
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                  <p className="text-sm text-gray-700 leading-relaxed text-justify">
                     {t('missionText1')}
                   </p>
                 </motion.div>
@@ -309,7 +309,7 @@ export default function FoundationContent() {
                       quality={85}
                     />
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                  <p className="text-sm text-gray-700 leading-relaxed text-justify">
                     {t('missionText2')}
                   </p>
                 </motion.div>
@@ -331,7 +331,7 @@ export default function FoundationContent() {
                       quality={85}
                     />
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                  <p className="text-sm text-gray-700 leading-relaxed text-justify">
                     {t('missionText3')}
                   </p>
                 </motion.div>
@@ -398,10 +398,10 @@ export default function FoundationContent() {
                       >
                         <Icon className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
                       </div>
-                      <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">
+                      <h3 className="card-title mb-2">
                         {value.title}
                       </h3>
-                      <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                      <p className="text-sm text-gray-700 leading-relaxed text-justify">
                         {value.desc}
                       </p>
                     </motion.div>
@@ -442,11 +442,11 @@ export default function FoundationContent() {
                     <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gradient-to-r from-gold-500 to-gold-600 rounded-lg sm:rounded-xl flex items-center justify-center">
                       <CurrencyDollarIcon className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
                     </div>
-                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900">
+                    <h3 className="text-base sm:text-lg font-semibold text-gray-900">
                       Making a Difference
                     </h3>
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify mb-3 sm:mb-4">
+                  <p className="text-sm text-gray-700 leading-relaxed text-justify mb-3 sm:mb-4">
                     {t('recentActivity1')}
                   </p>
                   <div className="bg-gold-50 rounded-lg p-3 sm:p-4 border-l-4 border-gold-500">
@@ -510,7 +510,7 @@ export default function FoundationContent() {
                         {challenge.title}
                       </h3>
                     </div>
-                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                    <p className="text-sm text-gray-700 leading-relaxed text-justify">
                       {challenge.desc}
                       </p>
                     </motion.div>
@@ -554,10 +554,10 @@ export default function FoundationContent() {
                     <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg sm:rounded-xl flex items-center justify-center mb-4 sm:mb-5 md:mb-6">
                       <LightBulbIcon className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
                     </div>
-                    <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">
+                    <h3 className="card-title mb-2">
                       {solution.title}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                    <p className="text-sm text-gray-700 leading-relaxed text-justify">
                       {solution.desc}
                     </p>
                   </motion.div>
@@ -620,10 +620,10 @@ export default function FoundationContent() {
                   >
                     <item.Icon className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">
+                  <h3 className="card-title mb-2">
                     {t(`${item.key}`)}
                   </h3>
-                  <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-3 sm:mb-4">
+                  <p className="text-sm text-gray-700 leading-relaxed text-justify mb-3 sm:mb-4">
                     {t(`${item.key}Desc`)}
                   </p>
                   {item.key === 'donate' && (

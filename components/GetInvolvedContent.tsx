@@ -99,11 +99,11 @@ export default function GetInvolvedContent({ locale }: { locale: string }) {
                       </div>
                     </div>
                   </div>
-                  <div className="p-4 sm:p-5 md:p-6">
-                    <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">
+                  <div className="p-4 sm:p-5">
+                    <h3 className="card-title mb-1.5">
                       {t(option.key)}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-3 sm:mb-4">
+                    <p className="card-body text-justify mb-3">
                       {option.desc}
                     </p>
                     <Link href={option.href} prefetch={true} className="inline-block btn-primary">

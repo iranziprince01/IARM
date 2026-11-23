@@ -48,7 +48,7 @@ export default function ImageGallery({
                   </h2>
                 )}
                 {subtitle && (
-                  <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto px-2">
+                  <p className="text-sm text-gray-600 max-w-3xl mx-auto px-2">
                     {subtitle}
                   </p>
                 )}

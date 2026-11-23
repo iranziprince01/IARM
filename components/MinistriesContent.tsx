@@ -63,15 +63,15 @@ export default function MinistriesContent() {
                 className="card-modern overflow-hidden border-2 border-gray-300 hover:border-gray-400 p-0"
               >
                 <div
-                  className={`h-24 sm:h-28 md:h-32 bg-gradient-to-r ${ministry.color} flex items-center justify-center`}
+                  className={`h-20 sm:h-24 bg-gradient-to-r ${ministry.color} flex items-center justify-center`}
                 >
-                  <ministry.Icon className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 text-white" />
+                  <ministry.Icon className="w-9 h-9 sm:w-10 sm:h-10 text-white" />
                 </div>
-                <div className="p-4 sm:p-5 md:p-6">
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">
+                <div className="p-4 sm:p-5">
+                  <h3 className="card-title mb-1.5">
                     {t(ministry.key)}
                   </h3>
-                  <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                  <p className="card-body text-justify">
                     {t(`${ministry.key}Desc`)}
                   </p>
                 </div>

@@ -42,10 +42,10 @@ export default function PrayerContent() {
               className="space-y-6 sm:space-y-8"
             >
               <div className="card-soft">
-                <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+                <h2 className="card-title mb-2">
                   {t('ministry')}
                 </h2>
-                <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify mb-4 sm:mb-6">
+                <p className="text-sm text-gray-700 leading-relaxed text-justify mb-4 sm:mb-6">
                   {t('ministryDesc')}
                 </p>
                 <div className="space-y-3 sm:space-y-4">
@@ -53,7 +53,7 @@ export default function PrayerContent() {
                     <h3 className="font-semibold text-gray-900 mb-1.5 sm:mb-2 text-sm sm:text-base">
                       {t('weekly')}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                    <p className="text-sm text-gray-700 leading-relaxed text-justify">
                       {t('weeklyDesc')}
                     </p>
                   </div>
@@ -61,7 +61,7 @@ export default function PrayerContent() {
                     <h3 className="font-semibold text-gray-900 mb-1.5 sm:mb-2 text-sm sm:text-base">
                       {t('requests')}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                    <p className="text-sm text-gray-700 leading-relaxed text-justify">
                       {t('requestsDesc')}
                     </p>
                   </div>
@@ -69,7 +69,7 @@ export default function PrayerContent() {
                     <h3 className="font-semibold text-gray-900 mb-1.5 sm:mb-2 text-sm sm:text-base">
                       {t('team')}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                    <p className="text-sm text-gray-700 leading-relaxed text-justify">
                       {t('teamDesc')}
                     </p>
                   </div>
@@ -84,8 +84,8 @@ export default function PrayerContent() {
                 className="space-y-4 sm:space-y-6"
               >
                 <div className="bg-gradient-to-r from-gold-500 to-gold-600 rounded-2xl p-6 sm:p-8 text-white text-center">
-                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">{t('join')}</h2>
-                  <p className="text-sm sm:text-base md:text-lg text-gold-100 leading-relaxed text-justify">
+                  <h2 className="text-base sm:text-lg font-semibold mb-2 sm:mb-3">{t('join')}</h2>
+                  <p className="text-sm text-gold-100 leading-relaxed text-justify">
                     {t('joinDesc')}
                   </p>
                 </div>

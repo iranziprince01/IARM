@@ -45,7 +45,7 @@ export default function AboutContent() {
                 transition={{ duration: 0.6 }}
                 className="card-soft"
               >
-                <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                <p className="text-sm text-gray-700 leading-relaxed text-justify">
                   {t('church')}
                 </p>
               </motion.div>
@@ -56,7 +56,7 @@ export default function AboutContent() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="card-soft"
               >
-                <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                <p className="text-sm text-gray-700 leading-relaxed text-justify">
                   {t('congregation')}
                 </p>
               </motion.div>
@@ -67,7 +67,7 @@ export default function AboutContent() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="card-soft md:col-span-2"
               >
-                <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                <p className="text-sm text-gray-700 leading-relaxed text-justify">
                   {t('ministry')}
                 </p>
               </motion.div>
@@ -97,7 +97,7 @@ export default function AboutContent() {
                     <div className="w-12 h-12 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl flex items-center justify-center mb-4 shadow-md">
                       <StarIcon className="w-6 h-6 text-white" />
                     </div>
-                    <p className="text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                    <p className="text-sm text-gray-700 leading-relaxed text-justify">
                   {t('visionText')}
                 </p>
                   </div>
@@ -120,7 +120,7 @@ export default function AboutContent() {
                     <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4 shadow-md">
                       <HeartIcon className="w-6 h-6 text-white" />
                     </div>
-                    <p className="text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                    <p className="text-sm text-gray-700 leading-relaxed text-justify">
                   {t('missionText')}
                 </p>
                   </div>
@@ -193,7 +193,7 @@ export default function AboutContent() {
                     <div className={`w-16 h-16 bg-gradient-to-r ${colors[index]} rounded-xl flex items-center justify-center mb-6`}>
                       <Icon className="w-8 h-8 text-white" />
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-4">
                       {value.title}
                     </h3>
                     <p className="text-gray-700 leading-relaxed">
@@ -262,7 +262,7 @@ export default function AboutContent() {
                       <div className={`w-14 h-14 bg-gradient-to-r ${colors[index]} rounded-xl flex items-center justify-center mb-5 shadow-md group-hover:scale-110 transition-transform duration-300`}>
                         <Icon className="w-7 h-7 text-white" />
                       </div>
-                      <p className="text-base md:text-lg text-gray-700 leading-relaxed text-justify font-medium">
+                      <p className="text-sm text-gray-700 leading-relaxed text-justify font-medium">
                         {mark}
               </p>
                     </div>
@@ -319,10 +319,10 @@ export default function AboutContent() {
                       <div className={`w-16 h-16 bg-gradient-to-r ${item.color} rounded-xl flex items-center justify-center mb-5 shadow-md group-hover:scale-110 transition-transform duration-300`}>
                         <Icon className="w-8 h-8 text-white" />
                       </div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-3">
+                      <h3 className="card-title mb-2">
                         {item.key.charAt(0).toUpperCase() + item.key.slice(1)}
                       </h3>
-                      <p className="text-base md:text-lg text-gray-700 leading-relaxed text-left">
+                      <p className="text-sm text-gray-700 leading-relaxed text-left">
                         {tAfrica(textKey)}
                       </p>
                     </div>
@@ -362,7 +362,7 @@ export default function AboutContent() {
                     <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4 shadow-md">
                       <ShieldCheckIcon className="w-6 h-6 text-white" />
                     </div>
-                    <p className="text-base md:text-lg text-gray-700 leading-relaxed text-left break-words overflow-wrap-anywhere">
+                    <p className="text-sm text-gray-700 leading-relaxed text-left break-words overflow-wrap-anywhere">
                     {t('statementOfFaithDesc')}
                   </p>
                   </div>
@@ -379,7 +379,7 @@ export default function AboutContent() {
                     <div className="w-12 h-12 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl flex items-center justify-center mb-4 shadow-md">
                       <StarIcon className="w-6 h-6 text-white" />
                     </div>
-                    <p className="text-base md:text-lg text-gray-700 leading-relaxed text-left break-words overflow-wrap-anywhere">
+                    <p className="text-sm text-gray-700 leading-relaxed text-left break-words overflow-wrap-anywhere">
                     Our statement of faith is based on the historic Christian creeds and the authority of Scripture. We are committed to sound biblical teaching and the proclamation of the Gospel.
                   </p>
                   </div>
@@ -437,7 +437,7 @@ export default function AboutContent() {
                       
                       {/* Text */}
                       <div className="flex-1 min-w-0">
-                        <p className="text-base md:text-lg text-gray-700 leading-relaxed text-left break-words overflow-wrap-anywhere">
+                        <p className="text-sm text-gray-700 leading-relaxed text-left break-words overflow-wrap-anywhere">
                       {item}
                     </p>
                       </div>
@@ -523,7 +523,7 @@ export default function AboutContent() {
                           
                           {/* Content */}
                           <div className="relative">
-                            <p className="text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                            <p className="text-sm text-gray-700 leading-relaxed text-justify">
                     {content}
                   </p>
                           </div>

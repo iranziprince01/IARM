@@ -42,10 +42,10 @@ export default function BecomeMemberContent() {
               className="space-y-6 sm:space-y-8"
             >
               <div className="card-soft">
-                <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+                <h2 className="card-title mb-2">
                   {t('process')}
                 </h2>
-                <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify mb-4 sm:mb-5 md:mb-6">
+                <p className="text-sm text-gray-700 leading-relaxed text-justify mb-4 sm:mb-5 md:mb-6">
                   {t('processDesc')}
                 </p>
                 <div className="space-y-3 sm:space-y-4">
@@ -57,7 +57,7 @@ export default function BecomeMemberContent() {
                       <h3 className="font-semibold text-gray-900 mb-1 sm:mb-2 text-sm sm:text-base">
                         {t('attend')}
                       </h3>
-                      <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                      <p className="text-sm text-gray-700 leading-relaxed text-justify">
                         {t('attendDesc')}
                       </p>
                     </div>
@@ -70,7 +70,7 @@ export default function BecomeMemberContent() {
                       <h3 className="font-semibold text-gray-900 mb-1 sm:mb-2 text-sm sm:text-base">
                         {t('class')}
                       </h3>
-                      <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                      <p className="text-sm text-gray-700 leading-relaxed text-justify">
                         {t('classDesc')}
                       </p>
                     </div>
@@ -83,7 +83,7 @@ export default function BecomeMemberContent() {
                       <h3 className="font-semibold text-gray-900 mb-1 sm:mb-2 text-sm sm:text-base">
                         {t('commitment')}
                       </h3>
-                      <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                      <p className="text-sm text-gray-700 leading-relaxed text-justify">
                         {t('commitmentDesc')}
                       </p>
                     </div>
@@ -98,8 +98,8 @@ export default function BecomeMemberContent() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="bg-gradient-to-r from-gold-500 to-gold-600 rounded-2xl p-6 sm:p-8 text-white text-center"
               >
-                <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">{t('ready')}</h2>
-                <p className="text-sm sm:text-base md:text-lg text-gold-100 leading-relaxed text-justify">
+                <h2 className="text-base sm:text-lg font-semibold mb-2 sm:mb-3">{t('ready')}</h2>
+                <p className="text-sm text-gold-100 leading-relaxed text-justify">
                   {t('readyDesc')}
                 </p>
               </motion.div>

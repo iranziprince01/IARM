@@ -11,7 +11,7 @@
     --section-y: clamp(2.5rem, 4.2vw, 4.5rem);
     --section-x: clamp(1rem, 2.8vw, 2rem);
     --content-gap: clamp(1.1rem, 2.2vw, 1.75rem);
-    --card-pad: clamp(1rem, 1.8vw, 1.35rem);
+    --card-pad: clamp(0.9rem, 1.6vw, 1.2rem);
     --container-max: 64rem; /* 1024px */
     --text-body: clamp(0.875rem, 0.2vw + 0.8rem, 0.95rem);
     --text-lead: clamp(0.95rem, 0.35vw + 0.85rem, 1.05rem);
@@ -162,13 +162,29 @@
   }
 
   .card-modern {
-    @apply bg-white rounded-2xl border-2 border-gray-300 shadow-sm hover:shadow-md hover:border-gray-400 transition-all duration-300 overflow-hidden;
+    @apply bg-white rounded-2xl border-2 border-gray-300 shadow-sm hover:shadow-md hover:border-gray-400 transition-all duration-300 overflow-hidden text-sm text-gray-700 leading-relaxed;
     padding: var(--card-pad);
   }
 
   .card-soft {
-    @apply bg-white rounded-2xl border-2 border-gray-300 shadow-sm hover:border-gray-400 transition-all duration-300;
+    @apply bg-white rounded-2xl border-2 border-gray-300 shadow-sm hover:border-gray-400 transition-all duration-300 text-sm text-gray-700 leading-relaxed;
     padding: var(--card-pad);
+  }
+
+  .card-title {
+    @apply text-base sm:text-[1.05rem] font-semibold text-gray-900 leading-snug tracking-tight;
+  }
+
+  .card-subtitle {
+    @apply text-sm font-medium text-gray-800 leading-snug;
+  }
+
+  .card-body {
+    @apply text-sm text-gray-600 leading-relaxed;
+  }
+
+  .card-meta {
+    @apply text-xs sm:text-sm text-gray-500 leading-relaxed;
   }
 
   .content-grid {

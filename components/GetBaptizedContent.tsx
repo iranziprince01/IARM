@@ -42,7 +42,7 @@ export default function GetBaptizedContent() {
               className="space-y-8"
             >
               <div className="card-soft">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                <h2 className="text-lg font-semibold text-gray-900 mb-4">
                   {t('about')}
                 </h2>
                 <p className="text-lg text-gray-700 leading-relaxed text-justify mb-6">

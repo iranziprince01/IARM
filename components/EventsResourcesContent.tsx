@@ -90,7 +90,7 @@ export default function EventsResourcesContent() {
                   <div className="mb-4 flex justify-center">
                     <resource.Icon className="w-12 h-12 text-gold-600" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  <h3 className="card-title mb-2">
                     {resource.title}
                   </h3>
                   <p className="text-gray-700 leading-relaxed text-justify">{resource.desc}</p>

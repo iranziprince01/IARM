@@ -50,15 +50,15 @@ export default function MinistriesPreview() {
             >
               <div className="mb-4 flex justify-center">
                 <div
-                  className={`w-14 h-14 rounded-full ${ministry.iconBg} flex items-center justify-center`}
+                  className={`w-11 h-11 rounded-full ${ministry.iconBg} flex items-center justify-center`}
                 >
-                  <ministry.Icon className={`w-7 h-7 ${ministry.iconColor}`} />
+                  <ministry.Icon className={`w-5 h-5 ${ministry.iconColor}`} />
                 </div>
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2 sm:mb-3">
+              <h3 className="card-title mb-1.5">
                 {t(`${ministry.key}`)}
               </h3>
-              <p className="text-sm sm:text-base text-gray-600">
+              <p className="card-body">
                 {t(`${ministry.key}Desc`)}
               </p>
             </motion.div>

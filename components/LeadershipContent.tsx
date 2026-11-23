@@ -77,10 +77,10 @@ export default function LeadershipContent() {
                 className="bg-white rounded-xl sm:rounded-2xl border-2 border-gray-300 shadow-sm p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 flex flex-col justify-center min-h-[300px] xs:min-h-[350px] sm:min-h-[400px] md:min-h-[450px] lg:min-h-[500px] xl:min-h-[550px]"
               >
                 <div className="mb-4 sm:mb-5">
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+                  <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
                     {t('seniorPastorName')}
                   </h3>
-                  <div className="inline-block px-4 py-2 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold rounded-lg text-sm sm:text-base md:text-lg">
+                  <div className="inline-block px-4 py-2 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold rounded-lg text-sm">
                     {t('seniorPastorTitle')}
                   </div>
                 </div>
@@ -115,7 +115,7 @@ export default function LeadershipContent() {
                 {t('pastors')}
               </h2>
               <div className="card-soft max-w-2xl mx-auto mb-6 sm:mb-8">
-                <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                <p className="text-sm text-gray-700 leading-relaxed text-justify">
                   {t('pastorsDesc')}
                 </p>
               </div>
@@ -132,7 +132,7 @@ export default function LeadershipContent() {
                 className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                  <h3 className="card-title mb-1.5">
                     {t('pastor1Name')}
                   </h3>
                   <div className="inline-block px-3 py-1.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-lg text-xs sm:text-sm">
@@ -153,7 +153,7 @@ export default function LeadershipContent() {
                 className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                  <h3 className="card-title mb-1.5">
                     {t('pastor2Name')}
                   </h3>
                   <div className="inline-block px-3 py-1.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-lg text-xs sm:text-sm">
@@ -174,7 +174,7 @@ export default function LeadershipContent() {
                 className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                  <h3 className="card-title mb-1.5">
                     {t('pastor3Name')}
                   </h3>
                   <div className="inline-block px-3 py-1.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-lg text-xs sm:text-sm">
@@ -195,7 +195,7 @@ export default function LeadershipContent() {
                 className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                  <h3 className="card-title mb-1.5">
                     {t('pastor4Name')}
                   </h3>
                   <div className="inline-block px-3 py-1.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-lg text-xs sm:text-sm">
@@ -216,7 +216,7 @@ export default function LeadershipContent() {
                 className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                  <h3 className="card-title mb-1.5">
                     {t('leader1Name')}
                   </h3>
                   <div className="inline-block px-3 py-1.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold rounded-lg text-xs sm:text-sm">
@@ -237,7 +237,7 @@ export default function LeadershipContent() {
                 className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                  <h3 className="card-title mb-1.5">
                     {t('leader2Name')}
                   </h3>
                   <div className="inline-block px-3 py-1.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold rounded-lg text-xs sm:text-sm">
@@ -258,7 +258,7 @@ export default function LeadershipContent() {
                 className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                  <h3 className="card-title mb-1.5">
                     {t('leader3Name')}
                   </h3>
                   <div className="inline-block px-3 py-1.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold rounded-lg text-xs sm:text-sm">
@@ -279,7 +279,7 @@ export default function LeadershipContent() {
                 className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                  <h3 className="card-title mb-1.5">
                     {t('leader4Name')}
                   </h3>
                   <div className="inline-block px-3 py-1.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold rounded-lg text-xs sm:text-sm">

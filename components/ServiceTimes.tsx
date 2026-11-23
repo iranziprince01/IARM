@@ -62,18 +62,18 @@ export default function ServiceTimes() {
               >
                 <div className="flex justify-center mb-4">
                   <div
-                    className={`w-14 h-14 rounded-full ${service.iconBg} flex items-center justify-center`}
+                    className={`w-11 h-11 rounded-full ${service.iconBg} flex items-center justify-center`}
                   >
-                    <service.Icon className={`w-7 h-7 ${service.iconColor}`} />
+                    <service.Icon className={`w-5 h-5 ${service.iconColor}`} />
                   </div>
                 </div>
-                <h3 className="text-xl sm:text-2xl font-bold text-gold-600 mb-2">
+                <h3 className="card-title text-gold-600 mb-1.5">
                   {t(service.key)}
                 </h3>
-                <p className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
+                <p className="card-subtitle mb-2">
                   {service.time}
                 </p>
-                <p className="text-sm sm:text-base text-gray-600">{service.desc}</p>
+                <p className="card-body">{service.desc}</p>
               </motion.div>
             ))}
           </div>

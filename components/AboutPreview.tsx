@@ -41,11 +41,11 @@ export default function AboutPreview() {
               >
                 <div className="flex flex-col sm:flex-row sm:items-start gap-4">
                   <div
-                    className={`flex-shrink-0 w-12 h-12 rounded-full ${card.iconBg} flex items-center justify-center mx-auto sm:mx-0`}
+                    className={`flex-shrink-0 w-10 h-10 rounded-full ${card.iconBg} flex items-center justify-center mx-auto sm:mx-0`}
                   >
-                    <card.Icon className={`w-6 h-6 ${card.iconColor}`} />
+                    <card.Icon className={`w-5 h-5 ${card.iconColor}`} />
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify flex-1">
+                  <p className="card-body text-justify flex-1">
                     {card.text}
                   </p>
                 </div>

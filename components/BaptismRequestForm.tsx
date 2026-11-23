@@ -64,7 +64,7 @@ export default function BaptismRequestForm() {
       onSubmit={handleSubmit(onSubmit)}
       className="card-soft"
     >
-      <h2 className="text-2xl font-bold text-gray-900 mb-6 text-purple-600">
+      <h2 className="text-lg font-semibold text-gray-900 mb-6 text-purple-600">
         Baptism Request Form
       </h2>
 

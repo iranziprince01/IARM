@@ -116,7 +116,7 @@ export default function MembershipForm() {
       onSubmit={handleSubmit(onSubmit)}
       className="card-soft"
     >
-      <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-5 md:mb-6 text-purple-600">
+      <h2 className="text-base sm:text-lg font-semibold text-gray-900 mb-4 sm:mb-5 md:mb-6 text-purple-600">
         Membership Registration Form
       </h2>
 

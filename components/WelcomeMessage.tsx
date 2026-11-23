@@ -32,7 +32,7 @@ export default function WelcomeMessage() {
                 <p className="text-blue-600 font-semibold text-sm mb-2 tracking-wide">
                   {t('welcomeGreeting')}
                 </p>
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold mb-2 md:mb-3 leading-tight">
+                <h2 className="text-lg sm:text-xl font-bold mb-2 leading-snug">
                   <span className="text-blue-600">{t('welcomeTitle1')}</span>
                   <br />
                   <span className="text-gold-600 bg-gradient-to-r from-gold-600 to-gold-500 bg-clip-text text-transparent">
@@ -54,20 +54,20 @@ export default function WelcomeMessage() {
                 </h2>
               </div>
               
-              <div className="space-y-4 relative z-10">
-                <p className="text-sm md:text-base text-gray-700 leading-relaxed text-justify">
+              <div className="space-y-3 relative z-10">
+                <p className="text-sm text-gray-700 leading-relaxed text-justify">
                   {t('welcomeMessage1')}
                 </p>
-                <p className="text-sm md:text-base text-gray-700 leading-relaxed text-justify">
+                <p className="text-sm text-gray-700 leading-relaxed text-justify">
                   {t('welcomeMessage2')}
                 </p>
-                <p className="text-sm md:text-base text-gray-700 leading-relaxed text-justify">
+                <p className="text-sm text-gray-700 leading-relaxed text-justify">
                   {t('welcomeMessage3')}
                 </p>
               </div>
 
-              <div className="pt-4 md:pt-5 border-t border-gold-200 relative z-10 mt-auto">
-                <p className="text-blue-600 font-bold text-sm md:text-base">
+              <div className="pt-3 border-t border-gold-200 relative z-10 mt-auto">
+                <p className="text-blue-600 font-semibold text-sm">
                   {t('pastorName')}
                 </p>
               </div>

@@ -46,10 +46,10 @@ export default function SermonsContent() {
             <div className="mb-4 sm:mb-5 md:mb-6 flex justify-center">
               <VideoCameraIcon className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-gold-600" />
             </div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+            <h2 className="card-title mb-2">
               {t('latest')}
             </h2>
-            <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed text-justify mb-6 sm:mb-8">
+            <p className="text-sm text-gray-600 leading-relaxed text-justify mb-6 sm:mb-8">
               {t('workingOn')}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">

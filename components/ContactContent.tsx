@@ -46,7 +46,7 @@ export default function ContactContent() {
             >
               <div className="card-soft mb-4 sm:mb-6">
                 <h2 className="heading-secondary mb-3 sm:mb-4">{t('visit')}</h2>
-                <div className="space-y-3 sm:space-y-4 text-sm sm:text-base md:text-lg text-gray-700">
+                <div className="space-y-3 sm:space-y-4 text-sm text-gray-700">
                   <div>
                     <p>
                       <span className="font-semibold text-gold-600">
@@ -95,10 +95,10 @@ export default function ContactContent() {
               </div>
 
               <div className="card-soft">
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+                <h3 className="card-title mb-2">
                   {t('serviceTimes')}
                 </h3>
-                <ul className="space-y-2 text-sm sm:text-base md:text-lg text-gray-700">
+                <ul className="space-y-2 text-sm text-gray-700">
                   <li className="text-justify">{t('sunday')}</li>
                   <li className="text-justify">{t('wednesday')}</li>
                   <li className="text-justify">{t('thursday')}</li>
@@ -107,7 +107,7 @@ export default function ContactContent() {
 
               {/* Google Maps Embed */}
               <div className="mt-6 sm:mt-8">
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+                <h3 className="card-title mb-2">
                   Find Us on Map
                 </h3>
                 <div className="w-full h-48 xs:h-56 sm:h-64 md:h-80 lg:h-96 rounded-2xl overflow-hidden shadow-sm border-2 border-gray-300">
@@ -212,10 +212,10 @@ export default function ContactContent() {
                       </div>
                 </div>
                     <div className="flex-1 text-center md:text-left">
-                      <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                      <h3 className="text-lg font-semibold text-gray-900 mb-4">
                         {t('upcomingEvents')}
                       </h3>
-                      <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+                      <p className="text-sm text-gray-700 leading-relaxed">
                   {t('upcomingEventsDesc')}
                 </p>
                     </div>
@@ -271,7 +271,7 @@ export default function ContactContent() {
                     <div className={`w-14 h-14 bg-gradient-to-r ${resource.color} rounded-xl flex items-center justify-center mb-5 shadow-md group-hover:scale-110 transition-transform duration-300`}>
                       <resource.Icon className="w-7 h-7 text-white" />
                   </div>
-                    <h4 className="text-xl font-bold text-gray-900 mb-3">
+                    <h4 className="card-title mb-2">
                     {resource.title}
                   </h4>
                     <p className="text-base text-gray-700 leading-relaxed text-left">{resource.desc}</p>

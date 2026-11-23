@@ -53,7 +53,7 @@ export default function DonateContent() {
                 transition={{ duration: 0.8 }}
                 className="card-soft"
               >
-                <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+                <h2 className="card-title mb-2">
                   {t('ways')}
                 </h2>
                 <div className="space-y-4 sm:space-y-5 md:space-y-6">
@@ -61,7 +61,7 @@ export default function DonateContent() {
                     <h3 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base">
                       {t('inPerson')}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                    <p className="text-sm text-gray-700 leading-relaxed text-justify">
                       {t('inPersonDesc')}
                     </p>
                   </div>
@@ -69,7 +69,7 @@ export default function DonateContent() {
                     <h3 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base">
                       {t('eTransfer')}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                    <p className="text-sm text-gray-700 leading-relaxed text-justify">
                       {t('eTransferDesc')}
                     </p>
                   </div>
@@ -77,7 +77,7 @@ export default function DonateContent() {
                     <h3 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base">
                       {t('bankTransfer')}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                    <p className="text-sm text-gray-700 leading-relaxed text-justify">
                       {t('bankTransferDesc')}
                     </p>
                   </div>
@@ -91,7 +91,7 @@ export default function DonateContent() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 text-white"
               >
-                <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">{t('everyGift')}</h2>
+                <h2 className="text-base sm:text-lg font-semibold mb-2 sm:mb-3">{t('everyGift')}</h2>
                 <p className="text-sm sm:text-base md:text-lg text-gold-100 leading-relaxed text-justify mb-4 sm:mb-5 md:mb-6">
                   {t('everyGiftDesc')}
                 </p>
