@@ -81,7 +81,7 @@ export default function LanguageSwitcher() {
       <button
         onClick={() => !isSwitching && setIsOpen(!isOpen)}
         disabled={isSwitching}
-        className={`flex items-center space-x-2 px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-all duration-200 shadow-md hover:shadow-lg font-semibold ${
+        className={`flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-blue-700 text-white hover:bg-blue-800 transition-all duration-200 shadow-sm hover:shadow-md font-semibold ${
           isSwitching ? 'opacity-70 cursor-wait' : ''
         }`}
         aria-label="Change language"
@@ -149,7 +149,7 @@ export default function LanguageSwitcher() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: -10, scale: 0.95 }}
               transition={{ duration: 0.2, ease: 'easeOut' }}
-              className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-xl border-2 border-blue-200 z-20 overflow-hidden"
+              className="absolute right-0 mt-2 w-44 bg-white rounded-xl shadow-lg border-2 border-gray-300 z-20 overflow-hidden"
             >
               {locales.map((loc, index) => (
                 <motion.button

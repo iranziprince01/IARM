@@ -15,6 +15,30 @@ import {
   CheckCircleIcon,
 } from '@heroicons/react/24/outline';
 
+const CONTENT_SECTION_BGS = [
+  'section-bg-white',
+  'section-bg-soft',
+  'section-bg-warm',
+  'section-bg-cool',
+  'section-bg-white',
+  'section-bg-mist',
+] as const;
+
+const CONTENT_SECTION_BGS_TAIL = [
+  'section-bg-soft',
+  'section-bg-warm',
+  'section-bg-cool',
+  'section-bg-white',
+  'section-bg-mist',
+] as const;
+
+function sectionBgByOrder(order: number): string {
+  if (order <= CONTENT_SECTION_BGS.length) {
+    return CONTENT_SECTION_BGS[order - 1];
+  }
+  return CONTENT_SECTION_BGS_TAIL[(order - CONTENT_SECTION_BGS.length - 1) % CONTENT_SECTION_BGS_TAIL.length];
+}
+
 export default function TermsContent() {
   const t = useTranslations('terms');
 
@@ -81,7 +105,7 @@ export default function TermsContent() {
       />
 
       {/* Introduction */}
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
+      <section className={`section-padding ${sectionBgByOrder(1)}`}>
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <motion.div
@@ -89,7 +113,7 @@ export default function TermsContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-white rounded-2xl p-8 md:p-12 shadow-xl"
+              className="card-soft"
             >
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mr-4">
@@ -115,11 +139,7 @@ export default function TermsContent() {
       {sections.map((section, index) => (
         <section
           key={section.key}
-          className={`section-padding ${
-            index % 2 === 0
-              ? 'bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100'
-              : 'bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100'
-          }`}
+          className={`section-padding ${sectionBgByOrder(index + 2)}`}
         >
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
@@ -128,7 +148,7 @@ export default function TermsContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="bg-white rounded-2xl p-8 md:p-12 shadow-xl"
+                className="card-soft"
               >
                 <div className="flex items-center mb-6">
                   <div

@@ -3,56 +3,57 @@
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { BuildingLibraryIcon, UsersIcon, HeartIcon } from '@heroicons/react/24/outline';
 import { defaultLocale } from '@/i18n/request';
 
 export default function AboutPreview() {
   const t = useTranslations('about');
   const locale = useLocale();
 
+  const cards = [
+    { text: t('church'), Icon: BuildingLibraryIcon, iconBg: 'bg-blue-50', iconColor: 'text-blue-600' },
+    { text: t('congregation'), Icon: UsersIcon, iconBg: 'bg-gold-50', iconColor: 'text-gold-600' },
+    { text: t('ministry'), Icon: HeartIcon, iconBg: 'bg-blue-50', iconColor: 'text-blue-600', span: true },
+  ];
+
   return (
-    <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-blue-50">
+    <section className="section-padding section-bg-soft">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="max-w-4xl mx-auto px-4 sm:px-6"
+          className="content-readable"
         >
-          <h2 className="heading-secondary text-center mb-6 sm:mb-8 md:mb-10">
+          <h2 className="heading-secondary text-center mb-8 md:mb-10">
             {t('title')}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="bg-white rounded-xl p-4 sm:p-6 md:p-8 shadow-md"
-            >
-              <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">{t('church')}</p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white rounded-xl p-4 sm:p-6 md:p-8 shadow-md"
-            >
-              <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">{t('congregation')}</p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-xl p-4 sm:p-6 md:p-8 shadow-md md:col-span-2"
-            >
-              <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">{t('ministry')}</p>
-            </motion.div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 lg:gap-8">
+            {cards.map((card, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className={`card-soft ${card.span ? 'md:col-span-2' : ''}`}
+              >
+                <div className="flex flex-col sm:flex-row sm:items-start gap-4">
+                  <div
+                    className={`flex-shrink-0 w-12 h-12 rounded-full ${card.iconBg} flex items-center justify-center mx-auto sm:mx-0`}
+                  >
+                    <card.Icon className={`w-6 h-6 ${card.iconColor}`} />
+                  </div>
+                  <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify flex-1">
+                    {card.text}
+                  </p>
+                </div>
+              </motion.div>
+            ))}
           </div>
           
-          <div className="mt-6 sm:mt-8 text-center">
+          <div className="mt-8 md:mt-10 text-center">
             <Link
               href={locale === defaultLocale ? '/about' : `/${locale}/about`}
               prefetch={true}
@@ -66,4 +67,3 @@ export default function AboutPreview() {
     </section>
   );
 }
-

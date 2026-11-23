@@ -12,8 +12,12 @@ const config: Config = {
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
+      // 13–14" laptops (~1280–1512 CSS px)
       'xl': '1280px',
+      // larger laptops / desktops
       '2xl': '1536px',
+      // wide monitors
+      '3xl': '1800px',
     },
     extend: {
       colors: {

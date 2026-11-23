@@ -21,15 +21,15 @@ export async function generateMetadata({
   return {
     metadataBase: new URL('https://www.iarmministries.org'),
     title: {
-      default: 'International Anglican Revival Ministries | IARM',
-      template: '%s | International Anglican Revival Ministries',
+      default: 'HOPE COMMUNITY GOSPER International Ministry | HCGIM',
+      template: '%s | HOPE COMMUNITY GOSPER International Ministry',
     },
     description:
       'A vibrant Christian community in Edmonton, Alberta, dedicated to spiritual growth, compassion, and service. Multilingual worship services in English and Kinyarwanda. Join us for Sunday worship, community outreach, and refugee support programs.',
     keywords: [
       'Anglican church Edmonton',
-      'International Anglican Revival Ministries',
-      'IARM',
+      'HOPE COMMUNITY GOSPER International Ministry',
+      'HCGIM',
       'Pentecostal Anglican church',
       'Multilingual church Edmonton',
       'African churches in Edmonton',
@@ -57,26 +57,26 @@ export async function generateMetadata({
       'Youth ministry Edmonton',
       'Refugee ministry Edmonton',
     ],
-    authors: [{ name: 'International Anglican Revival Ministries' }],
-    creator: 'International Anglican Revival Ministries',
-    publisher: 'International Anglican Revival Ministries',
+    authors: [{ name: 'HOPE COMMUNITY GOSPER International Ministry' }],
+    creator: 'HOPE COMMUNITY GOSPER International Ministry',
+    publisher: 'HOPE COMMUNITY GOSPER International Ministry',
     formatDetection: {
       email: false,
       address: false,
       telephone: false,
     },
     openGraph: {
-      title: 'International Anglican Revival Ministries | IARM',
+      title: 'HOPE COMMUNITY GOSPER International Ministry | HCGIM',
       description:
         'A vibrant Christian community in Edmonton, Alberta, dedicated to spiritual growth, compassion, and service. Multilingual worship services in English and Kinyarwanda. Join us for Sunday worship, community outreach, and refugee support programs.',
       url: canonicalUrl,
-      siteName: 'International Anglican Revival Ministries',
+      siteName: 'HOPE COMMUNITY GOSPER International Ministry',
       images: [
         {
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: 'International Anglican Revival Ministries - A vibrant Christian community in Edmonton',
+          alt: 'HOPE COMMUNITY GOSPER International Ministry - A vibrant Christian community in Edmonton',
         },
       ],
       locale: locale === 'en' ? 'en_CA' : locale,
@@ -85,7 +85,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'International Anglican Revival Ministries | IARM',
+      title: 'HOPE COMMUNITY GOSPER International Ministry | HCGIM',
       description:
         'A vibrant Christian community in Edmonton, Alberta, dedicated to spiritual growth, compassion, and service. Multilingual worship services in English and Kinyarwanda.',
       images: [ogImage],
@@ -134,8 +134,8 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'International Anglican Revival Ministries',
-            alternateName: 'IARM',
+            name: 'HOPE COMMUNITY GOSPER International Ministry',
+            alternateName: 'HCGIM',
             url: 'https://www.iarmministries.org',
             potentialAction: {
               '@type': 'SearchAction',

@@ -44,7 +44,7 @@ export default function ServicesPage() {
     eventStatus: 'https://schema.org/EventScheduled',
     location: {
       '@type': 'Place',
-      name: 'International Anglican Revival Ministries',
+      name: 'HOPE COMMUNITY GOSPER International Ministry',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '6110 Fulton Road',
@@ -56,7 +56,7 @@ export default function ServicesPage() {
     },
     organizer: {
       '@type': 'Organization',
-      name: 'International Anglican Revival Ministries',
+      name: 'HOPE COMMUNITY GOSPER International Ministry',
       url: 'https://www.iarmministries.org',
     },
     offers: {

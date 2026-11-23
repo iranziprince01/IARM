@@ -66,27 +66,23 @@ export default function Header() {
     <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? 'bg-white shadow-lg'
+            ? 'bg-white shadow-sm border-b border-gray-100/80'
             : 'bg-white/95 backdrop-blur-sm'
         }`}
       >
-      <nav className="container-custom py-2 sm:py-3 md:py-4 px-2 sm:px-3 md:px-4 lg:px-6 xl:px-8">
-        <div className="flex items-center justify-between w-full gap-2 sm:gap-3 md:gap-4 lg:gap-6 xl:gap-8">
-          {/* Logo and Name - Left Aligned */}
-          <Link href={locale === defaultLocale ? '/' : `/${locale}`} className="flex items-center space-x-1 sm:space-x-1.5 md:space-x-2 lg:space-x-3 flex-shrink-0 min-w-0">
-            <div className="relative w-8 h-8 xs:w-9 xs:h-9 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 flex-shrink-0">
+      <nav className="container-custom py-2.5 md:py-3 px-4 sm:px-5 lg:px-6">
+        <div className="flex items-center justify-between w-full gap-2 sm:gap-3 md:gap-4 lg:gap-5">
+          {/* Logo - Left Aligned */}
+          <Link href={locale === defaultLocale ? '/' : `/${locale}`} className="flex items-center flex-shrink-0">
+            <div className="relative w-11 h-11 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16">
               <Image
-                src="/logos/website.webp"
-                alt="International Anglican Revival Ministries Logo"
+                src="/logos/Logo.png"
+                alt="HOPE COMMUNITY GOSPER International Ministry Logo"
                 fill
                 className="object-contain"
                 priority
+                sizes="(max-width: 640px) 44px, (max-width: 768px) 48px, (max-width: 1024px) 56px, 64px"
               />
-            </div>
-            <div className="hidden sm:block min-w-0">
-              <h1 className="text-xs sm:text-xs md:text-sm lg:text-base font-extrabold text-gray-900 leading-none max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] xl:max-w-[240px]">
-                International<br />Anglican Revival<br />Ministries
-              </h1>
             </div>
           </Link>
 
@@ -97,7 +93,7 @@ export default function Header() {
                 key={item.key}
                 href={item.href}
                 prefetch={true}
-                className={`px-1.5 xl:px-2 py-1.5 xl:py-2 rounded-lg transition-colors duration-200 text-xs xl:text-sm font-bold ${
+                className={`px-3 py-2 rounded-lg transition-colors duration-200 text-xs xl:text-sm font-semibold ${
                   isActive(item.href)
                     ? 'bg-gold-500 text-white'
                     : 'text-gray-700 hover:bg-gold-50 hover:text-gold-600'
@@ -114,7 +110,7 @@ export default function Header() {
               onMouseLeave={() => setIsGetInvolvedOpen(false)}
             >
               <button
-                className={`px-1.5 xl:px-2 py-1.5 xl:py-2 rounded-lg transition-colors duration-200 text-xs xl:text-sm font-bold ${
+                className={`px-3 py-2 rounded-lg transition-colors duration-200 text-xs xl:text-sm font-semibold ${
                   isActive(locale === defaultLocale ? '/get-involved' : `/${locale}/get-involved`)
                     ? 'bg-gold-500 text-white'
                     : 'text-gray-700 hover:bg-gold-50 hover:text-gold-600'
@@ -134,13 +130,13 @@ export default function Header() {
                 </svg>
               </button>
               {isGetInvolvedOpen && (
-                <div className="absolute top-full left-0 mt-1 w-56 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                <div className="absolute top-full left-0 mt-1 w-56 bg-white rounded-xl shadow-lg border-2 border-gray-300 py-2 z-50">
                   {getInvolvedItems.map((item) => (
                     <Link
                       key={item.key}
                       href={item.href}
                       prefetch={true}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gold-50 hover:text-gold-600 transition-colors"
+                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gold-50 hover:text-gold-600 transition-colors"
                     >
                       {t(item.key)}
                     </Link>
@@ -152,7 +148,7 @@ export default function Header() {
               <Link
                 href={locale === defaultLocale ? '/contact' : `/${locale}/contact`}
                 prefetch={true}
-                className={`px-1.5 xl:px-2 py-1.5 xl:py-2 rounded-lg transition-colors duration-200 text-xs xl:text-sm font-bold ${
+                className={`px-3 py-2 rounded-lg transition-colors duration-200 text-xs xl:text-sm font-semibold ${
                   isActive(locale === defaultLocale ? '/contact' : `/${locale}/contact`)
                     ? 'bg-gold-500 text-white'
                     : 'text-gray-700 hover:bg-gold-50 hover:text-gold-600'
@@ -227,7 +223,7 @@ export default function Header() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden mt-4 space-y-2"
+              className="lg:hidden mt-5 pt-2 space-y-1 border-t border-gray-100"
             >
               {navItems.map((item) => (
                 <Link
@@ -235,7 +231,7 @@ export default function Header() {
                   href={item.href}
                   prefetch={true}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`block px-4 py-3 rounded-lg transition-colors ${
+                  className={`block px-4 py-3 rounded-lg font-semibold transition-colors ${
                     isActive(item.href)
                       ? 'bg-gold-500 text-white'
                       : 'text-gray-700 hover:bg-gold-50'
@@ -246,10 +242,10 @@ export default function Header() {
               ))}
               
               {/* Mobile Get Involved */}
-              <div className="px-4 py-3">
+              <div className="px-1 py-2">
                 <button
                   onClick={() => setIsGetInvolvedOpen(!isGetInvolvedOpen)}
-                  className="w-full text-left text-gray-700 font-bold"
+                  className="w-full text-left px-3 py-3 text-gray-700 font-semibold rounded-lg hover:bg-gold-50 transition-colors"
                 >
                   {t('getInvolved')}
                   <svg
@@ -267,7 +263,7 @@ export default function Header() {
                   </svg>
                 </button>
                 {isGetInvolvedOpen && (
-                  <div className="mt-2 ml-4 space-y-2">
+                  <div className="mt-1 ml-2 space-y-0.5 pb-2">
                     {getInvolvedItems.map((item) => (
                       <Link
                         key={item.key}
@@ -277,7 +273,7 @@ export default function Header() {
                           setIsMobileMenuOpen(false);
                           setIsGetInvolvedOpen(false);
                         }}
-                        className="block px-4 py-2 text-gray-600 hover:text-gold-600 rounded-lg hover:bg-gold-50"
+                        className="block px-5 py-2.5 text-sm text-gray-600 hover:text-gold-600 rounded-lg hover:bg-gold-50 transition-colors"
                       >
                         {t(item.key)}
                       </Link>
@@ -290,7 +286,7 @@ export default function Header() {
                         href={locale === defaultLocale ? '/contact' : `/${locale}/contact`}
                         prefetch={true}
                         onClick={() => setIsMobileMenuOpen(false)}
-                        className={`block px-4 py-3 rounded-lg transition-colors ${
+                        className={`block px-4 py-3 rounded-lg font-semibold transition-colors ${
                           isActive(locale === defaultLocale ? '/contact' : `/${locale}/contact`)
                             ? 'bg-gold-500 text-white'
                             : 'text-gray-700 hover:bg-gold-50'
@@ -314,7 +310,7 @@ export default function Header() {
                         <span className="absolute inset-0 bg-gradient-to-r from-gold-600 via-gold-500 to-gold-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                       </Link>
 
-              <div className="pt-2">
+              <div className="pt-4 pb-2 px-1">
                 <LanguageSwitcher />
               </div>
             </motion.div>

@@ -166,18 +166,18 @@ export default function DonationForm() {
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
       onSubmit={handleSubmit(onSubmit)}
-      className="bg-white p-4 sm:p-5 md:p-6 lg:p-8 rounded-xl shadow-lg"
+      className="card-soft"
     >
       <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-5 md:mb-6 text-gold-600">
         Make a Donation
       </h2>
 
-      <div className="space-y-4 sm:space-y-5">
+      <div className="space-y-5">
         {/* Country Selection */}
         <div>
           <label
             htmlFor="country"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Country <span className="text-red-500">*</span>
           </label>
@@ -191,7 +191,7 @@ export default function DonationForm() {
                 setValue('country', e.target.value);
                 setValue('paymentMethod', ''); // Reset payment method when country changes
               }}
-              className="w-full pl-10 pr-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 transition-colors appearance-none bg-white text-sm sm:text-base"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors appearance-none bg-white text-sm sm:text-base"
             >
               <option value="">Select your country</option>
               <option value="CA">Canada</option>
@@ -210,7 +210,7 @@ export default function DonationForm() {
         <div>
           <label
             htmlFor="amount"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Donation Amount (CAD) <span className="text-red-500">*</span>
           </label>
@@ -238,7 +238,7 @@ export default function DonationForm() {
               placeholder="Enter custom amount"
               min="1"
               step="0.01"
-              className="w-full pl-9 sm:pl-10 pr-3 sm:pr-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 transition-colors text-sm sm:text-base"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors text-sm sm:text-base"
             />
           </div>
           {errors.amount && (
@@ -249,7 +249,7 @@ export default function DonationForm() {
         {/* Payment Method */}
         {selectedCountry && (
           <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-2">
+            <label className="block text-sm font-semibold text-gray-800 mb-2">
               Payment Method <span className="text-red-500">*</span>
             </label>
             <div className="space-y-2 sm:space-y-3">
@@ -289,7 +289,7 @@ export default function DonationForm() {
         <div>
           <label
             htmlFor="fullName"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Full Name <span className="text-red-500">*</span>
           </label>
@@ -300,7 +300,7 @@ export default function DonationForm() {
               id="fullName"
               {...register('fullName')}
               placeholder="Enter your full name"
-              className="w-full pl-9 sm:pl-10 pr-3 sm:pr-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 transition-colors text-sm sm:text-base"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors text-sm sm:text-base"
             />
           </div>
           {errors.fullName && (
@@ -312,7 +312,7 @@ export default function DonationForm() {
         <div>
           <label
             htmlFor="email"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Email Address <span className="text-red-500">*</span>
           </label>
@@ -323,7 +323,7 @@ export default function DonationForm() {
               id="email"
               {...register('email')}
               placeholder="Enter your email address"
-              className="w-full pl-9 sm:pl-10 pr-3 sm:pr-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 transition-colors text-sm sm:text-base"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors text-sm sm:text-base"
             />
           </div>
           {errors.email && (
@@ -335,7 +335,7 @@ export default function DonationForm() {
         <div>
           <label
             htmlFor="message"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Message (Optional)
           </label>
@@ -344,7 +344,7 @@ export default function DonationForm() {
             {...register('message')}
             placeholder="Add a personal message or note"
             rows={3}
-            className="w-full px-3 sm:px-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 transition-colors resize-none text-sm sm:text-base"
+            className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors resize-none text-sm sm:text-base"
           />
         </div>
 
@@ -352,7 +352,7 @@ export default function DonationForm() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-gold-500 hover:bg-gold-600 text-white font-semibold py-2.5 sm:py-3 px-4 sm:px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base"
+          className="w-full bg-gold-500 hover:bg-gold-600 text-white font-semibold py-2.5 sm:py-3 px-4 sm:px-6 rounded-xl transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base"
         >
           {isSubmitting ? 'Processing...' : 'Continue to Payment'}
         </button>

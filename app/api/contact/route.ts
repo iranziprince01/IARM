@@ -65,7 +65,7 @@ export async function POST(request: NextRequest) {
 
     // Email content with beautiful, professional design
     const mailOptions = {
-      from: `"International Anglican Revival Ministries" <${gmailUser}>`,
+      from: `"HOPE COMMUNITY GOSPER International Ministry" <${gmailUser}>`,
       replyTo: email,
       to: recipientEmail,
       subject: `📧 New Contact Form Message from ${sanitizedName}`,
@@ -90,7 +90,7 @@ export async function POST(request: NextRequest) {
                 ✉️ New Contact Form Submission
               </h1>
               <p style="margin: 10px 0 0 0; color: #ffffff; font-size: 14px; opacity: 0.95;">
-                International Anglican Revival Ministries
+                HOPE COMMUNITY GOSPER International Ministry
               </p>
             </td>
           </tr>
@@ -183,7 +183,7 @@ export async function POST(request: NextRequest) {
               <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center">
                 <tr>
                   <td style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%); border-radius: 8px; padding: 0;">
-                    <a href="mailto:${sanitizedEmail}?subject=Re: Your Contact Form Message&body=Dear ${sanitizedName},%0D%0A%0D%0AThank you for contacting International Anglican Revival Ministries..." style="display: inline-block; padding: 14px 32px; color: #ffffff; text-decoration: none; font-weight: 600; font-size: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);">
+                    <a href="mailto:${sanitizedEmail}?subject=Re: Your Contact Form Message&body=Dear ${sanitizedName},%0D%0A%0D%0AThank you for contacting HOPE COMMUNITY GOSPER International Ministry..." style="display: inline-block; padding: 14px 32px; color: #ffffff; text-decoration: none; font-weight: 600; font-size: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);">
                       ✉️ Reply to ${sanitizedName}
                     </a>
                   </td>
@@ -196,14 +196,14 @@ export async function POST(request: NextRequest) {
           <tr>
             <td style="background-color: #f9fafb; padding: 25px 30px; border-top: 1px solid #e5e7eb; text-align: center;">
               <p style="margin: 0 0 10px 0; color: #6b7280; font-size: 13px; line-height: 1.6;">
-                This message was sent from the <strong style="color: #1e40af;">International Anglican Revival Ministries</strong> contact form.
+                This message was sent from the <strong style="color: #1e40af;">HOPE COMMUNITY GOSPER International Ministry</strong> contact form.
               </p>
               <p style="margin: 0; color: #9ca3af; font-size: 12px;">
                 You can reply directly to this email to respond to ${sanitizedName}.
               </p>
               <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
                 <p style="margin: 0; color: #9ca3af; font-size: 11px;">
-                  © ${new Date().getFullYear()} International Anglican Revival Ministries. All rights reserved.
+                  © ${new Date().getFullYear()} HOPE COMMUNITY GOSPER International Ministry. All rights reserved.
                 </p>
               </div>
             </td>

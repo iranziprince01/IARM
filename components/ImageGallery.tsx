@@ -31,16 +31,16 @@ export default function ImageGallery({
 
   return (
     <>
-      <section className={`section-padding bg-gray-100 ${className}`}>
+      <section className={`section-padding ${className || 'section-bg-mist'}`}>
         <div className="container-custom">
-          <div className="max-w-7xl mx-auto">
+          <div className="w-full">
             {showTitle && (title || subtitle) && (
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+                className="text-center mb-10 md:mb-14"
               >
                 {title && (
                   <h2 className="heading-secondary text-gray-900 mb-3 sm:mb-4">
@@ -55,7 +55,7 @@ export default function ImageGallery({
               </motion.div>
             )}
 
-            <div className={`grid ${gridCols[columns]} gap-2 sm:gap-3 md:gap-4 lg:gap-6 px-4 sm:px-6`}>
+            <div className={`grid ${gridCols[columns]} gap-4 md:gap-6 lg:gap-8`}>
               {images.map((image, index) => {
                 // Images 007 (index 6) and 009 (index 8) need special positioning to show faces
                 const imageNumber = parseInt(image.split('/').pop()?.replace('.jpg', '') || '0');
@@ -68,7 +68,7 @@ export default function ImageGallery({
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.5 }}
-                    className="relative aspect-square rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer group"
+                    className="relative aspect-square rounded-2xl overflow-hidden shadow-sm hover:shadow-md border-2 border-gray-300 transition-all duration-300 cursor-pointer group"
                     onClick={() => setSelectedImage(image)}
                   >
                     <Image

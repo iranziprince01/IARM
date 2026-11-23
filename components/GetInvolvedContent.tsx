@@ -61,10 +61,10 @@ export default function GetInvolvedContent({ locale }: { locale: string }) {
         backgroundImageAlt="Church community involvement"
       />
 
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
+      <section className="section-padding section-bg-white">
         <div className="container-custom">
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4 sm:gap-5 md:gap-6 lg:gap-8 max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-5 md:gap-6 lg:gap-8">
             {involvementOptions.map((option, index) => {
               // Map each option to a relevant foundation image
               const optionImages = [
@@ -81,7 +81,7 @@ export default function GetInvolvedContent({ locale }: { locale: string }) {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.6 }}
-                  className="bg-white rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group"
+                  className="card-modern overflow-hidden border-2 border-gray-300 hover:border-gray-400 transition-all duration-300 group p-0"
                 >
                   <div className="relative h-32 sm:h-40 md:h-48 overflow-hidden">
                     <Image

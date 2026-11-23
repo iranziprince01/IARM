@@ -1,4 +1,4 @@
-# International Anglican Revival Ministries Website
+# HOPE COMMUNITY GOSPER International Ministry Website
 
 A modern, multilingual church website built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 
@@ -158,5 +158,5 @@ For questions or issues, please contact the church at:
 
 ## 📄 License
 
-© 2025 International Anglican Revival Ministries. All rights reserved.
+© 2025 HOPE COMMUNITY GOSPER International Ministry. All rights reserved.
 

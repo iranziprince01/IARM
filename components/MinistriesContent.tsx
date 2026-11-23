@@ -41,18 +41,18 @@ export default function MinistriesContent() {
         backgroundImageAlt="Church ministries and service"
       />
 
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
+      <section className="section-padding section-bg-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+            className="text-center max-w-4xl mx-auto mb-10 md:mb-14"
           >
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 px-4 sm:px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
             {ministries.map((ministry, index) => (
               <motion.div
                 key={ministry.key}
@@ -60,7 +60,7 @@ export default function MinistriesContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1, duration: 0.6 }}
-                className="bg-white rounded-xl shadow-xl hover:shadow-2xl transition-shadow overflow-hidden"
+                className="card-modern overflow-hidden border-2 border-gray-300 hover:border-gray-400 p-0"
               >
                 <div
                   className={`h-24 sm:h-28 md:h-32 bg-gradient-to-r ${ministry.color} flex items-center justify-center`}
@@ -92,9 +92,10 @@ export default function MinistriesContent() {
         title="Ministry in Action"
         subtitle="See how our ministries serve and impact lives in our community"
         columns={4}
+        className="section-bg-soft"
       />
 
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
+      <section className="section-padding section-bg-warm">
         <div className="container-custom">
           {/* Refugee Support Section */}
           <motion.div
@@ -102,10 +103,10 @@ export default function MinistriesContent() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="mt-10 sm:mt-12 md:mt-16 space-y-6 sm:space-y-8 px-4 sm:px-6"
+            className="mt-10 sm:mt-12 md:mt-16 space-y-6 sm:space-y-8"
             id="refugee"
           >
-            <div className="bg-gradient-to-r from-blue-600 via-blue-500 to-gold-500 rounded-xl p-5 sm:p-6 md:p-8 text-white shadow-xl">
+            <div className="bg-gradient-to-r from-blue-600 via-blue-500 to-gold-500 rounded-xl p-5 sm:p-6 md:p-8 text-white shadow-sm">
               <h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">{t('refugeeSupport')}</h2>
               <p className="text-sm sm:text-base md:text-lg text-gold-100 leading-relaxed text-justify mb-4 sm:mb-5 md:mb-6">
                 {t('refugeeSupportDesc')}

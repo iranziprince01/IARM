@@ -32,12 +32,12 @@
     "subscribeDesc": "Wakire amakuru buri cyumweru. Komeza kwiyubaka no guhuza na Imana.",
     "emailPlaceholder": "Injiza imeyili yawe",
     "subscribeButton": "Iyandikishe",
-    "description": "International Anglican Revival Ministries - Umuryango w'Abakristu wihariye washinzwe kwiyubaka mu mutima, umwete, no gukorera.",
-    "copyright": "© {year} International Anglican Revival Ministries. Uburenganzira bwose burarinzwe.",
+    "description": "HOPE COMMUNITY GOSPER International Ministry - Umuryango w'Abakristu wihariye washinzwe kwiyubaka mu mutima, umwete, no gukorera.",
+    "copyright": "© {year} HOPE COMMUNITY GOSPER International Ministry. Uburenganzira bwose burarinzwe.",
     "addressLabel": "Aderesi"
   },
   "home": {
-    "title": "Murakaza neza muri International Anglican Revival Ministries",
+    "title": "Murakaza neza muri HOPE COMMUNITY GOSPER International Ministry",
     "subtitle": "Umuryango w'Abakristu wihariye washinzwe kwiyubaka mu mutima, umwete, no gukorera hamwe",
     "cta": "Dufatanye Umurimo",
     "learnMore": "Menya byinshi",
@@ -47,15 +47,15 @@
     "bibleVerseRef": "Matayo 11:28",
     "welcomeGreeting": "Banyamuryango beza,",
     "welcomeTitle1": "Murakaza neza",
-    "welcomeTitle2": "muri International Anglican Revival Ministries!",
-    "welcomeMessage1": "Twishimiye kandi dufite umunezero wo kwakira ku rubuga rwacu rw'ibanze rwa International Anglican Revival Ministries. Niba ukoresheje urubuga rwacu bwa mbere cyangwa wari umwe mu muryango wacu wihariye, nyamuneka menya ko wakunzwe, wahawe agaciro, kandi wakiriwe neza.",
+    "welcomeTitle2": "muri HOPE COMMUNITY GOSPER International Ministry!",
+    "welcomeMessage1": "Twishimiye kandi dufite umunezero wo kwakira ku rubuga rwacu rw'ibanze rwa HOPE COMMUNITY GOSPER International Ministry. Niba ukoresheje urubuga rwacu bwa mbere cyangwa wari umwe mu muryango wacu wihariye, nyamuneka menya ko wakunzwe, wahawe agaciro, kandi wakiriwe neza.",
     "welcomeMessage2": "Iyi website yashinzwe kugira ngo ibe inkomoko y'umwete, inyigisho z'umutima, n'umuryango, ituma dukomeza gufatanya mu kwemera kwawe.",
     "welcomeMessage3": "Dukomeza gukorana n'imiryango ya hafi n'ya ikure, gusangira urukundo rw'Imana no gukorera hamwe n'umwete.",
     "pastorName": "Intumwa Rev. Jean Nsengiyumva"
   },
   "about": {
     "title": "Twebwe",
-    "church": "International Anglican Revival Ministries ni umuryango w'Abakristu wihariye kwiyubaka mu mutima, kwiyubaka mu mutima, no gukorera abandi. Turi Pentekoste/Protestanti ishinzwe kwamamaza Inkuru Nziza, gufasha imiryango, no guha abemera imbaraga zo gukomeza ubuzima bwihariye kandi buzima.",
+    "church": "HOPE COMMUNITY GOSPER International Ministry ni umuryango w'Abakristu wihariye kwiyubaka mu mutima, kwiyubaka mu mutima, no gukorera abandi. Turi Pentekoste/Protestanti ishinzwe kwamamaza Inkuru Nziza, gufasha imiryango, no guha abemera imbaraga zo gukomeza ubuzima bwihariye kandi buzima.",
     "congregation": "Dufasha umuryango w'Abakristu wihariye i Edmonton, harimo Abakanada n'Abanyafurika, dukoresha icyongereza no gufasha mu gifaransa n'Ikinyarwanda.",
     "ministry": "Minisiteri yacu iri hanze ya Canada, dukorana n'amadini muri Afurika no gufasha abimukira, abapfakazi, imfubyi, n'impunzi muri Uganda, Kenya, Rwanda, n'indi mihana.",
     "vision": "Icyerekezo",
@@ -108,7 +108,7 @@
       "Twemera ubwiyunge bw'umwuka ku bemera umwami wacu Yesu Kristo."
     ],
     "history": "Amateka yacu",
-    "historyDesc": "International Anglican Revival Ministries yashinzwe kugira ngo ishake ndetse ifashe abantu bo mu itorero n'abantu bo mu mujyi wa Edmonton, cyane cyane abavuga Ikinyarwanda bashakisha aho basenga bashimira imyizerere y'Ubwongereza n'ibyiyumvo by'Umwuka.",
+    "historyDesc": "HOPE COMMUNITY GOSPER International Ministry yashinzwe kugira ngo ishake ndetse ifashe abantu bo mu itorero n'abantu bo mu mujyi wa Edmonton, cyane cyane abavuga Ikinyarwanda bashakisha aho basenga bashimira imyizerere y'Ubwongereza n'ibyiyumvo by'Umwuka.",
     "historyContent": [
       "Yatangiye n'intego yo guhuza imico n'indimi, itorero ryacu ryatangiye nk'isangano ry'abemera biyemeje gusangiza Inkuru Nziza mu rurimi rw'Icyongereza n'iKinyarwanda.",
       "Mu myaka yashize, twagize umuryango ukomeye ushaka gufasha abantu bo mu mujyi wa Edmonton, ariko kandi dukomeza gufasha abantu bo mu bindi bihugu byo muri Afurika.",
@@ -229,7 +229,7 @@
     "title": "Kuba umunyamuryango",
     "subtitle": "Injira mu muryango w'itorero kandi ube umunyamuryango w'ukuri.",
     "process": "Gahunda yo Kuba umunyamuryango",
-    "processDesc": "Kuba umunyamuryango wa International Anglican Revival Ministries bivuze kwiyemeza kuba mu muryango wacu, intego, n'icherekezo. Twakira bose bashaka kuba mu muryango w'itorero ryacu.",
+    "processDesc": "Kuba umunyamuryango wa HOPE COMMUNITY GOSPER International Ministry bivuze kwiyemeza kuba mu muryango wacu, intego, n'icherekezo. Twakira bose bashaka kuba mu muryango w'itorero ryacu.",
     "attend": "Gufatanya mu kuri",
     "attendDesc": "Gufatanya buri gihe mu kuri no kumenya umuryango wacu neza.",
     "class": "Inama y'Umunyamuryango",
@@ -463,7 +463,7 @@
     "introduction": {
       "title": "Intangiriro",
       "lastUpdated": "Ihindurwa ryanyuma",
-      "content": "International Anglican Revival Ministries ('twebwe', 'yacu', cyangwa 'twe') ishinzwe gukingira ubwigenge bwawe. Iyi Politiki y'Ubwigenge isobanura uko dukusanya, dukoresha, kwerekana, kandi dukingira amakuru yawe igihe wongeye gukoresha urubuga rwacu, gukoresha serivisi zacu, cyangwa gukorana natwe. Nyamuneka iyi politiki y'ubwigenge neza. Niba utemeye amabwiriza y'iyi politiki y'ubwigenge, nyamuneka ntukoreshe urubuga."
+      "content": "HOPE COMMUNITY GOSPER International Ministry ('twebwe', 'yacu', cyangwa 'twe') ishinzwe gukingira ubwigenge bwawe. Iyi Politiki y'Ubwigenge isobanura uko dukusanya, dukoresha, kwerekana, kandi dukingira amakuru yawe igihe wongeye gukoresha urubuga rwacu, gukoresha serivisi zacu, cyangwa gukorana natwe. Nyamuneka iyi politiki y'ubwigenge neza. Niba utemeye amabwiriza y'iyi politiki y'ubwigenge, nyamuneka ntukoreshe urubuga."
     },
     "collection": {
       "title": "Amakuru Dukusanya",
@@ -539,7 +539,7 @@
       "title": "Twandikire",
       "content": [
         "Niba ufite ibibazo byose ku makuru y'iyi Politiki y'Ubwigenge cyangwa ushaka gukoresha uburenganzira bwawe bwo kwiyubaka, nyamuneka twandikire:",
-        "International Anglican Revival Ministries",
+        "HOPE COMMUNITY GOSPER International Ministry",
         "6110 Fulton Road, Edmonton, AB T6A 3T3, Kanada",
         "Telefoni: +1 587-778-6406 cyangwa +1 825-461-7431",
         "Urashobora kandi gukoresha ipaji yacu y'Ubwoba kugira ngo ubone amakuru menshi."
@@ -552,7 +552,7 @@
     "introduction": {
       "title": "Intangiriro",
       "lastUpdated": "Ihindurwa ryanyuma",
-      "content": "Murakaza neza ku rubuga rw'International Anglican Revival Ministries. Binyuze mu kugera kandi gukoresha urubuga rwacu, wemera kandi wemera gukurikira amabwiriza n'ibyemezo by'iyi ntego. Niba utemeye gukurikira ibyo haruguru, nyamuneka ntukoreshe iyi serivisi."
+      "content": "Murakaza neza ku rubuga rw'HOPE COMMUNITY GOSPER International Ministry. Binyuze mu kugera kandi gukoresha urubuga rwacu, wemera kandi wemera gukurikira amabwiriza n'ibyemezo by'iyi ntego. Niba utemeye gukurikira ibyo haruguru, nyamuneka ntukoreshe iyi serivisi."
     },
     "agreement": {
       "title": "Kwirirana n'Amabwiriza",
@@ -563,7 +563,7 @@
     "license": {
       "title": "Gukoresha License",
       "content": [
-        "Uruhushya rwatanzwe gukusanya kopi imwe y'ibikoresho ku rubuga rw'International Anglican Revival Ministries kugira ngo wiyubake, ntacyo gukoresha ubucuruzi gusa. Iki ni uruhushya, si kwimura umutwe, kandi binyuze mu ruhushya ntushobora:"
+        "Uruhushya rwatanzwe gukusanya kopi imwe y'ibikoresho ku rubuga rw'HOPE COMMUNITY GOSPER International Ministry kugira ngo wiyubake, ntacyo gukoresha ubucuruzi gusa. Iki ni uruhushya, si kwimura umutwe, kandi binyuze mu ruhushya ntushobora:"
       ],
       "list": [
         "Guhindura cyangwa gukora kopi z'ibikoresho",
@@ -576,37 +576,37 @@
     "restrictions": {
       "title": "Ibyirirwa",
       "content": [
-        "Ibikoresho ku rubuga rw'International Anglican Revival Ministries bitangwa 'nk'uko biri'. International Anglican Revival Ministries ntitanga amasezerano, yerekanye cyangwa yerekanye, kandi binyuze mu ruhushya ikangiza kandi ikangiza amasezerano yose harimo, nta kwangirwa, amasezerano yerekanye cyangwa ibyemezo by'ubucuruzi, gukomeza mu ntego yihariye, cyangwa kutagira ubwoba bw'ubwoba cyangwa ikindi kwangirwa kw'uburenganzira."
+        "Ibikoresho ku rubuga rw'HOPE COMMUNITY GOSPER International Ministry bitangwa 'nk'uko biri'. HOPE COMMUNITY GOSPER International Ministry ntitanga amasezerano, yerekanye cyangwa yerekanye, kandi binyuze mu ruhushya ikangiza kandi ikangiza amasezerano yose harimo, nta kwangirwa, amasezerano yerekanye cyangwa ibyemezo by'ubucuruzi, gukomeza mu ntego yihariye, cyangwa kutagira ubwoba bw'ubwoba cyangwa ikindi kwangirwa kw'uburenganzira."
       ]
     },
     "disclaimer": {
       "title": "Guha",
       "content": [
-        "Ibikoresho bigaragara ku rubuga rw'International Anglican Revival Ministries bishobora kuba n'amakosa y'ubwoba, y'ubwoba, cyangwa y'amashusho. International Anglican Revival Ministries ntitanga amasezerano ko ibikoresho byose ku rubuga rwayo ni ukuri, byuzuye, cyangwa by'ubu. International Anglican Revival Ministries ishobora guhindura ibikoresho birimo ku rubuga rwayo igihe icyo ari cyo cyose nta kumenyesha."
+        "Ibikoresho bigaragara ku rubuga rw'HOPE COMMUNITY GOSPER International Ministry bishobora kuba n'amakosa y'ubwoba, y'ubwoba, cyangwa y'amashusho. HOPE COMMUNITY GOSPER International Ministry ntitanga amasezerano ko ibikoresho byose ku rubuga rwayo ni ukuri, byuzuye, cyangwa by'ubu. HOPE COMMUNITY GOSPER International Ministry ishobora guhindura ibikoresho birimo ku rubuga rwayo igihe icyo ari cyo cyose nta kumenyesha."
       ]
     },
     "limitations": {
       "title": "Ibitemewe",
       "content": [
-        "Nta gihe International Anglican Revival Ministries cyangwa abafasha bayo bazaba bafite imbere bivuga binyuze mu gukoresha cyangwa kutagira ubushobozi bwo gukoresha ibikoresho byo ku rubuga rwa International Anglican Revival Ministries, n'iyo International Anglican Revival Ministries cyangwa umukoresha wemewe wabwiwe mu makuru y'ubushobozi bwo kwangiza."
+        "Nta gihe HOPE COMMUNITY GOSPER International Ministry cyangwa abafasha bayo bazaba bafite imbere bivuga binyuze mu gukoresha cyangwa kutagira ubushobozi bwo gukoresha ibikoresho byo ku rubuga rwa HOPE COMMUNITY GOSPER International Ministry, n'iyo HOPE COMMUNITY GOSPER International Ministry cyangwa umukoresha wemewe wabwiwe mu makuru y'ubushobozi bwo kwangiza."
       ]
     },
     "accuracy": {
       "title": "Ukuri kw'Ibikoresho",
       "content": [
-        "Ibikoresho bigaragara ku rubuga rw'International Anglican Revival Ministries bishobora kubamo n'amakosa, cyangwa y'amashusho. International Anglican Revival Ministries ntitanga amasezerano ko ibikoresho byose ku rubuga rwayo ari ukuri, kandi byuzuye. International Anglican Revival Ministries ishobora guhindura ibikoresho biri ku rubuga rwayo igihe icyo ari cyo cyose nta kumenyesha."
+        "Ibikoresho bigaragara ku rubuga rw'HOPE COMMUNITY GOSPER International Ministry bishobora kubamo n'amakosa, cyangwa y'amashusho. HOPE COMMUNITY GOSPER International Ministry ntitanga amasezerano ko ibikoresho byose ku rubuga rwayo ari ukuri, kandi byuzuye. HOPE COMMUNITY GOSPER International Ministry ishobora guhindura ibikoresho biri ku rubuga rwayo igihe icyo ari cyo cyose nta kumenyesha."
       ]
     },
     "links": {
       "title": "Guhuza",
       "content": [
-        "International Anglican Revival Ministries ntiyongeye gusuzuma urubuga rwose ruhuza n'urubuga rwayo kandi ntidutatira ibirimo urubuga rwahuza. Gushyira mu bikorwa ihuza ryose ntibisobanura kwemerana na International Anglican Revival Ministries. Gukoresha urubuga ruhuza rwose ni ku bw'ubushake bw'urukoresha."
+        "HOPE COMMUNITY GOSPER International Ministry ntiyongeye gusuzuma urubuga rwose ruhuza n'urubuga rwayo kandi ntidutatira ibirimo urubuga rwahuza. Gushyira mu bikorwa ihuza ryose ntibisobanura kwemerana na HOPE COMMUNITY GOSPER International Ministry. Gukoresha urubuga ruhuza rwose ni ku bw'ubushake bw'urukoresha."
       ]
     },
     "modifications": {
       "title": "Guhindura",
       "content": [
-        "International Anglican Revival Ministries ishobora guhindura amabwiriza y'urubuga rwayo igihe icyo ari cyo cyose nta kumenyesha. Binyuze mu gukoresha urubuga rwacu wemeya gukurikira amabwiriza yacu."
+        "HOPE COMMUNITY GOSPER International Ministry ishobora guhindura amabwiriza y'urubuga rwayo igihe icyo ari cyo cyose nta kumenyesha. Binyuze mu gukoresha urubuga rwacu wemeya gukurikira amabwiriza yacu."
       ]
     },
     "governing": {
@@ -619,7 +619,7 @@
       "title": "Uburyo bwo Gukorana",
       "content": [
         "Niba ufite ibibazo byose ku makuru n'Amabwiriza n'Ibyemezo, twandikire:",
-        "International Anglican Revival Ministries",
+        "HOPE COMMUNITY GOSPER International Ministry",
         "6110 Fulton Road, Edmonton, AB T6A 3T3, Canada",
         "Telefoni: +1 587-778-6406 cyangwa +1 825-461-7431",
         "Urashobora kandi gukoresha ipaji yacu kugira ngo ubone amakuru yacu menshi."

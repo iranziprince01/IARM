@@ -19,7 +19,7 @@ export default function PageHero({
   size = 'default',
 }: PageHeroProps) {
   return (
-    <section className="relative h-[40vh] min-h-[300px] sm:h-[45vh] sm:min-h-[350px] md:h-[50vh] md:min-h-[400px] lg:h-[60vh] xl:h-[70vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[36vh] min-h-[260px] md:h-[40vh] lg:h-[44vh] max-h-[420px] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -38,20 +38,20 @@ export default function PageHero({
       </div>
 
       {/* Content */}
-      <div className="container-custom relative z-10 w-full px-4 sm:px-6 md:px-8">
+      <div className="container-custom relative z-10 w-full px-4 sm:px-5 lg:px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className={`text-center mx-auto ${
-            size === 'small' ? 'max-w-6xl' : 'max-w-4xl'
+            size === 'small' ? 'max-w-3xl' : 'max-w-2xl'
           }`}
         >
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-extrabold text-white mb-3 sm:mb-4 md:mb-6 leading-tight drop-shadow-lg px-2"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.5rem] xl:text-[2.75rem] font-extrabold text-white tracking-tight leading-tight drop-shadow-lg"
           >
             {title}
           </motion.h1>
@@ -60,7 +60,7 @@ export default function PageHero({
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
-              className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-white/95 font-light max-w-3xl mx-auto drop-shadow-md px-2"
+              className="text-sm sm:text-base text-white/95 font-light max-w-xl mx-auto mt-3 drop-shadow-md"
             >
               {subtitle}
             </motion.p>

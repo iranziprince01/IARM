@@ -45,7 +45,7 @@ export async function POST(request: NextRequest) {
           price_data: {
             currency: 'cad',
             product_data: {
-              name: 'Donation to International Anglican Revival Ministries',
+              name: 'Donation to HOPE COMMUNITY GOSPER International Ministry',
               description: message || 'Thank you for your generous donation',
             },
             unit_amount: amountInCents,

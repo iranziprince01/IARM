@@ -33,9 +33,9 @@ export default function ContactContent() {
       />
 
       {/* Contact Information & Form */}
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
+      <section className="section-padding section-bg-white">
         <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-16 px-4 sm:px-6 items-start lg:items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-10 xl:gap-16 items-start lg:items-start">
             {/* Contact Information */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -44,7 +44,7 @@ export default function ContactContent() {
               transition={{ duration: 0.8 }}
               className="space-y-6 sm:space-y-8"
             >
-              <div className="bg-white rounded-xl p-4 sm:p-5 md:p-6 shadow-xl mb-4 sm:mb-6">
+              <div className="card-soft mb-4 sm:mb-6">
                 <h2 className="heading-secondary mb-3 sm:mb-4">{t('visit')}</h2>
                 <div className="space-y-3 sm:space-y-4 text-sm sm:text-base md:text-lg text-gray-700">
                   <div>
@@ -94,7 +94,7 @@ export default function ContactContent() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-xl p-4 sm:p-5 md:p-6 shadow-xl">
+              <div className="card-soft">
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
                   {t('serviceTimes')}
                 </h3>
@@ -110,7 +110,7 @@ export default function ContactContent() {
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
                   Find Us on Map
                 </h3>
-                <div className="w-full h-48 xs:h-56 sm:h-64 md:h-80 lg:h-96 rounded-lg overflow-hidden shadow-xl border-2 border-gray-200">
+                <div className="w-full h-48 xs:h-56 sm:h-64 md:h-80 lg:h-96 rounded-2xl overflow-hidden shadow-sm border-2 border-gray-300">
                   <iframe
                     width="100%"
                     height="100%"
@@ -119,7 +119,7 @@ export default function ContactContent() {
                     allowFullScreen
                     referrerPolicy="no-referrer-when-downgrade"
                     src={`https://maps.google.com/maps?q=${encodeURIComponent('6110 Fulton Road, Edmonton, AB T6A 3T3, Canada')}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
-                    title="International Anglican Revival Ministries Location - 6110 Fulton Road, Edmonton, AB T6A 3T3"
+                    title="HOPE COMMUNITY GOSPER International Ministry Location - 6110 Fulton Road, Edmonton, AB T6A 3T3"
                   ></iframe>
                 </div>
                 <p className="text-sm text-gray-600 mt-2">
@@ -141,7 +141,7 @@ export default function ContactContent() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-white p-4 sm:p-5 md:p-6 lg:p-8 rounded-xl shadow-xl self-start"
+              className="card-soft self-start"
               style={{ height: 'fit-content' }}
             >
               <h2 className="heading-secondary mb-4 sm:mb-5 md:mb-6">Send us a Message</h2>
@@ -153,7 +153,7 @@ export default function ContactContent() {
 
       {/* Donate Section */}
       <section
-        className="section-padding bg-gradient-to-r from-blue-600 via-blue-500 to-gold-500 text-white"
+        className="section-padding section-bg-accent"
         id="donate"
       >
         <div className="container-custom">
@@ -162,17 +162,17 @@ export default function ContactContent() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="max-w-3xl mx-auto text-center px-4 sm:px-6"
+            className="max-w-3xl mx-auto text-center"
           >
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
               {t('supportMinistry')}
             </h2>
-            <p className="text-base sm:text-lg md:text-xl text-gold-100 leading-relaxed text-justify mb-6 sm:mb-8">
+            <p className="text-base sm:text-lg md:text-xl text-blue-100 leading-relaxed text-justify mb-6 sm:mb-8">
               {t('supportMinistryDesc')}
             </p>
             <Link
               href={getPath('/donate')}
-              className="inline-block bg-white text-gold-600 hover:bg-gold-50 font-semibold py-2.5 sm:py-3 px-6 sm:px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-sm sm:text-base"
+              className="inline-block bg-white text-gold-600 hover:bg-gold-50 font-semibold py-2.5 sm:py-3 px-6 sm:px-8 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-0.5 text-sm sm:text-base"
             >
               {t('donateNow')}
             </Link>
@@ -181,16 +181,16 @@ export default function ContactContent() {
       </section>
 
       {/* Events and Resources Section */}
-      <section className="section-padding bg-gradient-to-br from-gray-50 via-white to-gray-50" id="events-resources">
+      <section className="section-padding section-bg-warm" id="events-resources">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="content-readable">
             {/* Header */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-              className="text-center mb-12"
+              className="text-center mb-10 md:mb-14"
           >
               <h2 className="heading-secondary mb-6">{t('eventsResources')}</h2>
           </motion.div>
@@ -201,10 +201,10 @@ export default function ContactContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="mb-12 md:mb-16"
+              className="mb-10 md:mb-14"
             >
               <div className="max-w-4xl mx-auto">
-                <div className="bg-white rounded-2xl p-6 md:p-8 lg:p-10 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                <div className="card-soft hover:shadow-md transition-shadow border-2 border-gray-300">
                   <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
                     <div className="flex-shrink-0">
                       <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl flex items-center justify-center shadow-md">
@@ -230,10 +230,10 @@ export default function ContactContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="mb-12 md:mb-16"
+              className="mb-10 md:mb-14"
             >
-              <h3 className="heading-secondary text-center mb-8 md:mb-10">Resources</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6 lg:gap-8">
+              <h3 className="heading-secondary text-center mb-10 md:mb-14">Resources</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-10">
               {[
                 {
                   title: t('resources.bibleStudy'),
@@ -266,7 +266,7 @@ export default function ContactContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-gold-300"
+                    className="group bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-300 border-2 border-gray-300 hover:border-gold-500"
                 >
                     <div className={`w-14 h-14 bg-gradient-to-r ${resource.color} rounded-xl flex items-center justify-center mb-5 shadow-md group-hover:scale-110 transition-transform duration-300`}>
                       <resource.Icon className="w-7 h-7 text-white" />

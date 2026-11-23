@@ -24,12 +24,12 @@ export default function DonationSuccessPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100 flex items-center justify-center px-4 py-12 sm:py-16">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50/50 via-white to-gold-50/40 flex items-center justify-center px-4 sm:px-6 py-16 md:py-24">
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="max-w-2xl w-full bg-white rounded-2xl shadow-2xl p-8 sm:p-10 md:p-12 text-center"
+        className="max-w-2xl w-full bg-white rounded-2xl border border-gray-100 shadow-sm p-8 sm:p-10 md:p-12 text-center"
       >
         {isLoading ? (
           <div className="py-12">
@@ -63,16 +63,16 @@ export default function DonationSuccessPage() {
               </div>
             )}
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <Link
                 href="/"
-                className="px-6 py-3 bg-gold-500 hover:bg-gold-600 text-white font-semibold rounded-lg transition-colors"
+                className="btn-primary"
               >
                 Return to Home
               </Link>
               <Link
                 href="/donate"
-                className="px-6 py-3 bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold rounded-lg transition-colors"
+                className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-3.5 bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold rounded-xl transition-colors text-sm sm:text-base"
               >
                 Make Another Donation
               </Link>

@@ -11,9 +11,9 @@ export async function generateMetadata({
   
   return {
     metadataBase: new URL('https://www.iarmministries.org'),
-    title: 'About Us | International Anglican Revival Ministries',
+    title: 'About Us | HOPE COMMUNITY GOSPER International Ministry',
     description:
-      'Learn about International Anglican Revival Ministries - a vibrant Christian community in Edmonton, Alberta, dedicated to spiritual growth, compassion, and service. Meet our leadership, discover our mission and vision, and learn about our core values.',
+      'Learn about HOPE COMMUNITY GOSPER International Ministry - a vibrant Christian community in Edmonton, Alberta, dedicated to spiritual growth, compassion, and service. Meet our leadership, discover our mission and vision, and learn about our core values.',
     keywords: [
       'About Anglican church Edmonton',
       'Church leadership Edmonton',
@@ -23,9 +23,9 @@ export async function generateMetadata({
       'Edmonton church history',
     ],
     openGraph: {
-      title: 'About Us | International Anglican Revival Ministries',
+      title: 'About Us | HOPE COMMUNITY GOSPER International Ministry',
       description:
-        'Learn about International Anglican Revival Ministries - a vibrant Christian community in Edmonton dedicated to spiritual growth, compassion, and service.',
+        'Learn about HOPE COMMUNITY GOSPER International Ministry - a vibrant Christian community in Edmonton dedicated to spiritual growth, compassion, and service.',
       url: canonicalUrl,
       type: 'website',
       locale: locale === 'en' ? 'en_CA' : locale,
@@ -78,11 +78,11 @@ export default async function AboutPage({
             '@context': 'https://schema.org',
             '@type': 'AboutPage',
             name: 'About Us',
-            description: 'Learn about International Anglican Revival Ministries - a vibrant Christian community in Edmonton, Alberta.',
+            description: 'Learn about HOPE COMMUNITY GOSPER International Ministry - a vibrant Christian community in Edmonton, Alberta.',
             url: canonicalUrl,
             mainEntity: {
               '@type': 'Organization',
-              name: 'International Anglican Revival Ministries',
+              name: 'HOPE COMMUNITY GOSPER International Ministry',
             },
           }),
         }}

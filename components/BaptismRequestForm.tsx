@@ -62,7 +62,7 @@ export default function BaptismRequestForm() {
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
       onSubmit={handleSubmit(onSubmit)}
-      className="bg-white p-8 rounded-xl shadow-lg"
+      className="card-soft"
     >
       <h2 className="text-2xl font-bold text-gray-900 mb-6 text-purple-600">
         Baptism Request Form
@@ -73,7 +73,7 @@ export default function BaptismRequestForm() {
         <div>
           <label
             htmlFor="fullName"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Full Name <span className="text-red-500">*</span>
           </label>
@@ -84,7 +84,7 @@ export default function BaptismRequestForm() {
               id="fullName"
               {...register('fullName')}
               placeholder="Enter your full name"
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors"
             />
           </div>
           {errors.fullName && (
@@ -96,7 +96,7 @@ export default function BaptismRequestForm() {
         <div>
           <label
             htmlFor="email"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Email Address <span className="text-red-500">*</span>
           </label>
@@ -107,7 +107,7 @@ export default function BaptismRequestForm() {
               id="email"
               {...register('email')}
               placeholder="Enter your email address"
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors"
             />
           </div>
           {errors.email && (
@@ -119,7 +119,7 @@ export default function BaptismRequestForm() {
         <div>
           <label
             htmlFor="phone"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Phone Number <span className="text-red-500">*</span>
           </label>
@@ -130,7 +130,7 @@ export default function BaptismRequestForm() {
               id="phone"
               {...register('phone')}
               placeholder="Enter your phone number"
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors"
             />
           </div>
           {errors.phone && (
@@ -142,7 +142,7 @@ export default function BaptismRequestForm() {
         <div>
           <label
             htmlFor="dateOfBirth"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Date of Birth <span className="text-red-500">*</span>
           </label>
@@ -152,7 +152,7 @@ export default function BaptismRequestForm() {
               type="date"
               id="dateOfBirth"
               {...register('dateOfBirth')}
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors"
             />
           </div>
           {errors.dateOfBirth && (
@@ -164,7 +164,7 @@ export default function BaptismRequestForm() {
         <div>
           <label
             htmlFor="reason"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Why do you want to be baptized? <span className="text-red-500">*</span>
           </label>
@@ -175,7 +175,7 @@ export default function BaptismRequestForm() {
               rows={5}
               {...register('reason')}
               placeholder="Share your reason for wanting to be baptized..."
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors resize-none"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors resize-none"
             />
           </div>
           {errors.reason && (

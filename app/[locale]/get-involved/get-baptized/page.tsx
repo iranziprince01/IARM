@@ -3,8 +3,8 @@ import GetBaptizedContent from '@/components/GetBaptizedContent';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Get Baptized | Get Involved | International Anglican Revival Ministries',
-    description: 'Take the next step in your faith journey through baptism at International Anglican Revival Ministries.',
+    title: 'Get Baptized | Get Involved | HOPE COMMUNITY GOSPER International Ministry',
+    description: 'Take the next step in your faith journey through baptism at HOPE COMMUNITY GOSPER International Ministry.',
   };
 }
 

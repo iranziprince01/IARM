@@ -62,18 +62,18 @@ export default function FoundationContent() {
       />
 
       {/* About Section */}
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
+      <section className="section-padding section-bg-white">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+              className="text-center mb-10 md:mb-14"
             >
               <div className="flex justify-center mb-6 sm:mb-8">
-                <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 bg-white rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-5 lg:p-6 shadow-xl border-2 sm:border-4 border-gray-900">
+                <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 bg-white rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-5 lg:p-6 shadow-sm border-2 sm:border-4 border-gray-900">
                   <Image
                     src="/foundation-logo.png"
                     alt="Shelter of Refugee Seniors International Ministries Logo"
@@ -88,13 +88,13 @@ export default function FoundationContent() {
               <h2 className="heading-secondary text-blue-600 mb-4 sm:mb-5 md:mb-6">
                 {t('about')}
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 md:gap-6 lg:gap-8 max-w-5xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-10 max-w-5xl mx-auto">
                 <motion.div
                   initial={{ opacity: 0, x: -30 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6 }}
-                  className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
+                  className="card-soft"
                 >
                   <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                     {t('aboutDesc')}
@@ -105,7 +105,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: 0.1 }}
-                  className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-md relative overflow-hidden"
+                  className="card-soft relative overflow-hidden"
                 >
                   <div className="relative w-full h-48 sm:h-56 md:h-64 rounded-lg overflow-hidden">
                     <Image
@@ -126,22 +126,22 @@ export default function FoundationContent() {
       </section>
 
       {/* Gallery Section */}
-      <section className="section-padding bg-gray-100">
+      <section className="section-padding section-bg-soft">
         <div className="container-custom">
-          <div className="max-w-7xl mx-auto">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-gray-900 mb-3 sm:mb-4">
                 Our Gallery
               </h2>
             </motion.div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 md:gap-4 lg:gap-6 px-4 sm:px-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
               {galleryImages.map((image, index) => {
                 // Images 007 (index 6) and 009 (index 8) need special positioning to show faces
                 const isPersonImage = index === 6 || index === 8; // 007.jpg and 009.jpg
@@ -152,7 +152,7 @@ export default function FoundationContent() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.5 }}
-                    className="relative aspect-square rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer group"
+                    className="relative aspect-square rounded-2xl overflow-hidden shadow-sm hover:shadow-md border-2 border-gray-300 transition-all duration-300 cursor-pointer group"
                     onClick={() => setSelectedImage(image)}
                   >
                     <Image
@@ -174,27 +174,27 @@ export default function FoundationContent() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-gold-50">
+      <section className="section-padding section-bg-warm">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
+          <div className="content-readable">
             {/* Vision Section */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="mb-10 sm:mb-12 md:mb-16 px-4 sm:px-6"
+              className="mb-10 sm:mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-gold-600 mb-6 sm:mb-8 text-center">
                 {t('vision')}
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.1, duration: 0.6 }}
-                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
+                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 border-2 border-gray-300 shadow-sm"
                 >
                   <div className="relative w-full h-40 sm:h-44 md:h-48 mb-3 sm:mb-4 rounded-lg overflow-hidden">
                     <Image
@@ -216,7 +216,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.2, duration: 0.6 }}
-                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
+                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 border-2 border-gray-300 shadow-sm"
                 >
                   <div className="relative w-full h-40 sm:h-44 md:h-48 mb-3 sm:mb-4 rounded-lg overflow-hidden">
                     <Image
@@ -238,7 +238,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.3, duration: 0.6 }}
-                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
+                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 border-2 border-gray-300 shadow-sm"
                 >
                   <div className="relative w-full h-40 sm:h-44 md:h-48 mb-3 sm:mb-4 rounded-lg overflow-hidden">
                     <Image
@@ -264,18 +264,17 @@ export default function FoundationContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="px-4 sm:px-6"
             >
               <h2 className="heading-secondary text-blue-600 mb-6 sm:mb-8 text-center">
                 {t('mission')}
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
                 <motion.div
                   initial={{ opacity: 0, x: -30 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.1, duration: 0.6 }}
-                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl border-l-4 border-blue-500"
+                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-sm border-l-4 border-blue-500"
                 >
                   <div className="relative w-full h-40 sm:h-44 md:h-48 mb-3 sm:mb-4 rounded-lg overflow-hidden">
                     <Image
@@ -297,7 +296,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.2, duration: 0.6 }}
-                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-lg border-l-4 border-gold-500"
+                  className="card-soft border-l-4 border-gold-500"
                 >
                   <div className="relative w-full h-40 sm:h-44 md:h-48 mb-3 sm:mb-4 rounded-lg overflow-hidden">
                     <Image
@@ -319,7 +318,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.3, duration: 0.6 }}
-                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-lg border-l-4 border-purple-500"
+                  className="card-soft border-l-4 border-purple-500"
                 >
                   <div className="relative w-full h-40 sm:h-44 md:h-48 mb-3 sm:mb-4 rounded-lg overflow-hidden">
                     <Image
@@ -343,22 +342,22 @@ export default function FoundationContent() {
       </section>
 
       {/* Core Values */}
-      <section className="section-padding bg-gray-100">
+      <section className="section-padding section-bg-cool">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-gray-900 mb-3 sm:mb-4">
                 {t('values')}
               </h2>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 px-4 sm:px-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
               {(Array.isArray(t.raw('valuesList')) ? t.raw('valuesList') : []).map(
                 (
                   value: { title: string; desc: string },
@@ -381,7 +380,7 @@ export default function FoundationContent() {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: index * 0.1, duration: 0.6 }}
-                      className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 shadow-xl hover:shadow-2xl transition-shadow border-2 border-gray-200"
+                      className="card-soft hover:shadow-md transition-shadow border-2 border-gray-300"
                     >
                       <div className="relative w-full h-44 sm:h-48 md:h-56 mb-4 sm:mb-5 md:mb-6 rounded-lg overflow-hidden">
                         <Image
@@ -415,15 +414,15 @@ export default function FoundationContent() {
       </section>
 
       {/* Recent Activities */}
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
+      <section className="section-padding section-bg-white">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-gray-900 mb-3 sm:mb-4">
                 {t('recentActivities')}
@@ -435,7 +434,7 @@ export default function FoundationContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 xl:p-12 shadow-xl border-2 sm:border-4 border-gold-500 mx-4 sm:mx-6"
+              className="card-soft border-2 sm:border-4 border-gold-500"
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 items-center">
                 <div>
@@ -456,7 +455,7 @@ export default function FoundationContent() {
                     </p>
                   </div>
                 </div>
-                <div className="relative w-full h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-lg">
+                <div className="relative w-full h-56 sm:h-64 md:h-72 lg:h-80 rounded-2xl overflow-hidden shadow-sm border-2 border-gray-300">
                   <Image
                     src="/images/foundation/010.jpg"
                     alt="Recent activity - Bed covers distribution"
@@ -474,22 +473,22 @@ export default function FoundationContent() {
       </section>
 
       {/* Challenges */}
-      <section className="section-padding bg-gray-100">
+      <section className="section-padding section-bg-mist">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-gray-900 mb-3 sm:mb-4">
                 {t('challenges')}
               </h2>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 px-4 sm:px-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
               {(Array.isArray(t.raw('challengesList')) ? t.raw('challengesList') : []).map(
                 (
                   challenge: { title: string; desc: string },
@@ -501,7 +500,7 @@ export default function FoundationContent() {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 shadow-xl hover:shadow-2xl transition-shadow border-l-4 border-red-500"
+                    className="card-soft hover:shadow-md transition-shadow border-l-4 border-red-500"
                   >
                     <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
                       <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-red-500 to-orange-500 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -523,22 +522,22 @@ export default function FoundationContent() {
       </section>
 
       {/* Proposed Solutions */}
-      <section className="section-padding bg-gradient-to-br from-blue-50 via-white to-gold-50">
+      <section className="section-padding section-bg-soft">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-gray-900 mb-3 sm:mb-4">
                 {t('proposedSolutions')}
               </h2>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 px-4 sm:px-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
               {(Array.isArray(t.raw('solutionsList')) ? t.raw('solutionsList') : []).map(
                 (
                   solution: { title: string; desc: string },
@@ -550,7 +549,7 @@ export default function FoundationContent() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-shadow border-t-4 border-blue-500"
+                    className="card-soft hover:shadow-md transition-shadow border-t-4 border-blue-500"
                   >
                     <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg sm:rounded-xl flex items-center justify-center mb-4 sm:mb-5 md:mb-6">
                       <LightBulbIcon className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
@@ -570,22 +569,22 @@ export default function FoundationContent() {
       </section>
 
       {/* Get Involved */}
-      <section className="section-padding bg-gray-100">
+      <section className="section-padding section-bg-warm">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-gray-900 mb-3 sm:mb-4">
                 {t('getInvolved')}
               </h2>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6 lg:gap-8 px-4 sm:px-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-10">
               {[
                 {
                   key: 'donate',
@@ -614,7 +613,7 @@ export default function FoundationContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.6 }}
-                  className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 shadow-xl hover:shadow-2xl transition-shadow border-2 border-gray-200"
+                  className="card-soft hover:shadow-md transition-shadow border-2 border-gray-300"
                 >
                   <div
                     className={`w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gradient-to-r ${item.color} rounded-lg sm:rounded-xl flex items-center justify-center mb-4 sm:mb-5 md:mb-6`}
@@ -631,7 +630,7 @@ export default function FoundationContent() {
                     <Link
                       href={getPath('/donate')}
                       prefetch={true}
-                      className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-semibold py-2 px-4 sm:px-6 rounded-lg transition-colors text-xs sm:text-sm"
+                      className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-semibold py-2 rounded-lg transition-colors text-xs sm:text-sm"
                     >
                       {t('donateNow')}
                     </Link>

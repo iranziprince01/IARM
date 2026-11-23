@@ -7,9 +7,9 @@ export async function generateMetadata({
   params: { locale: string };
 }): Promise<Metadata> {
   return {
-    title: 'Get Involved | International Anglican Revival Ministries',
+    title: 'Get Involved | HOPE COMMUNITY GOSPER International Ministry',
     description:
-      'Get involved at International Anglican Revival Ministries through volunteering, becoming a member, joining prayer groups, or getting baptized.',
+      'Get involved at HOPE COMMUNITY GOSPER International Ministry through volunteering, becoming a member, joining prayer groups, or getting baptized.',
   };
 }
 

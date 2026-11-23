@@ -45,7 +45,7 @@ export default function ServicesSermonsContent() {
         backgroundImageAlt="Church worship service"
       />
 
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
+      <section className="section-padding section-bg-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -61,7 +61,7 @@ export default function ServicesSermonsContent() {
             <h2 className="heading-secondary text-center mb-8">
               {t('title')}
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 lg:gap-8">
               {services.map((service, index) => (
                 <motion.div
                   key={service.key}
@@ -69,7 +69,7 @@ export default function ServicesSermonsContent() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.6 }}
-                  className="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition-shadow text-center"
+                  className="card-soft hover:shadow-md transition-shadow text-center"
                 >
                   <div className="mb-4 flex justify-center">
                     <service.Icon className="w-16 h-16 text-gold-600" />
@@ -95,7 +95,7 @@ export default function ServicesSermonsContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-white rounded-xl shadow-xl p-12 text-center"
+              className="bg-white rounded-xl border-2 border-gray-300 shadow-sm p-12 text-center"
             >
               <div className="mb-6 flex justify-center">
                 <VideoCameraIcon className="w-20 h-20 text-gold-600" />

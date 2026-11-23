@@ -71,7 +71,7 @@ export async function POST(request: NextRequest) {
 
     // Email content with beautiful, professional design
     const mailOptions = {
-      from: `"International Anglican Revival Ministries" <${gmailUser}>`,
+      from: `"HOPE COMMUNITY GOSPER International Ministry" <${gmailUser}>`,
       replyTo: email,
       to: recipientEmail,
       subject: `📧 New Email Subscription: ${sanitizedEmail}`,
@@ -96,7 +96,7 @@ export async function POST(request: NextRequest) {
                 ✉️ New Email Subscription
               </h1>
               <p style="margin: 10px 0 0 0; color: #ffffff; font-size: 14px; opacity: 0.95;">
-                International Anglican Revival Ministries
+                HOPE COMMUNITY GOSPER International Ministry
               </p>
             </td>
           </tr>
@@ -162,7 +162,7 @@ export async function POST(request: NextRequest) {
                 </h2>
                 <div style="background-color: #f9fafb; padding: 20px; border-radius: 8px; border-left: 4px solid #f8b518; margin-top: 15px;">
                   <p style="margin: 0; color: #374151; font-size: 15px; line-height: 1.8; font-family: 'Georgia', serif;">
-                    A new subscriber has signed up to receive sermons and updates from International Anglican Revival Ministries. They will receive uplifting sermons delivered to their inbox twice a week.
+                    A new subscriber has signed up to receive sermons and updates from HOPE COMMUNITY GOSPER International Ministry. They will receive uplifting sermons delivered to their inbox twice a week.
                   </p>
                 </div>
               </div>
@@ -175,7 +175,7 @@ export async function POST(request: NextRequest) {
               <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center">
                 <tr>
                   <td style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%); border-radius: 8px; padding: 0;">
-                    <a href="mailto:${sanitizedEmail}?subject=Welcome to International Anglican Revival Ministries&body=Dear Subscriber,%0D%0A%0D%0AThank you for subscribing to our sermons and updates! We're excited to share God's word with you..." style="display: inline-block; padding: 14px 32px; color: #ffffff; text-decoration: none; font-weight: 600; font-size: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);">
+                    <a href="mailto:${sanitizedEmail}?subject=Welcome to HOPE COMMUNITY GOSPER International Ministry&body=Dear Subscriber,%0D%0A%0D%0AThank you for subscribing to our sermons and updates! We're excited to share God's word with you..." style="display: inline-block; padding: 14px 32px; color: #ffffff; text-decoration: none; font-weight: 600; font-size: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);">
                       ✉️ Send Welcome Email
                     </a>
                   </td>
@@ -188,14 +188,14 @@ export async function POST(request: NextRequest) {
           <tr>
             <td style="background-color: #f9fafb; padding: 25px 30px; border-top: 1px solid #e5e7eb; text-align: center;">
               <p style="margin: 0 0 10px 0; color: #6b7280; font-size: 13px; line-height: 1.6;">
-                This subscription was created from the <strong style="color: #1e40af;">International Anglican Revival Ministries</strong> website footer.
+                This subscription was created from the <strong style="color: #1e40af;">HOPE COMMUNITY GOSPER International Ministry</strong> website footer.
               </p>
               <p style="margin: 0; color: #9ca3af; font-size: 12px;">
                 You can reply directly to this email to contact the subscriber at ${sanitizedEmail}.
               </p>
               <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
                 <p style="margin: 0; color: #9ca3af; font-size: 11px;">
-                  © ${new Date().getFullYear()} International Anglican Revival Ministries. All rights reserved.
+                  © ${new Date().getFullYear()} HOPE COMMUNITY GOSPER International Ministry. All rights reserved.
                 </p>
               </div>
             </td>
@@ -215,7 +215,7 @@ Email: ${email}
 Subscription: Sermons & Updates
 Date: ${dateTime}
 
-A new subscriber has signed up to receive sermons and updates from International Anglican Revival Ministries. They will receive uplifting sermons delivered to their inbox twice a week.
+A new subscriber has signed up to receive sermons and updates from HOPE COMMUNITY GOSPER International Ministry. They will receive uplifting sermons delivered to their inbox twice a week.
       `,
     };
 

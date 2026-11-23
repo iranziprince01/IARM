@@ -10,9 +10,9 @@ export async function generateMetadata({
   
   return {
     metadataBase: new URL('https://www.iarmministries.org'),
-    title: 'Our Ministries | International Anglican Revival Ministries',
+    title: 'Our Ministries | HOPE COMMUNITY GOSPER International Ministry',
     description:
-      'Explore our ministries at International Anglican Revival Ministries including Worship & Music, Youth, Children, Women, Men, and Missions & Outreach programs. Join us in serving our community.',
+      'Explore our ministries at HOPE COMMUNITY GOSPER International Ministry including Worship & Music, Youth, Children, Women, Men, and Missions & Outreach programs. Join us in serving our community.',
     keywords: [
       'Church ministries Edmonton',
       'Youth ministry Edmonton',
@@ -23,7 +23,7 @@ export async function generateMetadata({
       'Ministry opportunities Edmonton',
     ],
     openGraph: {
-      title: 'Our Ministries | International Anglican Revival Ministries',
+      title: 'Our Ministries | HOPE COMMUNITY GOSPER International Ministry',
       description:
         'Explore our ministries including Worship & Music, Youth, Children, Women, Men, and Missions & Outreach programs.',
       url: canonicalUrl,

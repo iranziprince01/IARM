@@ -66,13 +66,13 @@ export default function ContactForm() {
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
       onSubmit={handleSubmit(onSubmit)}
-      className="space-y-4 sm:space-y-5"
+      className="space-y-5"
       style={{ marginBottom: 0, paddingBottom: 0 }}
     >
       <div>
         <label
           htmlFor="name"
-          className="block text-sm font-semibold text-gray-700 mb-2"
+          className="block text-sm font-semibold text-gray-800 mb-2"
         >
           {t('name')} *
         </label>
@@ -80,7 +80,7 @@ export default function ContactForm() {
           type="text"
           id="name"
           {...register('name')}
-          className="w-full px-3 sm:px-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent text-sm sm:text-base"
+          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 text-sm sm:text-base"
         />
         {errors.name && (
           <p className="mt-1 text-sm text-red-600">{errors.name.message}</p>
@@ -90,7 +90,7 @@ export default function ContactForm() {
       <div>
         <label
           htmlFor="email"
-          className="block text-sm font-semibold text-gray-700 mb-2"
+          className="block text-sm font-semibold text-gray-800 mb-2"
         >
           {t('email')} *
         </label>
@@ -98,7 +98,7 @@ export default function ContactForm() {
           type="email"
           id="email"
           {...register('email')}
-          className="w-full px-3 sm:px-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent text-sm sm:text-base"
+          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 text-sm sm:text-base"
         />
         {errors.email && (
           <p className="mt-1 text-sm text-red-600">{errors.email.message}</p>
@@ -108,7 +108,7 @@ export default function ContactForm() {
       <div>
         <label
           htmlFor="phone"
-          className="block text-sm font-semibold text-gray-700 mb-2"
+          className="block text-sm font-semibold text-gray-800 mb-2"
         >
           {t('phone')}
         </label>
@@ -116,14 +116,14 @@ export default function ContactForm() {
           type="tel"
           id="phone"
           {...register('phone')}
-          className="w-full px-3 sm:px-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent text-sm sm:text-base"
+          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 text-sm sm:text-base"
         />
       </div>
 
       <div>
         <label
           htmlFor="message"
-          className="block text-sm font-semibold text-gray-700 mb-2"
+          className="block text-sm font-semibold text-gray-800 mb-2"
         >
           {t('message')} *
         </label>
@@ -131,7 +131,7 @@ export default function ContactForm() {
           id="message"
           rows={5}
           {...register('message')}
-          className="w-full px-3 sm:px-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent resize-none text-sm sm:text-base"
+          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 resize-none text-sm sm:text-base"
         />
         {errors.message && (
           <p className="mt-1 text-sm text-red-600">{errors.message.message}</p>

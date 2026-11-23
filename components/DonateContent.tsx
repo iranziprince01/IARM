@@ -27,18 +27,18 @@ export default function DonateContent() {
         backgroundImageAlt="Church giving and donation"
       />
 
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
-        <div className="container-custom max-w-7xl mx-auto">
+      <section className="section-padding section-bg-white">
+        <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+            className="text-center mb-10 md:mb-14"
           >
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 px-4 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-10">
             {/* Left Side - Donation Form */}
             <div>
               <DonationForm />
@@ -51,7 +51,7 @@ export default function DonateContent() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="bg-white p-4 sm:p-5 md:p-6 lg:p-8 rounded-xl shadow-xl"
+                className="card-soft"
               >
                 <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
                   {t('ways')}

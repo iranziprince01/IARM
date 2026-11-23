@@ -8,14 +8,14 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   return {
     title:
-      'Terms & Conditions | International Anglican Revival Ministries',
+      'Terms & Conditions | HOPE COMMUNITY GOSPER International Ministry',
     description:
-      'Terms and Conditions for International Anglican Revival Ministries. Read our terms of use and service agreement.',
+      'Terms and Conditions for HOPE COMMUNITY GOSPER International Ministry. Read our terms of use and service agreement.',
     openGraph: {
       title:
-        'Terms & Conditions | International Anglican Revival Ministries',
+        'Terms & Conditions | HOPE COMMUNITY GOSPER International Ministry',
       description:
-        'Terms and Conditions for International Anglican Revival Ministries.',
+        'Terms and Conditions for HOPE COMMUNITY GOSPER International Ministry.',
       type: 'website',
     },
   };

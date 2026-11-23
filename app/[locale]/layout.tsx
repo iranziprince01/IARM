@@ -33,12 +33,12 @@ export default async function LocaleLayout({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     '@id': `${baseUrl}/#organization`,
-    name: 'International Anglican Revival Ministries',
-    alternateName: 'IARM',
-    legalName: 'International Anglican Revival Ministries',
+    name: 'HOPE COMMUNITY GOSPER International Ministry',
+    alternateName: 'HCGIM',
+    legalName: 'HOPE COMMUNITY GOSPER International Ministry',
     url: baseUrl,
-    logo: `${baseUrl}/logos/website.webp`,
-    image: `${baseUrl}/logos/website.webp`,
+    logo: `${baseUrl}/logos/Logo.png`,
+    image: `${baseUrl}/logos/Logo.png`,
     description: 'A vibrant Christian community in Edmonton, Alberta, dedicated to spiritual growth, compassion, and service. Multilingual worship services in English and Kinyarwanda.',
     foundingDate: '2010',
     foundingLocation: {
@@ -82,10 +82,9 @@ export default async function LocaleLayout({
     email: 'info@iarmministries.org',
     telephone: ['+1-587-778-6406', '+1-825-461-7431'],
     sameAs: [
-      'https://www.facebook.com',
       'https://www.instagram.com/iarministries/',
       'https://www.youtube.com/@InternationalAnglicanRevivalMi',
-      'https://wa.me/250785961427',
+      'https://wa.me/15877786406',
     ],
     areaServed: [
       {
@@ -111,8 +110,8 @@ export default async function LocaleLayout({
     '@context': 'https://schema.org',
     '@type': 'PlaceOfWorship',
     '@id': `${siteUrl}/#place`,
-    name: 'International Anglican Revival Ministries',
-    alternateName: 'IARM',
+    name: 'HOPE COMMUNITY GOSPER International Ministry',
+    alternateName: 'HCGIM',
     description: 'A vibrant Christian community in Edmonton dedicated to spiritual growth, compassion, and service. Multilingual worship services in English and Kinyarwanda.',
     address: {
       '@type': 'PostalAddress',
@@ -162,8 +161,8 @@ export default async function LocaleLayout({
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     '@id': `${baseUrl}/#business`,
-    name: 'International Anglican Revival Ministries',
-    image: `${baseUrl}/logos/website.webp`,
+    name: 'HOPE COMMUNITY GOSPER International Ministry',
+    image: `${baseUrl}/logos/Logo.png`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: '6110 Fulton Road',

@@ -82,18 +82,18 @@ export default function VolunteerForm() {
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
       onSubmit={handleSubmit(onSubmit)}
-      className="bg-white p-4 sm:p-5 md:p-6 lg:p-8 rounded-xl shadow-lg"
+      className="card-soft"
     >
       <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-5 md:mb-6 text-purple-600">
         Volunteering Form
       </h2>
 
-      <div className="space-y-4 sm:space-y-5">
+      <div className="space-y-5">
         {/* Full Name */}
         <div>
           <label
             htmlFor="fullName"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Full Name <span className="text-red-500">*</span>
           </label>
@@ -104,7 +104,7 @@ export default function VolunteerForm() {
               id="fullName"
               {...register('fullName')}
               placeholder="Enter your full name"
-              className="w-full pl-9 sm:pl-10 pr-3 sm:pr-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors text-sm sm:text-base"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors text-sm sm:text-base"
             />
           </div>
           {errors.fullName && (
@@ -116,7 +116,7 @@ export default function VolunteerForm() {
         <div>
           <label
             htmlFor="email"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Email Address <span className="text-red-500">*</span>
           </label>
@@ -127,7 +127,7 @@ export default function VolunteerForm() {
               id="email"
               {...register('email')}
               placeholder="Enter your email address"
-              className="w-full pl-9 sm:pl-10 pr-3 sm:pr-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors text-sm sm:text-base"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors text-sm sm:text-base"
             />
           </div>
           {errors.email && (
@@ -139,7 +139,7 @@ export default function VolunteerForm() {
         <div>
           <label
             htmlFor="phone"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Phone Number <span className="text-red-500">*</span>
           </label>
@@ -150,7 +150,7 @@ export default function VolunteerForm() {
               id="phone"
               {...register('phone')}
               placeholder="Enter your phone number"
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors"
             />
           </div>
           {errors.phone && (
@@ -162,7 +162,7 @@ export default function VolunteerForm() {
         <div>
           <label
             htmlFor="homeAddress"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Home Address <span className="text-red-500">*</span>
           </label>
@@ -173,7 +173,7 @@ export default function VolunteerForm() {
               rows={3}
               {...register('homeAddress')}
               placeholder="Enter your home address"
-              className="w-full pl-9 sm:pl-10 pr-3 sm:pr-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors resize-none text-sm sm:text-base"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors resize-none text-sm sm:text-base"
             />
           </div>
           {errors.homeAddress && (
@@ -185,14 +185,14 @@ export default function VolunteerForm() {
         <div>
           <label
             htmlFor="ministry"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Where do you want to volunteer? <span className="text-red-500">*</span>
           </label>
           <select
             id="ministry"
             {...register('ministry')}
-            className="w-full px-3 sm:px-4 py-2.5 sm:py-3 border border-purple-500 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors bg-white text-sm sm:text-base"
+            className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors bg-white text-sm sm:text-base"
           >
             <option value="">Select a ministry</option>
             {ministries.map((ministry) => (
@@ -210,7 +210,7 @@ export default function VolunteerForm() {
         <div>
           <label
             htmlFor="availability"
-            className="block text-sm font-semibold text-gray-700 mb-2 flex items-center gap-2"
+            className="block text-sm font-semibold text-gray-800 mb-2 flex items-center gap-2"
           >
             Your Availability <span className="text-red-500">*</span>
             <InformationCircleIcon className="w-4 h-4 text-gray-400" />
@@ -218,7 +218,7 @@ export default function VolunteerForm() {
           <select
             id="availability"
             {...register('availability')}
-            className="w-full px-3 sm:px-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors bg-white text-sm sm:text-base"
+            className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors bg-white text-sm sm:text-base"
           >
             <option value="">Select your availability</option>
             {availabilityOptions.map((option) => (
@@ -236,7 +236,7 @@ export default function VolunteerForm() {
         <div>
           <label
             htmlFor="reason"
-            className="block text-sm font-semibold text-gray-700 mb-2"
+            className="block text-sm font-semibold text-gray-800 mb-2"
           >
             Why do you want to volunteer? <span className="text-red-500">*</span>
           </label>
@@ -245,7 +245,7 @@ export default function VolunteerForm() {
             rows={4}
             {...register('reason')}
             placeholder="Share your reason for volunteering"
-            className="w-full px-3 sm:px-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors resize-none text-sm sm:text-base"
+            className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors resize-none text-sm sm:text-base"
           />
           {errors.reason && (
             <p className="mt-1 text-sm text-red-600">{errors.reason.message}</p>

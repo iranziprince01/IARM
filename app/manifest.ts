@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'International Anglican Revival Ministries',
-    short_name: 'IARM',
+    name: 'HOPE COMMUNITY GOSPER International Ministry',
+    short_name: 'HCGIM',
     description: 'A vibrant Christian community in Edmonton dedicated to spiritual growth, compassion, and service.',
     start_url: '/',
     display: 'standalone',

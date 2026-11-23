@@ -22,7 +22,7 @@ export default function LeadershipContent() {
       />
 
       {/* Senior Pastor Section */}
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
+      <section className="section-padding section-bg-white">
         <div className="container-custom">
           <div className="max-w-5xl mx-auto">
             <motion.div
@@ -30,7 +30,7 @@ export default function LeadershipContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+              className="text-center mb-10 md:mb-14"
             >
               <div className="flex justify-center mb-4 sm:mb-5 md:mb-6">
                 <div className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 bg-gradient-to-br from-gold-500 to-gold-600 rounded-full flex items-center justify-center">
@@ -43,14 +43,14 @@ export default function LeadershipContent() {
             </motion.div>
 
             {/* Two Separate Cards - Parallel Layout */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 px-4 sm:px-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-10">
               {/* Portrait Card - Left */}
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className="bg-white rounded-xl sm:rounded-2xl shadow-xl overflow-hidden h-[300px] xs:h-[350px] sm:h-[400px] md:h-[450px] lg:h-[500px] xl:h-[550px]"
+                className="bg-white rounded-xl sm:rounded-2xl border-2 border-gray-300 shadow-sm overflow-hidden h-[300px] xs:h-[350px] sm:h-[400px] md:h-[450px] lg:h-[500px] xl:h-[550px]"
               >
                 <div className="relative w-full h-full">
                   <Image
@@ -74,7 +74,7 @@ export default function LeadershipContent() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 flex flex-col justify-center min-h-[300px] xs:min-h-[350px] sm:min-h-[400px] md:min-h-[450px] lg:min-h-[500px] xl:min-h-[550px]"
+                className="bg-white rounded-xl sm:rounded-2xl border-2 border-gray-300 shadow-sm p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 flex flex-col justify-center min-h-[300px] xs:min-h-[350px] sm:min-h-[400px] md:min-h-[450px] lg:min-h-[500px] xl:min-h-[550px]"
               >
                 <div className="mb-4 sm:mb-5">
                   <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3">
@@ -96,15 +96,15 @@ export default function LeadershipContent() {
       </section>
 
       {/* Pastors Section */}
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100">
+      <section className="section-padding section-bg-soft">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+              className="text-center mb-10 md:mb-14"
             >
               <div className="flex justify-center mb-4 sm:mb-5 md:mb-6">
                 <div className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center">
@@ -114,7 +114,7 @@ export default function LeadershipContent() {
               <h2 className="heading-secondary text-blue-600 mb-3 sm:mb-4">
                 {t('pastors')}
               </h2>
-              <div className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl max-w-2xl mx-auto mb-6 sm:mb-8">
+              <div className="card-soft max-w-2xl mx-auto mb-6 sm:mb-8">
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                   {t('pastorsDesc')}
                 </p>
@@ -122,14 +122,14 @@ export default function LeadershipContent() {
             </motion.div>
 
             {/* Pastors Grid - 2x2 Layout */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 px-4 sm:px-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 lg:gap-10">
               {/* Pastor 1 */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-5 sm:p-6 md:p-8 hover:shadow-2xl transition-shadow"
+                className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
@@ -150,7 +150,7 @@ export default function LeadershipContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-5 sm:p-6 md:p-8 hover:shadow-2xl transition-shadow"
+                className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
@@ -171,7 +171,7 @@ export default function LeadershipContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-5 sm:p-6 md:p-8 hover:shadow-2xl transition-shadow"
+                className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
@@ -192,7 +192,7 @@ export default function LeadershipContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-5 sm:p-6 md:p-8 hover:shadow-2xl transition-shadow"
+                className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
@@ -213,7 +213,7 @@ export default function LeadershipContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.5 }}
-                className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-5 sm:p-6 md:p-8 hover:shadow-2xl transition-shadow"
+                className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
@@ -234,7 +234,7 @@ export default function LeadershipContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.6 }}
-                className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-5 sm:p-6 md:p-8 hover:shadow-2xl transition-shadow"
+                className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
@@ -255,7 +255,7 @@ export default function LeadershipContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.7 }}
-                className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-5 sm:p-6 md:p-8 hover:shadow-2xl transition-shadow"
+                className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
@@ -276,7 +276,7 @@ export default function LeadershipContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.8 }}
-                className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-5 sm:p-6 md:p-8 hover:shadow-2xl transition-shadow"
+                className="card-soft hover:shadow-md transition-shadow"
               >
                 <div className="mb-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">

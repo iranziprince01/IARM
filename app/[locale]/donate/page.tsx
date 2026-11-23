@@ -10,9 +10,9 @@ export async function generateMetadata({
   
   return {
     metadataBase: new URL('https://www.iarmministries.org'),
-    title: 'Donate | International Anglican Revival Ministries',
+    title: 'Donate | HOPE COMMUNITY GOSPER International Ministry',
     description:
-      'Support the ministry of International Anglican Revival Ministries through your generous giving. Every contribution makes a difference in our community outreach, refugee support, and spiritual growth programs.',
+      'Support the ministry of HOPE COMMUNITY GOSPER International Ministry through your generous giving. Every contribution makes a difference in our community outreach, refugee support, and spiritual growth programs.',
     keywords: [
       'Donate to church Edmonton',
       'Church donations Edmonton',
@@ -23,9 +23,9 @@ export async function generateMetadata({
       'Church offering Edmonton',
     ],
     openGraph: {
-      title: 'Donate | International Anglican Revival Ministries',
+      title: 'Donate | HOPE COMMUNITY GOSPER International Ministry',
       description:
-        'Support the ministry of International Anglican Revival Ministries through your generous giving. Every contribution makes a difference.',
+        'Support the ministry of HOPE COMMUNITY GOSPER International Ministry through your generous giving. Every contribution makes a difference.',
       url: canonicalUrl,
       type: 'website',
       locale: locale === 'en' ? 'en_CA' : locale,

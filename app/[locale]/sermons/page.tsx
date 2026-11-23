@@ -10,9 +10,9 @@ export async function generateMetadata({
   
   return {
     metadataBase: new URL('https://www.iarmministries.org'),
-    title: 'Sermons & Messages | International Anglican Revival Ministries',
+    title: 'Sermons & Messages | HOPE COMMUNITY GOSPER International Ministry',
     description:
-      'Watch and listen to sermons and messages from International Anglican Revival Ministries. Stay connected with our weekly teachings and spiritual guidance.',
+      'Watch and listen to sermons and messages from HOPE COMMUNITY GOSPER International Ministry. Stay connected with our weekly teachings and spiritual guidance.',
     keywords: [
       'Church sermons Edmonton',
       'Sermons online',
@@ -23,7 +23,7 @@ export async function generateMetadata({
       'Anglican sermons',
     ],
     openGraph: {
-      title: 'Sermons & Messages | International Anglican Revival Ministries',
+      title: 'Sermons & Messages | HOPE COMMUNITY GOSPER International Ministry',
       description:
         'Watch and listen to sermons and messages. Stay connected with our weekly teachings and spiritual guidance.',
       url: canonicalUrl,

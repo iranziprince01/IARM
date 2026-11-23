@@ -3,8 +3,8 @@ import VolunteerContent from '@/components/VolunteerContent';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Volunteer | Get Involved | International Anglican Revival Ministries',
-    description: 'Volunteer opportunities at International Anglican Revival Ministries. Serve in various ministries and make a difference.',
+    title: 'Volunteer | Get Involved | HOPE COMMUNITY GOSPER International Ministry',
+    description: 'Volunteer opportunities at HOPE COMMUNITY GOSPER International Ministry. Serve in various ministries and make a difference.',
   };
 }
 

@@ -34,16 +34,16 @@ export default function AboutContent() {
       />
 
       {/* Church Description */}
-      <section className="section-padding bg-gray-100" id="about">
+      <section className="section-padding section-bg-white" id="about">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 px-4 sm:px-6">
+          <div className="content-readable">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-10">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
-                className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
+                className="card-soft"
               >
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                   {t('church')}
@@ -54,7 +54,7 @@ export default function AboutContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl"
+                className="card-soft"
               >
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                   {t('congregation')}
@@ -65,7 +65,7 @@ export default function AboutContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="bg-white rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-md md:col-span-2"
+                className="card-soft md:col-span-2"
               >
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
                   {t('ministry')}
@@ -77,9 +77,9 @@ export default function AboutContent() {
       </section>
 
       {/* Vision & Mission */}
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100" id="mission">
+      <section className="section-padding section-bg-soft" id="mission">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="content-readable">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             <motion.div
                 initial={{ opacity: 0, x: -30 }}
@@ -91,7 +91,7 @@ export default function AboutContent() {
                 <h2 className="heading-secondary text-gold-600 mb-4 md:mb-5">
                 {t('vision')}
               </h2>
-                <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-gold-300 h-full relative overflow-hidden">
+                <div className="card-soft hover:shadow-md transition-all duration-300 border-2 border-gray-300 hover:border-gold-500 h-full relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-gold-50 to-gold-100/30 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300" />
                   <div className="relative">
                     <div className="w-12 h-12 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl flex items-center justify-center mb-4 shadow-md">
@@ -114,7 +114,7 @@ export default function AboutContent() {
                 <h2 className="heading-secondary text-gold-600 mb-4 md:mb-5">
                 {t('mission')}
               </h2>
-                <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-gold-300 h-full relative overflow-hidden">
+                <div className="card-soft hover:shadow-md transition-all duration-300 border-2 border-gray-300 hover:border-gold-500 h-full relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-blue-100/30 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300" />
                   <div className="relative">
                     <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4 shadow-md">
@@ -144,18 +144,19 @@ export default function AboutContent() {
         title="Our Community in Action"
         subtitle="Witness the love, fellowship, and service that define our church family"
         columns={3}
+        className="section-bg-warm"
       />
 
       {/* Core Values */}
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100" id="values">
+      <section className="section-padding section-bg-cool" id="values">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-8 sm:mb-10 md:mb-12 px-4 sm:px-6"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-blue-600 mb-3 sm:mb-4">
                 {t('coreValues')}
@@ -187,7 +188,7 @@ export default function AboutContent() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="bg-white rounded-2xl p-6 md:p-8 shadow-2xl hover:shadow-2xl transition-all duration-300"
+                    className="card-soft hover:shadow-md transition-all duration-300"
                   >
                     <div className={`w-16 h-16 bg-gradient-to-r ${colors[index]} rounded-xl flex items-center justify-center mb-6`}>
                       <Icon className="w-8 h-8 text-white" />
@@ -207,15 +208,15 @@ export default function AboutContent() {
       </section>
 
       {/* Marks of Mission */}
-      <section className="section-padding bg-gradient-to-br from-gray-50 via-white to-gray-50" id="marks">
+      <section className="section-padding section-bg-white" id="marks">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-12"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-blue-600 mb-4">{t('marks')}</h2>
             </motion.div>
@@ -254,7 +255,7 @@ export default function AboutContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="group relative bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-gold-300"
+                    className="group relative card-soft hover:shadow-md transition-all duration-300 border-2 border-gray-300 hover:border-gold-500"
             >
                     <div className={`absolute inset-0 bg-gradient-to-br ${bgGradients[index]} opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300`} />
                     <div className="relative">
@@ -274,15 +275,15 @@ export default function AboutContent() {
       </section>
 
       {/* Africa Work */}
-      <section className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100" id="africa">
+      <section className="section-padding section-bg-mist" id="africa">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="content-readable">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-12"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-gold-600 mb-4">{tAfrica('title')}</h2>
               <div className="max-w-3xl mx-auto">
@@ -311,7 +312,7 @@ export default function AboutContent() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="group relative bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-gold-300 overflow-hidden"
+                    className="group relative card-soft hover:shadow-md transition-all duration-300 border-2 border-gray-300 hover:border-gold-500 overflow-hidden"
                   >
                     <div className={`absolute inset-0 bg-gradient-to-br ${item.bgColor} opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300`} />
                     <div className="relative">
@@ -334,16 +335,16 @@ export default function AboutContent() {
       </section>
 
       {/* Statement of Faith */}
-      <section className="section-padding bg-gradient-to-br from-gray-50 via-white to-gray-50" id="faith">
+      <section className="section-padding section-bg-soft" id="faith">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="content-readable">
             {/* Header */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-12"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-blue-600 mb-6">
                 {t('statementOfFaith')}
@@ -354,7 +355,7 @@ export default function AboutContent() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6 }}
-                  className="group relative bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-blue-300 overflow-hidden"
+                  className="group relative card-soft hover:shadow-md transition-all duration-300 border-2 border-gray-300 hover:border-blue-300 overflow-hidden"
                 >
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-blue-100/30 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300" />
                   <div className="relative">
@@ -371,7 +372,7 @@ export default function AboutContent() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: 0.1 }}
-                  className="group relative bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-gold-300 overflow-hidden"
+                  className="group relative card-soft hover:shadow-md transition-all duration-300 border-2 border-gray-300 hover:border-gold-500 overflow-hidden"
                 >
                   <div className="absolute inset-0 bg-gradient-to-br from-gold-50 to-gold-100/30 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300" />
                   <div className="relative">
@@ -422,7 +423,7 @@ export default function AboutContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="group relative bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-gold-300 overflow-hidden"
+                    className="group relative card-soft hover:shadow-md transition-all duration-300 border-2 border-gray-300 hover:border-gold-500 overflow-hidden"
                 >
                     {/* Hover Gradient */}
                     <div className={`absolute inset-0 bg-gradient-to-br ${bgGradients[index]} opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300`} />
@@ -450,16 +451,16 @@ export default function AboutContent() {
       </section>
 
       {/* History */}
-      <section className="section-padding bg-gradient-to-br from-gray-50 via-white to-gray-50" id="history">
+      <section className="section-padding section-bg-warm" id="history">
         <div className="container-custom">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <div className="max-w-5xl mx-auto">
             {/* Header */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-center mb-12"
+              className="text-center mb-10 md:mb-14"
             >
               <h2 className="heading-secondary text-gold-600">
                 {t('history')}
@@ -516,7 +517,7 @@ export default function AboutContent() {
                       <div className={`ml-20 xs:ml-24 sm:ml-28 md:ml-0 md:w-5/12 ${
                         isEven ? 'md:mr-auto md:pr-8' : 'md:ml-auto md:pl-8'
                       }`}>
-                        <div className="group relative bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-gold-300 overflow-hidden">
+                        <div className="group relative card-soft hover:shadow-md transition-all duration-300 border-2 border-gray-300 hover:border-gold-500 overflow-hidden">
                           {/* Hover Gradient */}
                           <div className={`absolute inset-0 bg-gradient-to-br ${bgGradients[index]} opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300`} />
                           
@@ -539,7 +540,7 @@ export default function AboutContent() {
 
       {/* Partners */}
       <section
-        className="section-padding bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100"
+        className="section-padding section-bg-cool"
         id="partners"
       >
         <div className="container-custom">
@@ -564,7 +565,7 @@ export default function AboutContent() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.6 }}
-                    className="bg-white rounded-xl p-6 shadow-xl"
+                    className="card-soft"
                   >
                     <p className="text-lg text-gray-700 text-center">
                       <span className="font-semibold text-gold-600">

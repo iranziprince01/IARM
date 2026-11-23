@@ -11,9 +11,9 @@ export async function generateMetadata({
   
   return {
     metadataBase: new URL('https://www.iarmministries.org'),
-    title: 'Leadership & Administration | International Anglican Revival Ministries',
+    title: 'Leadership & Administration | HOPE COMMUNITY GOSPER International Ministry',
     description:
-      'Meet the leadership team of International Anglican Revival Ministries. Learn about our Senior Pastor, pastors, and other church leaders who guide and serve our community.',
+      'Meet the leadership team of HOPE COMMUNITY GOSPER International Ministry. Learn about our Senior Pastor, pastors, and other church leaders who guide and serve our community.',
     keywords: [
       'Church leadership Edmonton',
       'Pastor Edmonton',
@@ -23,9 +23,9 @@ export async function generateMetadata({
       'Anglican church leadership',
     ],
     openGraph: {
-      title: 'Leadership & Administration | International Anglican Revival Ministries',
+      title: 'Leadership & Administration | HOPE COMMUNITY GOSPER International Ministry',
       description:
-        'Meet the leadership team of International Anglican Revival Ministries. Learn about our Senior Pastor, pastors, and other church leaders.',
+        'Meet the leadership team of HOPE COMMUNITY GOSPER International Ministry. Learn about our Senior Pastor, pastors, and other church leaders.',
       url: canonicalUrl,
       type: 'website',
       locale: locale === 'en' ? 'en_CA' : locale,

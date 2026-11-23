@@ -11,7 +11,7 @@ export async function generateMetadata({
   return {
     metadataBase: new URL('https://www.iarmministries.org'),
     title:
-      'Shelter of Refugee Seniors International Ministries (SRSIM) | International Anglican Revival Ministries',
+      'Shelter of Refugee Seniors International Ministries (SRSIM) | HOPE COMMUNITY GOSPER International Ministry',
     description:
       'Learn about Shelter of Refugee Seniors International Ministries (SRSIM) - serving vulnerable refugees, seniors, and displaced families with compassion and dignity in Edmonton, Alberta.',
     keywords: [
@@ -25,7 +25,7 @@ export async function generateMetadata({
     ],
     openGraph: {
       title:
-        'Shelter of Refugee Seniors International Ministries (SRSIM) | International Anglican Revival Ministries',
+        'Shelter of Refugee Seniors International Ministries (SRSIM) | HOPE COMMUNITY GOSPER International Ministry',
       description:
         'Serving vulnerable refugees, seniors, and displaced families with compassion and dignity.',
       url: canonicalUrl,
